@@ -2,128 +2,128 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meghna</title>
-    <link>https://examplesite.com/</link>
+    <link>https://vmdude.github.io/</link>
     <description>Recent content on Meghna</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 14 Jul 2018 16:34:07 +0000</lastBuildDate>
     
-	<atom:link href="https://examplesite.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vmdude.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Are You Doing the Right Way</title>
-      <link>https://examplesite.com/blog/simple-blog-post-8/</link>
+      <link>https://vmdude.github.io/blog/simple-blog-post-8/</link>
       <pubDate>Wed, 12 Sep 2018 14:51:12 +0600</pubDate>
       
-      <guid>https://examplesite.com/blog/simple-blog-post-8/</guid>
+      <guid>https://vmdude.github.io/blog/simple-blog-post-8/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
     </item>
     
     <item>
       <title>How To Setup Meghna Hugo</title>
-      <link>https://examplesite.com/blog/installation/</link>
+      <link>https://vmdude.github.io/blog/installation/</link>
       <pubDate>Wed, 12 Sep 2018 14:51:12 +0600</pubDate>
       
-      <guid>https://examplesite.com/blog/installation/</guid>
+      <guid>https://vmdude.github.io/blog/installation/</guid>
       <description>Install this template by following those simple steps: STEP-1 : Hugo installation Check this link below for install hugo on your computer.</description>
     </item>
     
     <item>
       <title>Simple Blog Post</title>
-      <link>https://examplesite.com/blog/simple-blog-post-1/</link>
+      <link>https://vmdude.github.io/blog/simple-blog-post-1/</link>
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
       
-      <guid>https://examplesite.com/blog/simple-blog-post-1/</guid>
+      <guid>https://vmdude.github.io/blog/simple-blog-post-1/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
     </item>
     
     <item>
       <title>Simple Blog Post</title>
-      <link>https://examplesite.com/blog/simple-blog-post-2/</link>
+      <link>https://vmdude.github.io/blog/simple-blog-post-2/</link>
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
       
-      <guid>https://examplesite.com/blog/simple-blog-post-2/</guid>
+      <guid>https://vmdude.github.io/blog/simple-blog-post-2/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
     </item>
     
     <item>
       <title>Simple Blog Post</title>
-      <link>https://examplesite.com/blog/simple-blog-post-3/</link>
+      <link>https://vmdude.github.io/blog/simple-blog-post-3/</link>
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
       
-      <guid>https://examplesite.com/blog/simple-blog-post-3/</guid>
+      <guid>https://vmdude.github.io/blog/simple-blog-post-3/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
     </item>
     
     <item>
       <title>Simple Blog Post</title>
-      <link>https://examplesite.com/blog/simple-blog-post-4/</link>
+      <link>https://vmdude.github.io/blog/simple-blog-post-4/</link>
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
       
-      <guid>https://examplesite.com/blog/simple-blog-post-4/</guid>
+      <guid>https://vmdude.github.io/blog/simple-blog-post-4/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
     </item>
     
     <item>
       <title>Simple Blog Post</title>
-      <link>https://examplesite.com/blog/simple-blog-post-5/</link>
+      <link>https://vmdude.github.io/blog/simple-blog-post-5/</link>
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
       
-      <guid>https://examplesite.com/blog/simple-blog-post-5/</guid>
+      <guid>https://vmdude.github.io/blog/simple-blog-post-5/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
     </item>
     
     <item>
       <title>Simple Blog Post</title>
-      <link>https://examplesite.com/blog/simple-blog-post-6/</link>
+      <link>https://vmdude.github.io/blog/simple-blog-post-6/</link>
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
       
-      <guid>https://examplesite.com/blog/simple-blog-post-6/</guid>
+      <guid>https://vmdude.github.io/blog/simple-blog-post-6/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
     </item>
     
     <item>
       <title>Simple Blog Post</title>
-      <link>https://examplesite.com/blog/simple-blog-post-7/</link>
+      <link>https://vmdude.github.io/blog/simple-blog-post-7/</link>
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
       
-      <guid>https://examplesite.com/blog/simple-blog-post-7/</guid>
+      <guid>https://vmdude.github.io/blog/simple-blog-post-7/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://examplesite.com/contact/</link>
+      <link>https://vmdude.github.io/contact/</link>
       <pubDate>Sat, 14 Jul 2018 16:34:07 +0000</pubDate>
       
-      <guid>https://examplesite.com/contact/</guid>
+      <guid>https://vmdude.github.io/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Support d’urgence</title>
-      <link>https://examplesite.com/support-durgence/</link>
+      <link>https://vmdude.github.io/support-durgence/</link>
       <pubDate>Fri, 13 Jul 2018 17:37:17 +0000</pubDate>
       
-      <guid>https://examplesite.com/support-durgence/</guid>
+      <guid>https://vmdude.github.io/support-durgence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SexiAppliances</title>
-      <link>https://examplesite.com/sexiappliances/</link>
+      <link>https://vmdude.github.io/sexiappliances/</link>
       <pubDate>Fri, 13 Jul 2018 17:31:51 +0000</pubDate>
       
-      <guid>https://examplesite.com/sexiappliances/</guid>
+      <guid>https://vmdude.github.io/sexiappliances/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Audit</title>
-      <link>https://examplesite.com/audit/</link>
+      <link>https://vmdude.github.io/audit/</link>
       <pubDate>Fri, 13 Jul 2018 17:28:13 +0000</pubDate>
       
-      <guid>https://examplesite.com/audit/</guid>
+      <guid>https://vmdude.github.io/audit/</guid>
       <description>plateforme
 infrastructure
  </description>
@@ -131,137 +131,137 @@ infrastructure
     
     <item>
       <title>Infogérance / Externalisation</title>
-      <link>https://examplesite.com/infogerance/</link>
+      <link>https://vmdude.github.io/infogerance/</link>
       <pubDate>Thu, 05 Oct 2017 08:12:10 +0000</pubDate>
       
-      <guid>https://examplesite.com/infogerance/</guid>
+      <guid>https://vmdude.github.io/infogerance/</guid>
       <description>infogerance it on prem geree
 externalisation hosting it on cloud</description>
     </item>
     
     <item>
       <title>Formation</title>
-      <link>https://examplesite.com/formation/</link>
+      <link>https://vmdude.github.io/formation/</link>
       <pubDate>Thu, 05 Oct 2017 07:47:33 +0000</pubDate>
       
-      <guid>https://examplesite.com/formation/</guid>
+      <guid>https://vmdude.github.io/formation/</guid>
       <description>Formation sur mesure De part notre longue expérience, HelloCloud est en mesure de vous offir des formations sur mesure sur une large gamme de produits comme par exemple :</description>
     </item>
     
     <item>
       <title>Recrutement</title>
-      <link>https://examplesite.com/recrutement/</link>
+      <link>https://vmdude.github.io/recrutement/</link>
       <pubDate>Thu, 05 Oct 2017 07:37:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/recrutement/</guid>
+      <guid>https://vmdude.github.io/recrutement/</guid>
       <description>La société HelloCloud est toujours à la recherche de profil passionné afin d’étoffer ses équipes.</description>
     </item>
     
     <item>
       <title>La Société HelloCloud</title>
-      <link>https://examplesite.com/la-societe-hellocloud/</link>
+      <link>https://vmdude.github.io/la-societe-hellocloud/</link>
       <pubDate>Thu, 05 Oct 2017 07:35:27 +0000</pubDate>
       
-      <guid>https://examplesite.com/la-societe-hellocloud/</guid>
+      <guid>https://vmdude.github.io/la-societe-hellocloud/</guid>
       <description>Rencontrez notre équipe  HelloCloud est avant tout une société regroupant des personnes passionnées, souhaitant fournir un service de qualité en garantissant une satisfaction client exemplaire.</description>
     </item>
     
     <item>
       <title>Home</title>
-      <link>https://examplesite.com/home/</link>
+      <link>https://vmdude.github.io/home/</link>
       <pubDate>Thu, 05 Oct 2017 07:05:40 +0000</pubDate>
       
-      <guid>https://examplesite.com/home/</guid>
+      <guid>https://vmdude.github.io/home/</guid>
       <description>Blabla about </description>
     </item>
     
     <item>
       <title>Stockage</title>
-      <link>https://examplesite.com/stockage/</link>
+      <link>https://vmdude.github.io/stockage/</link>
       <pubDate>Thu, 05 Oct 2017 06:57:34 +0000</pubDate>
       
-      <guid>https://examplesite.com/stockage/</guid>
+      <guid>https://vmdude.github.io/stockage/</guid>
       <description>• – Hébergement de documents et tous les services qui transitent autour de Owncloud (Synchro, partage…)</description>
     </item>
     
     <item>
       <title>Consulting</title>
-      <link>https://examplesite.com/consulting/</link>
+      <link>https://vmdude.github.io/consulting/</link>
       <pubDate>Thu, 05 Oct 2017 06:49:03 +0000</pubDate>
       
-      <guid>https://examplesite.com/consulting/</guid>
+      <guid>https://vmdude.github.io/consulting/</guid>
       <description>Fort d’une longue expérience dans le domaine de l’infrastructure chez de nombreux grands comptes (finance, assurance, télécom, industrie), nous vous accompagnons sur de nombreux sujets.</description>
     </item>
     
     <item>
       <title>Messagerie</title>
-      <link>https://examplesite.com/messagerie/</link>
+      <link>https://vmdude.github.io/messagerie/</link>
       <pubDate>Thu, 05 Oct 2017 06:48:09 +0000</pubDate>
       
-      <guid>https://examplesite.com/messagerie/</guid>
+      <guid>https://vmdude.github.io/messagerie/</guid>
       <description>Hello Mail Notre solution Hello Mail est unhébergement de mail de type Microsoft Exchange, leader du marché de la messagerie professionnelle, bénéficiant des dernières innovations en termes de collaboration et de sécurité.</description>
     </item>
     
     <item>
       <title>Sauvegarde</title>
-      <link>https://examplesite.com/sauvegarde/</link>
+      <link>https://vmdude.github.io/sauvegarde/</link>
       <pubDate>Thu, 05 Oct 2017 06:47:48 +0000</pubDate>
       
-      <guid>https://examplesite.com/sauvegarde/</guid>
+      <guid>https://vmdude.github.io/sauvegarde/</guid>
       <description>Hello Backup Notre solution Hello Backup vous permet d’externaliser vos sauvegardes physiques ou virtuelles, répliquez vos VM sans le cout, la complexité de la mise en place et la maintenance d’une infrastructure dédiée.</description>
     </item>
     
     <item>
       <title>Cloud</title>
-      <link>https://examplesite.com/cloud/</link>
+      <link>https://vmdude.github.io/cloud/</link>
       <pubDate>Thu, 05 Oct 2017 06:47:30 +0000</pubDate>
       
-      <guid>https://examplesite.com/cloud/</guid>
+      <guid>https://vmdude.github.io/cloud/</guid>
       <description>Hello Private Cloud Notre solution Hello Private Cloud permet à nos clients de pouvoir bénéficier d’une infrastructure virtuelle clé en main, scalable et agile basée sur les dernières innovations technologiques leur permettant de se recentrer sur leur coeur de metier.</description>
     </item>
     
     <item>
       <title>Actualités</title>
-      <link>https://examplesite.com/actualites/</link>
+      <link>https://vmdude.github.io/actualites/</link>
       <pubDate>Thu, 05 Oct 2017 06:44:24 +0000</pubDate>
       
-      <guid>https://examplesite.com/actualites/</guid>
+      <guid>https://vmdude.github.io/actualites/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Propos</title>
-      <link>https://examplesite.com/a-propos/</link>
+      <link>https://vmdude.github.io/a-propos/</link>
       <pubDate>Thu, 05 Oct 2017 06:44:10 +0000</pubDate>
       
-      <guid>https://examplesite.com/a-propos/</guid>
+      <guid>https://vmdude.github.io/a-propos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hello world!</title>
-      <link>https://examplesite.com/hello-world/</link>
+      <link>https://vmdude.github.io/hello-world/</link>
       <pubDate>Fri, 08 Sep 2017 10:35:12 +0000</pubDate>
       
-      <guid>https://examplesite.com/hello-world/</guid>
+      <guid>https://vmdude.github.io/hello-world/</guid>
       <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</description>
     </item>
     
     <item>
       <title>John Doe</title>
-      <link>https://examplesite.com/author/john-doe/</link>
+      <link>https://vmdude.github.io/author/john-doe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/author/john-doe/</guid>
+      <guid>https://vmdude.github.io/author/john-doe/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
     </item>
     
     <item>
       <title>Mark Dinn</title>
-      <link>https://examplesite.com/author/mark-dinn/</link>
+      <link>https://vmdude.github.io/author/mark-dinn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/author/mark-dinn/</guid>
+      <guid>https://vmdude.github.io/author/mark-dinn/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
     </item>
     
