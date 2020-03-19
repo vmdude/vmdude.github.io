@@ -1,17 +1,5 @@
 $(document).ready(function () {
 
-  $(".gallery-slider").owlCarousel({
-    pagination: true,
-    autoPlay: 5000,
-    itemsDesktop: [1500, 4],
-    itemsDesktopSmall: [979, 3]
-  });
-
-  // Gallery Popup
-  $('.image-popup').magnificPopup({
-    type: 'image'
-  });
-
   // animation scroll js
   var html_body = $('html, body');
   $('.page-scroll').on('click', function () { //use page-scroll class in any HTML tag for scrolling
