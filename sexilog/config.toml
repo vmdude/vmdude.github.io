@@ -1,0 +1,135 @@
+######################## default configuration ####################
+baseURL = "http://examplesite.org"
+title = "Educenter | hugo education template"
+theme = "educenter-hugo"
+enableEmoji = true
+home = "SexiLog"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "10"
+copyright = "Copyright &copy; 2020 SexiLog | All Rights Reserved."
+
+# disqus short name
+# disqusShortname = "educenter" # get your shortname form here : https://disqus.com
+# disable language
+# disableLanguages = ['fr'] # desable language from here
+
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+# [[params.plugins.css]]
+# link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/animate/animate.css"
+[[params.plugins.css]]
+link = "plugins/venobox/venobox.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+# [[params.plugins.js]]
+# link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+
+
+############################## navigation ###############################
+
+# main menu
+[[menu.main]]
+name = "QuickStart"
+URL = "quickstart"
+weight = 1
+
+[[menu.main]]
+name = "News"
+URL = "news"
+weight = 2
+
+[[menu.main]]
+name = "Features"
+URL = "features"
+weight = 3
+
+[[menu.main]]
+name = "CookBook"
+URL = "cookbook"
+weight = 4
+
+[[menu.main]]
+name = "SexiBoards"
+URL = "sexiboards"
+weight = 5
+
+[[menu.main]]
+name = "#RTFM"
+URL = "rtfm"
+weight = 6
+
+
+# footer menu
+
+[[menu.footer]]
+name = "Elasticsearch"
+URL = "https://www.elastic.co/products/elasticsearch"
+
+[[menu.footer]]
+name = "Logstash"
+URL = "https://www.elastic.co/products/logstash"
+
+[[menu.footer]]
+name = "Kibana"
+URL = "https://www.elastic.co/products/kibana"
+
+[[menu.footer]]
+name = "Riemann"
+URL = "http://riemann.io/"
+
+
+#################### default parameters ################################
+[params]
+logo = "images/sexilog-logo.png"
+# Meta data
+description = "SexiLog Homepage"
+author = "SexiBytes"
+# contact info
+email = "grep@sexilog.fr"
+# contact form action
+# contact_form_action = "#" # contact form works with https://formspree.io
+# Google Analitycs
+# google_analitycs_id  = "" # your id
+# top header
+top_header = false
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "images/sexilog-logo.png" # use jpg, png, svg or gif format.
+
+############################# social site ########################
+[[params.social]]
+title = "twitter"
+icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+title = "youtube"
+icon = "ti-youtube" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+title = "github"
+icon = "ti-github" # themify icon : https://themify.me/themify-icons
+link = "#"
