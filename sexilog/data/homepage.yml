@@ -18,7 +18,7 @@ slider:
 ############################### Banner feature ###############################
 banner_feature:
   enable : true
-  image : ""
+  image : "images/banner-feature.png"
   feature_item:
     # feature item loop
     - name : "Ready To Log"
