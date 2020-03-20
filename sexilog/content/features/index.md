@@ -1,70 +1,83 @@
 ---
-title: "QuickStart"
-date: 2019-07-06T15:27:17+06:00
-draft: false
+title: "Features"
 # page title background image
-bg_image: "images/header_veeam2.png"
+bg_image: "images/header_snapshot.png"
 # meta description
-description : "Here is how you can get and quickly setup this awesome appliance named SexiLog."
+description : "Here is what's under the hood."
 type: "single-post"
 ---
 
 
-### Step 1: Get SexiLog
+### Features
 
-[Download OVA applicance – v0.99g “Ailuropoda”](http://files.sexilog.fr/SexiLog.ova)
-
-:warning: SHA1 sum is: `7cb35001b04080370ba7e34bb3113d784b880025  SexiLog.ova`
-
-You can find all release notes on our GitHub Milestones page: [https://github.com/sexibytes/sexilog/milestones?state=closed](https://github.com/sexibytes/sexilog/milestones?state=closed)
-
-:blue_book: **This appliance is sized for 1500 msg/s (~20 ESXi hosts)**. If you need someting bigger, you can increase vCPU, vRAM and [vmdk size](http://www.sexilog.fr/rtfm/#vmdk) but you may also need to tune [ES_HEAP_SIZE](http://www.elastic.co/guide/en/elasticsearch/guide/current/heap-sizing.html), LS_HEAP_SIZE and [logstash filterworkers flag](http://logstash.net/docs/1.4.2/flags).
-
-If you prefer to build it yourself, you can follow the [Cookbook](http://www.sexilog.fr/cookbook/)
+![features](/images/features.png)
 
 &nbsp;
 
-### Step 2: Deploy
+### Inputs
 
-SexiLog appliance aimed to be deployed on a [VMware vSphere™](http://www.vmware.com) environment which can be achieve via several ways:
+SexiLog listens on several ports for log sourcing:
 
-*   **vSphere client** ([http://pubs.vmware.com/vsphere-50/topic/com.vmware.vsphere.vm_admin.doc_50/GUID-6C847F77-8CB2-4187-BD7F-E7D3D5BD897B.html](http://pubs.vmware.com/vsphere-50/topic/com.vmware.vsphere.vm_admin.doc_50/GUID-6C847F77-8CB2-4187-BD7F-E7D3D5BD897B.html))
-*   **vSphere Web Client** ([http://pubs.vmware.com/vsphere-55/topic/com.vmware.vsphere.vm_admin.doc/GUID-AFEDC48B-C96F-4088-9C1F-4F0A30E965DE.html](http://pubs.vmware.com/vsphere-55/topic/com.vmware.vsphere.vm_admin.doc/GUID-AFEDC48B-C96F-4088-9C1F-4F0A30E965DE.html))
-*   **VMware OVF Tool command-line utility** ([https://www.vmware.com/support/developer/ovf/](https://www.vmware.com/support/developer/ovf/))
-
-&nbsp;
-
-### Step 3: Configure
-
-SexiLog is pre-configured in DHCP mode but it’s possible to switch to static mode thanks to **SexiMenu** (this tool is launched automatically when you connect via SSH/console or can be launched with`/root/seximenu/seximenu.sh`).
-
-![SexiMenu](/images/seximenu.png)
-
-Beside menu `0)` to `4)` that matches common operations which are self explanatory (logout, access to shell, reboot or halt system, restart SexiLog services), menu `5)` to `7)` let you configure appliance network, keymap (useful for console troubleshooting on azerty keyboard) and configure Riemann settings (for e-mail alerting).
-
-:blue_book: **SexiMenu** will drive you around the configuration options
+*   `UDP/514` for **syslog** protocol: A Lot of [grok](http://logstash.net/docs/1.4.2/filters/grok) magic designed for [VMware ESXi™](http://www.vmware.com) here but you can also send anything that [looks like syslog](https://tools.ietf.org/html/rfc5424). We designed a very tolerant filter 🙂
+*   `UDP/162` for **SNMP traps** internaly forwarded as syslog: A bit of grok magic here too, designed for [VMware ESXi™](http://www.vmware.com) and [Veeam B&R™](http://www.veeam.com) but you can send any SNMP traps as well
+*   `UDP/1514` for **vCenter logs** in json [forwared by nxlog agent](http://www.sexilog.fr/rtfm/#vpxdlogs): The grok filters here are dedicated to vpxd and vpxd-profiler exclusively
+*   `UDP/1515` for **Windows eventlog** forwarded by nxlog agent from your Windows vCenter: You can forward from any Windows as well
 
 &nbsp;
 
-### Step 4: Redirect ESXi syslog
+### Filters
 
-To make [VMware ESXi™](http://www.vmware.com) send logs to your SexiLog appliance, you need to add `udp://your_appliance_fqdn_or_ipv4:514` in the advanced option `Syslog.global.logHost`:
+SexiLog is loaded with a lot of logstash grok filters to enhance [VMware ESXi™](http://www.vmware.com) logs (mostly).
 
-![dashboard-esxi-syslog](/images/dashboard-esxi-syslog.png)
+Here are some examples of few messages where colorized parts are parsed and “fielded” in elasticsearch as you can see in screenshots below:
 
-You can use this PowerCLI script to automate the task: [http://blogs.vmware.com/vsphere/2013/07/log-insight-bulk-esxi-host-configuration-with-powercli.html](http://blogs.vmware.com/vsphere/2013/07/log-insight-bulk-esxi-host-configuration-with-powercli.html)
+> <**14**\>**2014-12-10T18:01:03.496Z esx.vmware.com vobd**: \[**scsiCorrelator**\] 14807183227307us: \[**esx.problem.scsi.device.io.latency.high**\] Device **naa.60a9800041764b6c463f437868556b7a** performance has deteriorated. I/O latency increased from average value of 1343 microseconds to **28022** microseconds.
+> 
+> * * *
+> 
+> <**181**\>**2015-01-28T11:30:29.653Z** **esx.vmware.com** **vmkernel**: cpu4:19834926)NMP: **nmp\_PathDetermineFailure**:2084: SCSI cmd RESERVE failed on path **vmhba0:C0:T1:L15**, reservation state on device **naa.6006016084b02800b4a07969cd74e011** is unknown.
+> 
+> * * *
+> 
+> <**166**\>**2015-01-25T20:16:44.502Z** **esx.vmware.com Hostd**: \[34F99B90 verbose ‘vm:/vmfs/volumes/**548076ca-1a5e9feb-b886-fc15b415a120**/**vm\_name**/**vmx\_name**.vmx’\] Handling message \_vmx3: There is no more **space** for virtual disk PARG1TZCTXWEB02.vmdk. You might be able to continue this session by freeing disk **space** on the relevant volume, and clicking Retry. Click Cancel to terminate this session.
 
-As instructed by the VMware [**KB2003322**](http://kb.vmware.com/kb/2003322) you may need to open the [VMware ESXi™](http://www.vmware.com) firewall to let the syslog traffic pass through.
+| | |
+|:---:|:---:|
+| ![](/images/micro_facility.png) | ![](/images/micro_program.png) |
+| ![](/images/dashboard-quiescing_micro.png) | ![](/images/micro_correlator.png) |
+| ![](/images/micro_hostname.png) | ![](/images/micro_naa.png) |
 
-:blue_book: And here you are, relax and start searching!
 
 &nbsp;
 
-### Annex: Credentials & URL
+### Outputs
 
-The default `root` password is `Sex!Log`. The default keyboard layout is **Qwerty US**.
+Sexilog comes with pre-configured kibana dashboards (aka [SexiBoards](http://www.sexilog.fr/sexiboards/)) where you’ll find critical information about your [VMware vSphere™](http://www.vmware.com) infrastructure.
 
-The **SexiLog** web interface (ie **Kibana**) is listening on TCP port 80 so you can reach it at [http://your_appliance_fqdn_or_ipv4/](http://demo.sexilog.fr)
+The one you want to look at first and as often as possible (think wallscreen) is [SexiBoard:Kommandantur](http://www.sexilog.fr/sexiboards/kommandantur)
 
+&nbsp;
 
-![dashboard-home](/images/dashboard-home.png)
+![](/images/SexiBoard-Kommandantur.png)
+
+&nbsp;
+
+During on-call duty, lunch, beer or if you are AFK, you need a sharp and clear alerting system, that’s where Riemann comes in. **Logstash forwards filtered warnings and alerts to Riemann where they’re rolled up by type and send by e-mail.**
+
+Medium alerts are aggregate and sent every hour. Critical ones are sent every minutes and have an `*` (asterisk) sign in the subject.
+
+We configure Riemann e-mails with a strict format that will let you know with a single look what’s happening and where. Here are format details:
+
+&nbsp;
+
+![rieman_alert_format](/images/rieman_alert_format.png)
+
+![](/images/rieman_alert_01.png)
+
+![](/images/rieman_alert_03.png)
+
+![](/images/rieman_alert_02.png)
+
+![](/images/rieman_alert_00.png)
+
+![](/images/rieman_alert_04.png)

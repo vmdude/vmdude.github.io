@@ -455,6 +455,9 @@ textarea.form-control {
   width: 85px;
   object-fit: cover; }
 
+table tr th:empty {
+  display: none; }
+
 .top-header {
   font-size: 12px;
   transition: transform .2s ease;
