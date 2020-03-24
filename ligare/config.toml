@@ -32,85 +32,91 @@ disqusShortname = ""
 ############################## navigation ###############################
 [menu]
 
-  [[menu.main]]
-  name = "Philosophie"
-  URL = "philosophie"
-  weight = 1
-
-  [[menu.main]]
-  name = "Entretiens"
-  URL = "entretiens"
-  weight = 2
+  # [[menu.main]]
+  # name = "Entretiens"
+  # URL = "entretiens"
+  # weight = 2
 
   [[menu.main]]
   identifier = "association"
-  name = "Association"
+  name = "L'Association"
   URL = "association"
-  weight = 3
+  weight = 1
 
   [[menu.main]]
   parent = "association"
-  name = "Association"
+  name = "L'Association"
   URL = "association"
-  weight = 31
+  weight = 11
+
+  [[menu.main]]
+  parent = "association"
+  name = "Philosophie"
+  URL = "philosophie"
+  weight = 12
 
   [[menu.main]]
   parent = "association"
   name = "Qui sommes nous ?"
   URL = "qui-sommes-nous"
-  weight = 32
+  weight = 13
+
+  [[menu.main]]
+  parent = "association"
+  name = "Actualités"
+  URL = "actualites"
+  weight = 14
 
   [[menu.main]]
   parent = "association"
   name = "Partenaires"
   URL = "partenaires"
-  weight = 33
+  weight = 15
+
+  # [[menu.main]]
+  # parent = "association"
+  # name = "Soutiens"
+  # URL = "soutiens"
+  # weight = 34
 
   [[menu.main]]
-  parent = "association"
-  name = "Soutiens"
-  URL = "soutiens"
-  weight = 34
+  identifier = "accompagnement-des-familles"
+  name = "Accompagnement des familles"
+  URL = "accompagnement-des-familles"
+  weight = 2
 
   [[menu.main]]
-  identifier = "actualites"
-  name = "Actualités"
-  URL = "actualites"
-  weight = 4
+  parent = "accompagnement-des-familles"
+  name = "Consultations"
+  URL = "consultations"
+  weight = 21
 
   [[menu.main]]
-  parent = "actualites"
-  name = "Actualités"
-  URL = "actualites"
-  weight = 44
-
-  [[menu.main]]
-  parent = "actualites"
-  name = "Conférences / Débats"
-  URL = "conferences-debats"
-  weight = 45
-
-  [[menu.main]]
-  identifier = "groupe-de-parole"
-  name = "Groupe de paroles"
-  weight = 5
-
-  [[menu.main]]
+  parent = "accompagnement-des-familles"
   name = "Groupe de paroles"
   URL = "groupe-de-parole"
-  parent = "groupe-de-parole"
-  weight = 54
+  weight = 22
 
   [[menu.main]]
+  parent = "accompagnement-des-familles"
   name = "Calendriers"
   URL = "calendriers"
-  parent = "groupe-de-parole"
-  weight = 55
+  weight = 23
+
+  [[menu.main]]
+  name = "Accompagnement des professionnels"
+  URL = "accompagnement-des-professionnels"
+  weight = 3
+
+  [[menu.main]]
+  name = "Dons"
+  URL = "dons"
+  weight = 4
 
   [[menu.main]]
   name = "Contact"
   URL = "contact"
-  weight = 6
+  weight = 5
 
   ############# footer menu #############
   [[menu.footer]]

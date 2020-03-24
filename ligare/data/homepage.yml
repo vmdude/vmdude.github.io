@@ -18,10 +18,8 @@ banner:
 ########################## About ##############################
 about:
   enable : true
-  title : "About Our Product"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-          clita kasd gubergren,"
+  title : "A propos de l'association"
+  content : "blabla association"
   image : "images/Enfant-et-sante-file_500x500px_transparent1.png"
 
 
@@ -33,35 +31,34 @@ cta:
   image : "images/enfant-clipart.png"
   overlayImage : "images/cta-overlay.png"
   button:
-    label : "Je fais un don"
+    label : "Je fais un don OU Donner avec Paypal"
     link : "products"
 
 ######################## raw material #######################
 material:
   enable : true
-  title : "Ingredients Of Our Products"
-  subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dol."
+  title : "Pourquoi notre association est essentielle"
+  subtitle : "blabla objectif"
   materialItem:
     # material item loop
-    - title : "Matcha Seeds"
+    - title : "objectif 1"
       image : "images/material/material-1.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content : "blabla obj1"
       
     # material item loop
-    - title : "Aloe Vera"
+    - title : "objectif 2"
       image : "images/material/material-2.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content : "blabla obj2"
       
     # material item loop
-    - title : "Turmeric"
+    - title : "objectif 3"
       image : "images/material/material-3.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content : "blabla obj3"
       
     # material item loop
-    - title : "Tulshi leaf"
+    - title : "objectif 4"
       image : "images/material/material-4.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content : "blabla obj4"
 
 ########################### Advantage #########################
 advantage:
@@ -99,7 +96,7 @@ products:
 ########################## Testimonial ########################
 testimonial:
   enable : true
-  title : "What People Are Saying <br> About Our Product"
+  title : "Rencontrez notre équipe"
   testimonialItem:
     # testimonial item loop
     - name : "Angelo Perara"
@@ -121,10 +118,3 @@ testimonial:
       designation : "CEO, Dialogue Broad Band"
       content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
       rating : "five" # rating star, one to five
-      
-    # testimonial item loop
-    - name : "Riya Ventila"
-      image : "images/clients/client-2.jpg" # size 100px*100px
-      designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
-      rating : "four" # rating star, one to five
