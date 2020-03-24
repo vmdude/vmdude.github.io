@@ -1,11 +1,11 @@
 ######################## default configuration ####################
 baseURL = "https://vmdude.github.io/ligare/public/"
 languageCode = "fr-FR"
-title = "Hargo | Hugo Ecommerce Site"
+title = "Association Ligare l'Arbre Vert"
 theme = "hargo"
 summaryLength = "20"
-paginate = 10
-disqusShortname = ""
+# paginate = 10
+# disqusShortname = ""
 
 ############################# Plugins ##############################
 [params.plugins]
@@ -163,7 +163,7 @@ mobile = "0124857985320"
 email = "demo@email.com"
 location = "Dhaka, Bangladedsh"
 # copyright
-copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
+copyright = "| Copyright &copy; 2020 Association Ligare l'Arbre Vert All Rights Reserved |"
 
 # Preloader
 [params.preloader]

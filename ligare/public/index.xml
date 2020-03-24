@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hargo | Hugo Ecommerce Site</title>
+    <title>Association Ligare l&#39;Arbre Vert</title>
     <link>https://vmdude.github.io/ligare/public/</link>
-    <description>Recent content on Hargo | Hugo Ecommerce Site</description>
+    <description>Recent content on Association Ligare l&#39;Arbre Vert</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <lastBuildDate>Thu, 17 Oct 2019 11:22:16 +0600</lastBuildDate>
@@ -22,10 +22,10 @@
     
     <item>
       <title>FAQ</title>
-      <link>https://vmdude.github.io/ligare/public/accompagnement-des-professionnels-copy/</link>
+      <link>https://vmdude.github.io/ligare/public/accompagnement-des-professionnels/</link>
       <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
       
-      <guid>https://vmdude.github.io/ligare/public/accompagnement-des-professionnels-copy/</guid>
+      <guid>https://vmdude.github.io/ligare/public/accompagnement-des-professionnels/</guid>
       <description>Frequently Asked Questions Below FAQ are some common concerns of our clients before purchasing the theme, if you have other questions, please just send it to demo@email.</description>
     </item>
     
