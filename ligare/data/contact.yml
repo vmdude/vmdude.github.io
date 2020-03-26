@@ -1,6 +1,7 @@
 ############################# contact info ################
 contact:
   enable : true
+  image : "images/microphone-1209816_640.jpg"
   # office
   office:
     title : "Central Office"
