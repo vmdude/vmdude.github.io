@@ -200,4 +200,4 @@ link = "#"
 
 # Contact Form
 [params.contact]
-formAction = "#" # contact form works with formspree.io
+formAction = "https://formspree.io/mzbjrdaq" # contact form works with formspree.io
