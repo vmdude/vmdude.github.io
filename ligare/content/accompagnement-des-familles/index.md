@@ -3,9 +3,70 @@ title: "Accompagnement des familles"
 date: 2019-10-17T11:22:16+06:00
 draft: false
 description : "this is a meta description"
+Author: Nom auteur à définir
 ---
 
-Accompagnement des familles
-Consultations
-Groupe de paroles
-Calendriers
+Notre association propose aux familles adoptantes: 
+* des consultations individuelles et/ou familiales 
+* des groupes de paroles 
+
+L’adoption est une aventure singulière qui commence par une rencontre, celle d’un enfant avec son/ses futurs parent(s) suivie d’une adoption mutuelle fruit de liens tissés d’amour, de complicité, d’éducation, de respect et reconnaissance, etc. Ces liens de parentalité seront renforcés au fil du temps pour que l’enfant puisse se construire et s’épanouir et au parent de vivre pleinement sa parentalité.
+
+Mais il ne faut pas occulter que, dans la plus grande majorité des cas, l’adoption est aussi, à l’origine, le fruit de blessures. Blessure pour l’enfant qui aura été abandonné par ses parents biologiques ; blessure pour le/les parents qui aura/auront fait ce choix d’adopter après avoir dû renoncer à un enfant biologique.
+
+Dans ce contexte, la construction du lien de filiation peut être fragilisée par l’histoire et le parcours de chacun (parent/enfant, qu’il s’agisse d’un enfant, pupille de l’Etat ou de l’adoption internationale).
+
+Du côté de l’enfant, le traumatisme d’une première séparation et abandon, peut se rejouer dans le processus de filiation. Par la suite, à l’occasion de certains épisodes de la vie, l’adulte qui a été adopté dans son enfance peut éprouver des difficultés affectives.
+
+Du côté des parents, des blessures de l’enfance ou/et de l’âge adulte, non résolues, peuvent interférer dans la création du lien à l’enfant.
+
+Pour aider les familles dans leur parentalité adoptive, notre association offre un accompagnement psychologique aux candidats à l’adoption, aux parents parents adoptifs, ainsi que leurs enfants.
+
+### CONSULTATION INDIVIDUELLE ET/OU FAMILIALE
+Des entretiens avec des cliniciens spécialistes de l’adoption, à Paris et en Ile de France.
+
+Ces entretiens, individuels ou familiaux, sont ouverts à tous, parents, enfants, adolescents et adultes ayant été adoptés.
+
+Ils permettent d’évoquer des problèmes ponctuels ou des troubles graves et durables, de susciter chez chacun une réflexion pour accompagner des difficultés rencontrées.
+
+Les parents adoptifs ont la possibilité d’être reçus en entretien par une des deux psychologues, de façon ponctuelle ou régulière en fonction de leur problématique et de leur demande. Ces entretiens leur permettent d’aborder de façon plus approfondie, leur histoire d’adoption, leur rencontre avec l’enfant adopté, leur désarroi éventuel face à des difficultés relationnelles auxquelles ils ne s’étaient pas préparés, le doute possible quant à leurs capacités parentales face à certaines difficultés de leur enfant. Dans la très grande majorité des cas ces entretiens, après plusieurs séances, amènent une meilleure compréhension et un apaisement de la situation. Si dans certains cas, les difficultés apparaissent beaucoup plus complexes et nécessitent une prise en charge plus spécifique, l’équipe accompagne la famille vers les structures de soins adéquates.
+
+Ces entretiens sont également destinés aux futurs parents. Un espace leur est offert pour développer leur réflexion et interrogations autour de l’enfant désiré et à venir, avec une psychologue, ou en groupe avec d’autres postulants à la parentalité adoptive quel que soit le stade de leur démarche.
+
+Demandez un rendez-vous : [par email ou téléphone]({{< ref "contact">}})
+
+### GROUPES DE PAROLES
+Destinés aux parents et futurs parents adoptifs à Paris et en Ile de France.
+
+Les groupes de paroles qu’ils soient destinés aux parents ayant déjà adopté ou qu’ils s’adressent aux candidats à l’adoption ont, comme les entretiens, pour objet de permettre aux premiers de se questionner, de chercher à comprendre ce qui se passe pour eux et pour leur enfant, afin de trouver les réponses qui leur conviendront et de soutenir les seconds dans l’élaboration de leur projet d’adoption et dans l’anticipation de l’enfant à venir. 
+
+Cette réflexion, menée avec d’autres parents leur permet de partager leurs expériences, leurs réponses aux questions qu’ils se posent. Les professionnels sont là pour soutenir les questions et la dynamique du groupe, proposer des pistes, apporter un regard extérieur et leur expérience clinique de l’adoption.
+
+Dans le groupe se créée, en effet, une dynamique qui permet pour certains de s’exprimer plus facilement que dans une relation duelle. Le fait qu’il y ait un thème à chaque séance resserre les liens du groupe, et recentre sur un plus petit nombre de problématiques ce qui permet d’avancer peu à peu pour chacun. 
+
+Souvent, les groupes débouchent sur une demande d’entretien individuel. 
+
+En effet, il y a des questions plus personnelles qui nécessitent une relation duelle, de l’intimité, et plus de temps pour pouvoir être approfondies.
+Calendrier des groupes de paroles (lien ?)
+
+[Participez à un groupe de parole.]({{< ref "contact">}})
+
+**Nos lieux** 
+
+Les groupes de paroles à Paris ont lieu les soirs dans le 15e arrond.
+
+**Les professionnels de l’association animent des groupes dans toutes les institutions de France qui nous sollicitent pour partager notre expérience.**
+
+Les entretiens individuels et familiaux se déroulent les mercredis et samedis à Paris dans le 15e arrondissement. 
+
+Nous pouvons aussi répondre à la demande des familles d’Ile de France en nous rendant à proximité de leur commune.
+
+**Comment prendre rendez vous**
+
+Les entretiens individuels ou familiaux se tiennent sur **rendez-vous uniquement** (notre équipe reçoit les mercredis et samedis).
+
+La participation à un groupe de paroles de parents, animé par un médecin pédopsychiatres se fait sur inscription (obligatoire) 
+
+Contact par email contact@ligare-arbrevert.fr ou par téléphone au 07 87 06 31 42.
+
+Rejoignez-nous sur Facebook 
