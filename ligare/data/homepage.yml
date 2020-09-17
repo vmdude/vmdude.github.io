@@ -17,7 +17,7 @@ banner:
 
 ########################## About ##############################
 about:
-  enable : true
+  enable : false
   title : "A propos de l'association"
   content : "**Accompagner les enfants adoptés, les parents adoptifs, les adultes adoptés...**
 
@@ -41,23 +41,38 @@ Notre association regroupe une équipe de psychologues et psychiatres spécialis
 ###################### Call to action ########################
 cta:
   enable : true
-  title : "Aidez-nous, faites un don"
-  content : "balbal don"
+  # title : "Aidez-nous, faites un don"
+  # content : "balbal don"
   image : "images/enfant-clipart.png"
   overlayImage : "images/cta-overlay.png"
   button:
-    label : "Je fais un don OU Donner avec Paypal"
+    label : "Aidez-nous, faites un don avec Paypal"
     link : "products"
 
 ######################## raw material #######################
 material:
   enable : true
-  title : "TITLE TOADD"
-  subtitle : "SUBTITLE TOADD"
+  title : "A propos de l'association"
+  subtitle : "**Accompagner les enfants adoptés, les parents adoptifs, les adultes adoptés...**
+
+
+Notre association Ligare L’Arbre Vert intervient autour de la parentalité adoptive et du lien de filiation.
+
+
+Créée il y a une dizaine d’année par des professionnels de santé, l’association propose un accompagnement psychologique, une écoute et un soutien aux parents adoptifs, aux candidats à l’adoption et aux enfants adoptés.
+
+
+Nous proposons, aux familles, des entretiens individuels ou familiaux ainsi que des groupes de paroles adoption, dans nos antennes de Paris et de l’Ile de France.
+
+
+Nous accompagnons également les professionnels du monde de l’enfance et du secteur médical sur les questions de l’adoption.
+
+
+Notre association regroupe une équipe de psychologues et psychiatres spécialisés dans l’adoption."
   materialItem:
     # material item loop
     - title : "objectif 1"
-      image : "images/material/material-1.png"
+      image : "images/people-3120717_640.png"
       content : "blabla obj1"
 
     # material item loop
@@ -71,9 +86,9 @@ material:
       content : "blabla obj3"
 
     # material item loop
-    - title : "objectif 4"
-      image : "images/material/material-4.png"
-      content : "blabla obj4"
+    # - title : "objectif 4"
+    #   image : "images/material/material-4.png"
+    #   content : "blabla obj4"
 
 ########################### Advantage #########################
 advantage:
