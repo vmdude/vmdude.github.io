@@ -47,7 +47,7 @@ cta:
   imageRight : "images/enfant-clipart.png"
   overlayImage : "images/cta-overlay.png"
   button:
-    label : "Aidez-nous, faites un don avec Paypal"
+    label : "Calendrier des groupes de parents"
     link : "products"
 
 ######################## raw material #######################
