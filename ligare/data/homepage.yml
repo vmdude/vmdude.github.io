@@ -53,37 +53,35 @@ cta:
 material:
   enable : true
   title : "A propos de l'association"
-  subtitle : "**Accompagner les enfants adoptés, les parents adoptifs, les adultes adoptés...**
+  subtitle : "Notre association Ligare L’Arbre Vert intervient autour de l'accompagnement de l'adoption
 
 
-Notre association Ligare L’Arbre Vert intervient autour de la parentalité adoptive et du lien de filiation.
 
-
-Créée il y a une dizaine d’année par des professionnels de santé, l’association propose un accompagnement psychologique, une écoute et un soutien aux parents adoptifs, aux candidats à l’adoption et aux enfants adoptés.
-
-
-Nous proposons, aux familles, des entretiens individuels ou familiaux ainsi que des groupes de paroles adoption, dans nos antennes de Paris et de l’Ile de France.
-
-
-Nous accompagnons également les professionnels du monde de l’enfance et du secteur médical sur les questions de l’adoption.
-
-
-Notre association regroupe une équipe de psychologues et psychiatres spécialisés dans l’adoption."
+&nbsp;"
   materialItem:
     # material item loop
-    - title : "objectif 1"
-      image : "images/people-3120717_640.png"
-      content : "blabla obj1"
+    - title : "Accompagnement des Familles"
+      image : "images/accompagnement.jpg"
+      content : 'Nous proposons, aux familles, des entretiens individuels ou familiaux ainsi que des groupes de paroles adoption, dans nos antennes de Paris et de l’Ile de France.
+
+
+      [En savoir plus](groupe-de-paroles)'
 
     # material item loop
-    - title : "objectif 2"
-      image : "images/material/material-2.png"
-      content : "blabla obj2"
+    - title : "Un suivi et une aide de professionnels"
+      image : "images/suivi.jpg"
+      content : "Notre association regroupe une équipe de psychologues et psychiatres spécialisés dans l’adoption. Depuis une dizaine d'années, l’association propose un accompagnement psychologique, une écoute et un soutien aux parents adoptifs, aux candidats à l’adoption et aux enfants adoptés.
+
+
+      [En savoir plus](accompagnement)"
 
     # material item loop
-    - title : "objectif 3"
-      image : "images/material/material-3.png"
-      content : "blabla obj3"
+    - title : "Aidez nous, faites un don"
+      image : "images/don.jpg"
+      content : "L'association ne reçoit que très peu de subvention de l’Etat. Ses seules ressources proviennent de la générosité du public. C’est grâce à ses donateurs que Ligare peut aider toujours plus de familles et d'enfants.
+
+
+      [En savoir plus](dons)"
 
     # material item loop
     # - title : "objectif 4"
