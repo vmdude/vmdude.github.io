@@ -80,8 +80,8 @@ summaryLength = "20"
 
   [[menu.main]]
   # identifier = "accompagnement-des-familles"
-  name = "Accompagnement des familles"
-  URL = "accompagnement-des-familles"
+  name = "Accompagnement"
+  URL = "accompagnement"
   weight = 2
 
   # [[menu.main]]
@@ -102,10 +102,10 @@ summaryLength = "20"
   # URL = "calendriers"
   # weight = 23
 
-  [[menu.main]]
-  name = "Accompagnement des professionnels"
-  URL = "accompagnement-des-professionnels"
-  weight = 3
+  #[[menu.main]]
+  #name = "Accompagnement des professionnels"
+  #URL = "accompagnement-des-professionnels"
+  #weight = 3
 
   [[menu.main]]
   name = "Dons"
