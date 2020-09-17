@@ -43,7 +43,8 @@ cta:
   enable : true
   # title : "Aidez-nous, faites un don"
   # content : "balbal don"
-  image : "images/enfant-clipart.png"
+  imageLeft : "images/enfant-clipart-left.png"
+  imageRight : "images/enfant-clipart.png"
   overlayImage : "images/cta-overlay.png"
   button:
     label : "Aidez-nous, faites un don avec Paypal"
