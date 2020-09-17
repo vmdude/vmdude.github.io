@@ -52,40 +52,28 @@ cta:
 ######################## raw material #######################
 material:
   enable : true
-  title : "Pourquoi notre association est essentielle"
-  subtitle : "**Répondre aux besoins de soutien psychologique des familles et enfants**
+  title : "TITLE TOADD"
+  subtitle : "SUBTITLE TOADD"
+  materialItem:
+    # material item loop
+    - title : "objectif 1"
+      image : "images/material/material-1.png"
+      content : "blabla obj1"
 
+    # material item loop
+    - title : "objectif 2"
+      image : "images/material/material-2.png"
+      content : "blabla obj2"
 
-Parentalité biologique et parentalité adoptive suivent la même trajectoire, cette dernière présente cependant une spécificité qui peut justifier un accompagnement dans la construction du lien de filiation. Ce lien est essentiel dans la mesure où il unit parents et enfants dans des rapports d’amour, de confiance, d’éducation et de complicité. Il permet aux enfants de grandir et s’épanouir et aux parents de vivre pleinement leurs parentalités.
+    # material item loop
+    - title : "objectif 3"
+      image : "images/material/material-3.png"
+      content : "blabla obj3"
 
-
-Ce lien peut être influencé par l’histoire individuelle de l’enfant, du couple, du parent…Face aux différentes problématiques qui peuvent perturber la construction solide de ce lien de filiation un soutien extérieur et professionnel peut s’avérer utile et nécessaire.
-
-
-Dans ce contexte particulier et pour répondre aux besoins des familles qui peuvent se sentir démunies, notre association propose [une écoute et un soutien avec pour objectif l’accompagnement psychologique des familles adoptives.](/ligare/public/accompagnement-des-familles)
-
-
-Par ailleurs, nous sensibilisons les acteurs de la petite enfance et de la santé sur les spécificités de l’adoption et [nous pouvons les accompagner sur des questions spécifiques auxquels ils auraient à répondre.](/ligare/public/accompagnement-des-professionnels)"
-  # materialItem:
-  #   # material item loop
-  #   - title : "objectif 1"
-  #     image : "images/material/material-1.png"
-  #     content : "blabla obj1"
-      
-  #   # material item loop
-  #   - title : "objectif 2"
-  #     image : "images/material/material-2.png"
-  #     content : "blabla obj2"
-      
-  #   # material item loop
-  #   - title : "objectif 3"
-  #     image : "images/material/material-3.png"
-  #     content : "blabla obj3"
-      
-  #   # material item loop
-  #   - title : "objectif 4"
-  #     image : "images/material/material-4.png"
-  #     content : "blabla obj4"
+    # material item loop
+    - title : "objectif 4"
+      image : "images/material/material-4.png"
+      content : "blabla obj4"
 
 ########################### Advantage #########################
 advantage:
@@ -122,7 +110,7 @@ products:
 
 ########################## Testimonial ########################
 testimonial:
-  enable : true
+  enable : false
   title : "Rencontrez notre équipe"
   subtitle: "Nous organisons des consultations individuelles et/ou familiales ainsi que des groupes de paroles à Paris et en Ile de France (mettre en lien vers la rubrique) sur rendez-vous.
 
@@ -152,24 +140,24 @@ Nos services sont ouverts à tous, adoptants/adoptés : parents, futurs parents,
 
 Inscription par email ou téléphone
 "
-  # testimonialItem:
-  #   # testimonial item loop
-  #   - name : "Angelo Perara"
-  #     image : "images/clients/client-1.jpg" # size 100px*100px
-  #     designation : "CEO, Dialogue Broad Band"
-  #     content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
-  #     rating : "five" # rating star, one to five
+  testimonialItem:
+    # testimonial item loop
+    - name : "Angelo Perara"
+      image : "images/clients/client-1.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "five" # rating star, one to five
 
-  #   # testimonial item loop
-  #   - name : "Riya Ventila"
-  #     image : "images/clients/client-2.jpg" # size 100px*100px
-  #     designation : "CEO, Dialogue Broad Band"
-  #     content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
-  #     rating : "three" # rating star, one to five
+    # testimonial item loop
+    - name : "Riya Ventila"
+      image : "images/clients/client-2.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "three" # rating star, one to five
 
-  #   # testimonial item loop
-  #   - name : "john Doe"
-  #     image : "images/clients/client-3.jpg" # size 100px*100px
-  #     designation : "CEO, Dialogue Broad Band"
-  #     content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
-  #     rating : "five" # rating star, one to five
+    # testimonial item loop
+    - name : "john Doe"
+      image : "images/clients/client-3.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "five" # rating star, one to five
