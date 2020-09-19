@@ -5,6 +5,7 @@ title: doc.poligraf.io
 theme: hugo-geekdoc
 pygmentsUseClasses: true
 pygmentsCodeFences: true
+canonifyURLs: true
 
 # Geekdoc configuration
 disablePathToLower: true
