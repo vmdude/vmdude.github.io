@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ .Params.Title | default "Title" }}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    {{ if .Site.IsServer }}
+        {{ $cssOpts := (dict "targetPath" "assets/css/main.css" "enableSourceMap" true) }}
+        {{ $styles := resources.Get "scss/main.scss" | toCSS $cssOpts }}
+        <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+        {{ $cssOptsNS := (dict "targetPath" "assets/css/noscript.css" "enableSourceMap" true) }}
+        {{ $noscript := resources.Get "scss/noscript.scss" | toCSS $cssOptsNS }}
+        <noscript><link rel="stylesheet" href="{{ $noscript.Permalink }}"></noscript>
+    {{ else }}
+        {{$cssOpts := (dict "targetPath" "assets/css/main.css") }}
+        {{ $styles := resources.Get "scss/main.scss" | toCSS $cssOpts | minify | fingerprint }}
+        <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+        {{ $cssOptsNS := (dict "targetPath" "assets/css/noscript.css" "enableSourceMap" true) }}
+        {{ $noscript := resources.Get "scss/noscript.scss" | toCSS $cssOptsNS | minify | fingerprint }}
+        <noscript><link rel="stylesheet" href="{{ $noscript.Permalink }}"></noscript>
+    {{ end }}
+    <style>
+        :root{--site-background : url("{{ .Params.background | default "images/bg.jpg" | absURL }}")};
+    </style>
+</head>

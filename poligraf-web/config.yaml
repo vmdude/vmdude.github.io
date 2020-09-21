@@ -1,0 +1,12 @@
+baseURL: "https://poligraf.io/test1/"
+languageCode: "en-us"
+title: "My New Hugo Site"
+theme: "dimension"
+enableEmoji: true
+canonifyURLs: true
+
+params:
+  geo:
+    width       : 100%
+    height      : 400
+    embed       : https://www.openstreetmap.org/export/embed.html?bbox=2.2245929762721066%2C48.87871667753369%2C2.26021271198988%2C48.9007825822789&layer=mapnik&marker=48.89060264872374%2C2.241414785385132
