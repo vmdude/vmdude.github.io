@@ -4,6 +4,9 @@ title: "poligraf.io"
 theme: "dimension"
 enableEmoji: true
 canonifyURLs: true
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
 
 params:
   geo:
