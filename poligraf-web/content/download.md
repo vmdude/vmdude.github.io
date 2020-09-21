@@ -3,7 +3,7 @@ title: download
 ---
 
 
-Here you will find all links to resources we used to build **SexiGraf**. There was a lot of work done to bring it to life, and we wanted to share with you all the awesome Tools/Posts/HowTo’s we used to do it.
+Here you will find all links to resources we used to build **PoliGraf**. There was a lot of work done to bring it to life, and we wanted to share with you all the awesome Tools/Posts/HowTo’s we used to do it.
 
 ## Grafana
 

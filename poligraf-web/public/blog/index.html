@@ -2,18 +2,25 @@
 <html>
 <head>
     <title>Blog</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="https://poligraf.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://poligraf.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://poligraf.io/favicon-16x16.png">
+    <link rel="manifest" href="https://poligraf.io/site.webmanifest">
+    <link rel="mask-icon" href="https://poligraf.io/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     
         
         
-        <link rel="stylesheet" href="https://poligraf.io/test1/assets/css/main.min.8d1972eeaf7c62109db212e2a4b62e7e295f574d6d9c10c6420d474aa9127296.css" media="screen">
+        <link rel="stylesheet" href="https://poligraf.io/assets/css/main.min.8d1972eeaf7c62109db212e2a4b62e7e295f574d6d9c10c6420d474aa9127296.css" media="screen">
         
         
-        <noscript><link rel="stylesheet" href="https://poligraf.io/test1/assets/css/noscript.min.f8b89bb7571d73aab4b3376215f96b95cb42a6e0f3908a399af65d18707cd876.css"></noscript>
+        <noscript><link rel="stylesheet" href="https://poligraf.io/assets/css/noscript.min.f8b89bb7571d73aab4b3376215f96b95cb42a6e0f3908a399af65d18707cd876.css"></noscript>
     
     <style>
-        :root{--site-background : url("https://poligraf.io/test1/images/bg.jpg")};
+        :root{--site-background : url("https://poligraf.io/img/Home01.jpg")};
     </style>
 </head>
 
@@ -24,13 +31,12 @@
 
             
                 <header id="header">
+                    <div class="logo">
+                        <a href="https://poligraf.io/"><span class="icon fa-arrow-alt-circle-left"></span></a>
+                    </div>
                     <div class="content">
                         <div class="inner">
                             <h1>Blog</h1>
-                            
-                            <p>
-                                A collection of blog posts
-                            </p>
                             
                         </div>
                     </div>
@@ -148,11 +154,11 @@
                                     <h2 class="major">Cannot read property ‘graphiteVersion’ of null</h2>
                                     <span class="image main"><img src="" alt="" /></span>
                                     <p>After upgrading to 0.99f version, you get this error on any dashboard:</p>
-<p><img src="http://www.sexigraf.fr/wp-content/uploads/2019/05/graphite_version_null.png" alt=""></p>
+<p><img src="https://poligraf.io/img/graphite_version_null.png" alt=""></p>
 <p>Starting from Grafana 4.5, the version of the graphite datasource is mandatory and that’s why we update a record in the sqlite database during the upgrade process. <strong>For a small population of users</strong>, this record is not updated for an unknown reason.</p>
 <p>To correct that issue, you simply need to force the “0.9” version in the graphite datasource:</p>
-<p><img src="http://www.sexigraf.fr/wp-content/uploads/2019/05/Screenshot-2019-05-28-at-17.26.36.png" alt=""></p>
-<p><img src="http://www.sexigraf.fr/wp-content/uploads/2019/05/Screenshot-2019-05-28-at-17.25.50-756x1024.png" alt=""></p>
+<p><img src="https://poligraf.io/img/poligraf-datasource.png" alt=""></p>
+<p><img src="https://poligraf.io/img/poligraf-datasource-2.png" alt=""></p>
 
                                 </article>
                             
@@ -163,17 +169,17 @@
                                 <article id="you-are-now-using-version-0_99f-traptown">
                                     <h2 class="major">You are now using version 0.99f &#34;Traptown&#34;!</h2>
                                     <span class="image main"><img src="" alt="" /></span>
-                                    <h3 id="today-we-are-proud-to-announce-the-release-of-the-sixth-sexigraf-update-099f-codename-traptown">Today we are proud to announce the release of the sixth <strong>SexiGraf</strong> update: <strong>0.99f</strong> codename “Traptown”</h3>
-<p><strong>Edit 29 may 2019: For the few of you that would encounter this issue after upgrading, <a href="http://www.sexigraf.fr/cannot-read-property-graphiteversion-of-null/">please refer to this post for a fix</a>:</strong></p>
-<p><img src="https://poligraf.io/test1/img/graphite_version_null.png" alt=""></p>
-<p>In this new version, we’ve added the support of the new <a href="https://code.vmware.com/apis/398/vsan">vSAN 6.7U1</a> API (<a href="http://www.sexigraf.fr/vsan-dashboards-empty-after-vsphere-6-7u1-update/">included in the 0.99e1 emergency patch</a>).</p>
+                                    <h3 id="today-we-are-proud-to-announce-the-release-of-the-sixth-poligraf-update-099f-codename-traptown">Today we are proud to announce the release of the sixth <strong>PoliGraf</strong> update: <strong>0.99f</strong> codename “Traptown”</h3>
+<p><strong>Edit 29 may 2019: For the few of you that would encounter this issue after upgrading, <a href="http://www.poligraf.io/cannot-read-property-graphiteversion-of-null/">please refer to this post for a fix</a>:</strong></p>
+<p><img src="https://poligraf.io/img/graphite_version_null.png" alt=""></p>
+<p>In this new version, we’ve added the support of the new <a href="https://code.vmware.com/apis/398/vsan">vSAN 6.7U1</a> API (<a href="http://www.poligraf.io/vsan-dashboards-empty-after-vsphere-6-7u1-update/">included in the 0.99e1 emergency patch</a>).</p>
 <ul>
 <li>
 <p><strong>New features</strong></p>
 <ul>
-<li><a href="http://www.sexigraf.fr/vsphere-sexipanels/#cluster-superstats"><strong>SuperStats</strong></a></li>
-<li><a href="http://www.sexigraf.fr/vsphere-sexipanels/#vcenter-bad-events"><strong>vCenter Bad Events</strong></a></li>
-<li><a href="http://www.sexigraf.fr/vsphere-sexipanels/#multi-storage-pod-usage">Early Storage Pod (aka Datastore Cluster) support</a></li>
+<li><a href="http://www.poligraf.io/vsphere-sexipanels/#cluster-superstats"><strong>SuperStats</strong></a></li>
+<li><a href="http://www.poligraf.io/vsphere-sexipanels/#vcenter-bad-events"><strong>vCenter Bad Events</strong></a></li>
+<li><a href="http://www.poligraf.io/vsphere-sexipanels/#multi-storage-pod-usage">Early Storage Pod (aka Datastore Cluster) support</a></li>
 <li><a href="https://community.grafana.com/t/release-notes-v4-6-x/3179">Grafana 4.6.5</a></li>
 </ul>
 </li>
@@ -183,25 +189,25 @@
 <li>vSAN 6.7 Update 1 API fix</li>
 <li>Host CPU latency metric</li>
 <li>Offline Inventory and vSAN puller speed enhancement</li>
-<li>virtualExtent file type to identify vSAN and VVOL usage in the <a href="http://www.sexigraf.fr/vsphere-sexipanels/#datastore-usage-distribution">Datastore Distribution dashboards</a>.</li>
-<li>Added overcommit metric in <a href="http://www.sexigraf.fr/vsphere-sexipanels/#vsphere-top-n-vm-stats">VMware All Clusters VM Stats dashboard</a></li>
-<li>Added average vm left metrics for <a href="http://www.sexigraf.fr/vsphere-sexipanels/#multi-cluster-capacity-planning">Multi Cluster Capacity Planning dashboard</a></li>
-<li><a href="https://github.com/sexibytes/sexigraf/issues?q=is%3Aissue+milestone%3A%220.99e+-+White+Forest%22+is%3Aclosed">Various bug fix</a></li>
+<li>virtualExtent file type to identify vSAN and VVOL usage in the <a href="http://www.poligraf.io/vsphere-sexipanels/#datastore-usage-distribution">Datastore Distribution dashboards</a>.</li>
+<li>Added overcommit metric in <a href="http://www.poligraf.io/vsphere-sexipanels/#vsphere-top-n-vm-stats">VMware All Clusters VM Stats dashboard</a></li>
+<li>Added average vm left metrics for <a href="http://www.poligraf.io/vsphere-sexipanels/#multi-cluster-capacity-planning">Multi Cluster Capacity Planning dashboard</a></li>
+<li><a href="https://github.com/sexibytes/poligraf/issues?q=is%3Aissue+milestone%3A%220.99e+-+White+Forest%22+is%3Aclosed">Various bug fix</a></li>
 </ul>
 </li>
 </ul>
-<p>To upgrade your existing appliance <a href="http://files.sexigraf.fr/sexigraf-0.99f.sup">get the 0.99f <strong>S</strong>exiGraf <strong>U</strong>pdate <strong>P</strong>ackage</a> and use it in the <a href="http://www.sexigraf.fr/web-admin/#package-updater">Package Updater</a> (you won’t lost any data of course). The update process is the same since 0.99a so you can watch the <a href="http://www.sexigraf.fr/you-are-now-using-version-0-99a-city-17/">0.99a upgrade <strong>recorded demo</strong></a> if you need help.</p>
+<p>To upgrade your existing appliance <a href="http://files.poligraf.io/poligraf-0.99f.sup">get the 0.99f <strong>S</strong>exiGraf <strong>U</strong>pdate <strong>P</strong>ackage</a> and use it in the <a href="http://www.poligraf.io/web-admin/#package-updater">Package Updater</a> (you won’t lost any data of course). The update process is the same since 0.99a so you can watch the <a href="http://www.poligraf.io/you-are-now-using-version-0-99a-city-17/">0.99a upgrade <strong>recorded demo</strong></a> if you need help.</p>
 <blockquote class="hint danger">
   This update will *ONLY* apply if you’re running 0.99e “White Forest” version.<br>
 Please reload your browser AFTER the update has finished.
 </blockquote>
 
-<p>If you are new to SexiGraf, <strong>the latest appliance is already available</strong> on <a href="http://www.sexigraf.fr/quickstart/">the Quickstart page</a>.</p>
+<p>If you are new to PoliGraf, <strong>the latest appliance is already available</strong> on <a href="http://www.poligraf.io/quickstart/">the Quickstart page</a>.</p>
 <blockquote class="hint warning">
-  <strong>This the last SexiGraf update package</strong>. Starting from now, we’ll only publish new ova packages and you’ll have to use <a href="http://www.sexigraf.fr/web-admin/#export-import">the data export/import feature</a> to migrate your data and settings. We understand that this may be inconvenient but it’ll allow us to deliver a more up to date product more often.
+  <strong>This the last PoliGraf update package</strong>. Starting from now, we’ll only publish new ova packages and you’ll have to use <a href="http://www.poligraf.io/web-admin/#export-import">the data export/import feature</a> to migrate your data and settings. We understand that this may be inconvenient but it’ll allow us to deliver a more up to date product more often.
 </blockquote>
 
-<p><img src="https://poligraf.io/test1/img/Traptown.jpg" alt=""></p>
+<p><img src="https://poligraf.io/img/traptown.jpg" alt=""></p>
 
                                 </article>
                             
@@ -212,8 +218,8 @@ Please reload your browser AFTER the update has finished.
                                 <article id="how-simple-became-complicated">
                                     <h2 class="major">How Simple Became Complicated</h2>
                                     <span class="image main"><img src="" alt="" /></span>
-                                    <p>Few months ago, we had the amazing opportunity to deploy SexiGraf in a *<strong>BIG</strong>* company. Think petabytes scale.</p>
-<p>In the past, <a href="http://www.sexigraf.fr/big-scale-ability/">we have already been challenged to make our tool scalable</a>, but not that much:</p>
+                                    <p>Few months ago, we had the amazing opportunity to deploy PoliGraf in a *<strong>BIG</strong>* company. Think petabytes scale.</p>
+<p>In the past, <a href="http://www.poligraf.io/big-scale-ability/">we have already been challenged to make our tool scalable</a>, but not that much:</p>
 <ul>
 <li>50+ vCenter</li>
 <li>6000+ ESX</li>
@@ -222,13 +228,13 @@ Please reload your browser AFTER the update has finished.
 <li>1000+ clusters</li>
 <li>200ms+ network latency for half vCenter</li>
 </ul>
-<p>After many hours of hard work, almost total rewrite of our code and a massive use of hash tables, we are proud to show you a sneak peek of the next SexiGraf version (0.99f) connected to 53 vCenters:</p>
-<p><a href="http://www.sexigraf.fr/how-simple-became-complicated/sexigraf099f_superstats/"><img src="http://www.sexigraf.fr/wp-content/uploads/2019/05/sexigraf099f_superstats-1024x646.png" alt=""></a></p>
+<p>After many hours of hard work, almost total rewrite of our code and a massive use of hash tables, we are proud to show you a sneak peek of the next PoliGraf version (0.99f) connected to 53 vCenters:</p>
+<p><a href="http://www.poligraf.io/how-simple-became-complicated/poligraf099f_superstats/"><img src="https://poligraf.io/img/poligraf099f_superstats.jpg" alt=""></a></p>
 <p>And since the customer hasn’t figured out how to handle syslog for it’s 6000+ ESX yet, we added a “bad” events dashboard (warnings and errors) grouped by clusters:</p>
-<p><a href="http://www.sexigraf.fr/how-simple-became-complicated/sexigraf099f_badevents/"><img src="http://www.sexigraf.fr/wp-content/uploads/2019/05/sexigraf099f_badevents-1024x646.png" alt=""></a></p>
-<p><a href="http://www.sexigraf.fr/sexigraf099f_exevents-2/"><img src="http://www.sexigraf.fr/wp-content/uploads/2019/05/sexigraf099f_exevents-1-1024x638.png" alt=""></a></p>
+<p><a href="http://www.poligraf.io/how-simple-became-complicated/poligraf099f_badevents/"><img src="https://poligraf.io/img/poligraf099f_badevents.jpg" alt=""></a></p>
+<p><a href="http://www.poligraf.io/poligraf099f_exevents-2/"><img src="https://poligraf.io/img/poligraf099f_exevents-1.jpg" alt=""></a></p>
 <p>With a <strong>single VM</strong> (16 vCPU and 24GB vRAM), the polling is only taking <strong>3 minutes</strong> (maximum) to complete:</p>
-<p><a href="http://www.sexigraf.fr/how-simple-became-complicated/sexigraf099f_pullexectime/"><img src="http://www.sexigraf.fr/wp-content/uploads/2019/05/sexigraf099f_pullexectime-1024x389.png" alt=""></a></p>
+<p><a href="http://www.poligraf.io/how-simple-became-complicated/poligraf099f_pullexectime/"><img src="https://poligraf.io/img/poligraf099f_pullexectime.jpg" alt=""></a></p>
 <p>Stay tuned 😉</p>
 
                                 </article>
@@ -240,14 +246,14 @@ Please reload your browser AFTER the update has finished.
                                 <article id="vsan-dashboards-empty-after-vsphere-6_7u1-update">
                                     <h2 class="major">vSAN dashboards empty after vSphere 6.7U1 update</h2>
                                     <span class="image main"><img src="" alt="" /></span>
-                                    <p>Due to some <a href="https://twitter.com/gostev/status/1052679713154576388">unexpected</a> changes in the vSAN 6.7U1 APIs, your SexiGraf appliance won’t be able to fetch vSAN metrics after updating your vCenter in 6.7.0 build 10244857 (aka U1). You’ll also get this error in the log:</p>
+                                    <p>Due to some <a href="https://twitter.com/gostev/status/1052679713154576388">unexpected</a> changes in the vSAN 6.7U1 APIs, your PoliGraf appliance won’t be able to fetch vSAN metrics after updating your vCenter in 6.7.0 build 10244857 (aka U1). You’ll also get this error in the log:</p>
 <blockquote>
 <p>DIE Can’t call method “apiType” on an undefined value at /root/VsanPullStatistics.pl line 136.</p>
 </blockquote>
 <p>Today we’re releasing a <strong>quick fix</strong> (0.99e1) on top of the 0.99e version, meaning you CAN’T apply this fix on previous version. This fix will be integrated in the future patches and releases.</p>
-<p><a href="http://files.sexigraf.fr/sexigraf-0.99e1.sup">Download v0.99e1 “White Forest” patch</a></p>
+<p><a href="http://files.poligraf.io/poligraf-0.99e1.sup">Download v0.99e1 “White Forest” patch</a></p>
 <blockquote class="hint info">
-  SHA1 sum is: <code>9b422763d967d64402ae3971a9e00c31a0dec04b sexigraf-0.99e1.sup</code>
+  SHA1 sum is: <code>9b422763d967d64402ae3971a9e00c31a0dec04b poligraf-0.99e1.sup</code>
 </blockquote>
 
 
@@ -260,37 +266,37 @@ Please reload your browser AFTER the update has finished.
                                 <article id="you-are-now-using-version-0_99e-white-forest">
                                     <h2 class="major">You are now using version 0.99e &#34;White Forest&#34;!</h2>
                                     <span class="image main"><img src="" alt="" /></span>
-                                    <h3 id="today-we-are-proud-to-announce-the-release-of-the-fifth-sexigraf-update-099e-codename-white-forest">Today we are proud to announce the release of the fifth <strong>SexiGraf</strong> update: <strong>0.99e</strong> codename “White Forest”</h3>
+                                    <h3 id="today-we-are-proud-to-announce-the-release-of-the-fifth-poligraf-update-099e-codename-white-forest">Today we are proud to announce the release of the fifth <strong>PoliGraf</strong> update: <strong>0.99e</strong> codename “White Forest”</h3>
 <p>In this new version, we’ve added the support of the new <a href="https://code.vmware.com/apis/358/vsphere">vSphere 6.7</a> &amp; <a href="https://code.vmware.com/apis/398/vsan">vSAN 6.7</a> APIs.</p>
 <ul>
 <li>
 <p><strong>New features</strong></p>
 <ul>
-<li><a href="http://www.sexigraf.fr/web-admin/#export-import"><strong>SexiGraf data Export &amp; Import</strong></a></li>
-<li><a href="http://www.sexigraf.fr/vsphere-sexipanels/#cluster-fullstats">vmhba traffic in cluster dashboards</a></li>
-<li><a href="http://www.sexigraf.fr/vsphere-sexipanels/#vsphere-top-n-vm-stats">VM network usage (bandwidth)</a></li>
-<li><a href="http://www.sexigraf.fr/vsphere-sexipanels/#vsphere-top-n-vm-stats">VM disk usage (bandwidth)</a></li>
-<li><strong><a href="http://www.sexigraf.fr/vsphere-sexipanels/#vcenter-active-sessions">vCenter Active Sessions (per user)</a></strong></li>
+<li><a href="http://www.poligraf.io/web-admin/#export-import"><strong>PoliGraf data Export &amp; Import</strong></a></li>
+<li><a href="http://www.poligraf.io/vsphere-sexipanels/#cluster-fullstats">vmhba traffic in cluster dashboards</a></li>
+<li><a href="http://www.poligraf.io/vsphere-sexipanels/#vsphere-top-n-vm-stats">VM network usage (bandwidth)</a></li>
+<li><a href="http://www.poligraf.io/vsphere-sexipanels/#vsphere-top-n-vm-stats">VM disk usage (bandwidth)</a></li>
+<li><strong><a href="http://www.poligraf.io/vsphere-sexipanels/#vcenter-active-sessions">vCenter Active Sessions (per user)</a></strong></li>
 </ul>
 </li>
 <li>
 <p><strong>Enhancements and fixes</strong></p>
 <ul>
-<li><strong><a href="http://www.sexigraf.fr/vsan-sexipanels/#vsan-space-usage-report">VSAN Resync dashboard boost (per reason)</a></strong></li>
-<li><a href="http://www.sexigraf.fr/vsphere-sexipanels/#cluster-network-usage">Network errors and dropped counters</a></li>
-<li><a href="https://github.com/sexibytes/sexigraf/issues/146">Early HTTPS support</a></li>
-<li><a href="https://github.com/sexibytes/sexigraf/issues/152">Wrong mem.allocated (aka vRAM) value fix</a></li>
-<li><a href="https://github.com/sexibytes/sexigraf/issues?q=is%3Aissue+milestone%3A%220.99e+-+White+Forest%22+is%3Aclosed">Various bug fix</a></li>
+<li><strong><a href="http://www.poligraf.io/vsan-sexipanels/#vsan-space-usage-report">VSAN Resync dashboard boost (per reason)</a></strong></li>
+<li><a href="http://www.poligraf.io/vsphere-sexipanels/#cluster-network-usage">Network errors and dropped counters</a></li>
+<li><a href="https://github.com/sexibytes/poligraf/issues/146">Early HTTPS support</a></li>
+<li><a href="https://github.com/sexibytes/poligraf/issues/152">Wrong mem.allocated (aka vRAM) value fix</a></li>
+<li><a href="https://github.com/sexibytes/poligraf/issues?q=is%3Aissue+milestone%3A%220.99e+-+White+Forest%22+is%3Aclosed">Various bug fix</a></li>
 </ul>
 </li>
 </ul>
-<p>To upgrade your existing appliance <a href="https://github.com/sexibytes/sexigraf/releases/tag/0.99e">go get the <strong>S</strong>exiGraf <strong>U</strong>pdate <strong>P</strong>ackage on GitHub</a> and use it in the <a href="http://www.sexigraf.fr/web-admin/#package-updater">Package Updater</a> (you won’t lost any data of course). The update process is the same since 0.99a so you can watch the <a href="http://www.sexigraf.fr/you-are-now-using-version-0-99a-city-17/">0.99a upgrade <strong>recorded demo</strong></a> if you need help.</p>
+<p>To upgrade your existing appliance <a href="https://github.com/sexibytes/poligraf/releases/tag/0.99e">go get the <strong>S</strong>exiGraf <strong>U</strong>pdate <strong>P</strong>ackage on GitHub</a> and use it in the <a href="http://www.poligraf.io/web-admin/#package-updater">Package Updater</a> (you won’t lost any data of course). The update process is the same since 0.99a so you can watch the <a href="http://www.poligraf.io/you-are-now-using-version-0-99a-city-17/">0.99a upgrade <strong>recorded demo</strong></a> if you need help.</p>
 <blockquote class="hint danger">
   This update will *ONLY* apply if you’re running 0.99d “Nova Prospekt” version.
 </blockquote>
 
-<p>If you are new to SexiGraf, <strong>the latest appliance is already available</strong> on <a href="http://www.sexigraf.fr/quickstart/">the Quickstart page</a>.</p>
-<p><img src="https://poligraf.io/test1/img/White_forest_sign.png" alt=""></p>
+<p>If you are new to PoliGraf, <strong>the latest appliance is already available</strong> on <a href="https://poligraf.io/#quickstart">the Quickstart page</a>.</p>
+<p><img src="https://poligraf.io/img/white_forest_sign.png" alt=""></p>
 
                                 </article>
                             
@@ -301,40 +307,40 @@ Please reload your browser AFTER the update has finished.
                                 <article id="welcome-to-nova-prospekt">
                                     <h2 class="major">Welcome to Nova Prospekt</h2>
                                     <span class="image main"><img src="" alt="" /></span>
-                                    <h3 id="today-we-are-very-proud-to-announce-the-release-of-the-fourth-sexigraf-update-099d-codename-nova-prospekt">Today we are very proud to announce the release of the fourth <strong>SexiGraf</strong> update: <strong>0.99d</strong> codename “Nova Prospekt”</h3>
+                                    <h3 id="today-we-are-very-proud-to-announce-the-release-of-the-fourth-poligraf-update-099d-codename-nova-prospekt">Today we are very proud to announce the release of the fourth <strong>PoliGraf</strong> update: <strong>0.99d</strong> codename “Nova Prospekt”</h3>
 <p>In this new version, we’ve added the support of the new <a href="https://pubs.vmware.com/vsphere-65/index.jsp?topic=/com.vmware.wssdk.apiref.doc/index.html&amp;single=true">vSphere 6.5</a> &amp; <a href="http://www.virtuallyghetto.com/2017/04/new-vsan-management-6-6-api-sdks-clis.html">vSAN 6.6</a> APIs. We also embed the very up to date <a href="https://grafana.com/blog/2017/05/23/grafana-4.3-release/">Grafana 4.3</a> and all the Debian 8.8 packages upgrades for security concerns.</p>
 <ul>
 <li>
 <p><strong>New features</strong></p>
 <ul>
-<li><a href="http://www.sexigraf.fr/vsphere-sexipanels/#multi-cluster-top-n-vm-snapshot">Multi Cluster Top N VM Snapshot</a> (many thanks to Jo for this great idea)</li>
-<li><strong><a href="http://www.sexigraf.fr/vsphere-sexipanels/#datastore-usage-distribution">All|Multi Datastore Usage Distribution</a></strong></li>
-<li><a href="http://www.sexigraf.fr/vsphere-sexipanels/#multi-cluster-vcpu-pcpu">Multi Cluster vCPU pCPU</a></li>
-<li><strong><a href="http://www.sexigraf.fr/vsphere-sexipanels/#top-n-vm-latency">All|Multi Cluster Top N VM Latency</a></strong></li>
-<li><a href="http://www.sexigraf.fr/vsphere-sexipanels/#top-n-vmfs-latency">Multi Cluster Top N VMFS Latency</a></li>
-<li><strong><a href="http://www.sexigraf.fr/vsan-sexipanels/#vsan-monitor-2nd-ftt">SAN Monitor 2nd FTT</a></strong></li>
-<li><a href="http://www.sexigraf.fr/vsan-sexipanels/#vsan-monitor">VSAN Monitor “66”</a> (resyncRead &amp; client.cachestats)</li>
-<li><a href="http://www.sexigraf.fr/vsan-sexipanels/#vsan-disk-utilization">VSAN Disk Utilization</a></li>
-<li><strong><a href="http://www.sexigraf.fr/vsphere-sexipanels/#vsphere-top-n-vm-stats">New All Cluster Top N VM Stats</a> (featuring CPU Ready &amp; snapshots)</strong></li>
+<li><a href="http://www.poligraf.io/vsphere-sexipanels/#multi-cluster-top-n-vm-snapshot">Multi Cluster Top N VM Snapshot</a> (many thanks to Jo for this great idea)</li>
+<li><strong><a href="http://www.poligraf.io/vsphere-sexipanels/#datastore-usage-distribution">All|Multi Datastore Usage Distribution</a></strong></li>
+<li><a href="http://www.poligraf.io/vsphere-sexipanels/#multi-cluster-vcpu-pcpu">Multi Cluster vCPU pCPU</a></li>
+<li><strong><a href="http://www.poligraf.io/vsphere-sexipanels/#top-n-vm-latency">All|Multi Cluster Top N VM Latency</a></strong></li>
+<li><a href="http://www.poligraf.io/vsphere-sexipanels/#top-n-vmfs-latency">Multi Cluster Top N VMFS Latency</a></li>
+<li><strong><a href="http://www.poligraf.io/vsan-sexipanels/#vsan-monitor-2nd-ftt">SAN Monitor 2nd FTT</a></strong></li>
+<li><a href="http://www.poligraf.io/vsan-sexipanels/#vsan-monitor">VSAN Monitor “66”</a> (resyncRead &amp; client.cachestats)</li>
+<li><a href="http://www.poligraf.io/vsan-sexipanels/#vsan-disk-utilization">VSAN Disk Utilization</a></li>
+<li><strong><a href="http://www.poligraf.io/vsphere-sexipanels/#vsphere-top-n-vm-stats">New All Cluster Top N VM Stats</a> (featuring CPU Ready &amp; snapshots)</strong></li>
 </ul>
 </li>
 <li>
 <p><strong>Enhancements and fixes</strong></p>
 <ul>
-<li><a href="http://www.sexigraf.fr/vsphere-sexipanels/#cluster-fullstats">vCPU/pCPU ratio in (Multi) Cluster FullStats</a></li>
-<li><a href="http://www.sexigraf.fr/vsphere-sexipanels/#cluster-fullstats">Power usage in (Multi) Cluster FullStats</a></li>
-<li><a href="http://www.sexigraf.fr/vsan-sexipanels/#vsan-naa-latency">ESX hostname in VSAN NAA Latency dashboard</a></li>
-<li><strong><a href="http://www.sexigraf.fr/vsphere-sexipanels/#cluster-fullstats">Allocated vRAM in (Multi) Cluster FullStats</a></strong></li>
-<li><a href="http://www.sexigraf.fr/web-admin/#offline-inventory">VM &amp; Cluster dashboard links in Offline Inventory</a> *</li>
-<li><a href="http://www.sexigraf.fr/web-admin/#offline-inventory">VM “blue” folder path in Offline Inventory</a> *</li>
-<li><a href="http://www.sexigraf.fr/web-admin/#house-cleaner"><strong>120d Auto Purge</strong></a></li>
+<li><a href="http://www.poligraf.io/vsphere-sexipanels/#cluster-fullstats">vCPU/pCPU ratio in (Multi) Cluster FullStats</a></li>
+<li><a href="http://www.poligraf.io/vsphere-sexipanels/#cluster-fullstats">Power usage in (Multi) Cluster FullStats</a></li>
+<li><a href="http://www.poligraf.io/vsan-sexipanels/#vsan-naa-latency">ESX hostname in VSAN NAA Latency dashboard</a></li>
+<li><strong><a href="http://www.poligraf.io/vsphere-sexipanels/#cluster-fullstats">Allocated vRAM in (Multi) Cluster FullStats</a></strong></li>
+<li><a href="http://www.poligraf.io/web-admin/#offline-inventory">VM &amp; Cluster dashboard links in Offline Inventory</a> *</li>
+<li><a href="http://www.poligraf.io/web-admin/#offline-inventory">VM “blue” folder path in Offline Inventory</a> *</li>
+<li><a href="http://www.poligraf.io/web-admin/#house-cleaner"><strong>120d Auto Purge</strong></a></li>
 <li>Various bug fix</li>
 </ul>
 </li>
 </ul>
-<p>Because of its size and unlike the previous ones, <strong>the 0.99d update is distributed as an iso file</strong> that you’ll need to mount into your existing SexiGraf VM to <strong>launch the embedded update script</strong>. But don’t worry, we made it easy as always:</p>
+<p>Because of its size and unlike the previous ones, <strong>the 0.99d update is distributed as an iso file</strong> that you’ll need to mount into your existing PoliGraf VM to <strong>launch the embedded update script</strong>. But don’t worry, we made it easy as always:</p>
 <p>First, download the update iso file:</p>
-<p><a href="http://files.sexigraf.fr/SexiUpdate099d.iso">Download ISO Update – v0.99d “Nova Prospekt”</a></p>
+<p><a href="http://files.poligraf.io/SexiUpdate099d.iso">Download ISO Update – v0.99d “Nova Prospekt”</a></p>
 <blockquote class="hint info">
   SHA1 sum is: <code>0cd824b52be3a41b368a80adf74a69a66612002d SexiUpdate099d.iso</code>
 </blockquote>
@@ -344,16 +350,16 @@ Please reload your browser AFTER the update has finished.
 </blockquote>
 
 <p>Now, just mount the <strong>SexiUpdate099d.iso</strong> update file the way you like the most, from a your local disk or a datastore:</p>
-<p><img src="https://poligraf.io/test1/img/SexiGraf_099d_iso.png" alt=""></p>
+<p><img src="https://poligraf.io/img/poligraf_099d_iso.jpg" alt=""></p>
 <p>Then mount the “cdrom” inside the guest and launch the update script:</p>
 <pre><code>mount /media/cdrom
 bash /media/cdrom/sexiupdate.sh
-</code></pre><p><img src="https://poligraf.io/test1/img/SexiGraf_099d_sexiupdate.png" alt=""></p>
-<p>The update process usually takes between <strong>5 and 10min</strong> depending on the VM “hardware” resources. Once finished, press <strong>ENTER</strong> to reboot and enjoy your new SexiGraf!</p>
-<p><img src="https://poligraf.io/test1/img/SexiGraf_099d_reboot.png" alt=""></p>
-<p>If you are new to SexiGraf, <strong>the latest appliance is already available</strong> on <a href="http://www.sexigraf.fr/quickstart/">the Quickstart page</a>.</p>
-<p><img src="https://poligraf.io/test1/img/SexiGraf_crab_v4.jpg" alt=""></p>
-<p><em>* For those who can’t wait the next Offline Inventory refresh (every 6h) to experience the new features, please use <a href="http://www.sexigraf.fr/web-admin/#refresh-inventory">the manual override to force the refresh</a>.</em></p>
+</code></pre><p><img src="https://poligraf.io/img/poligraf_099d_sexiupdate.jpg" alt=""></p>
+<p>The update process usually takes between <strong>5 and 10min</strong> depending on the VM “hardware” resources. Once finished, press <strong>ENTER</strong> to reboot and enjoy your new PoliGraf!</p>
+<p><img src="https://poligraf.io/img/poligraf_099d_reboot.jpg" alt=""></p>
+<p>If you are new to PoliGraf, <strong>the latest appliance is already available</strong> on <a href="http://www.poligraf.io/quickstart/">the Quickstart page</a>.</p>
+<p><img src="https://poligraf.io/img/poligraf_crab_v4.jpg" alt=""></p>
+<p><em>* For those who can’t wait the next Offline Inventory refresh (every 6h) to experience the new features, please use <a href="http://www.poligraf.io/web-admin/#refresh-inventory">the manual override to force the refresh</a>.</em></p>
 
                                 </article>
                             
@@ -364,15 +370,15 @@ bash /media/cdrom/sexiupdate.sh
                                 <article id="you-are-now-using-version-0_99c-citadel">
                                     <h2 class="major">You are now using version 0.99c &#34;Citadel&#34;!</h2>
                                     <span class="image main"><img src="" alt="" /></span>
-                                    <h3 id="today-we-are-proud-to-announce-the-release-of-the-third-sexigraf-update-099c-codename-citadel">Today we are proud to announce the release of the third <strong>SexiGraf</strong> update: <strong>0.99c</strong> codename “Citadel”</h3>
+                                    <h3 id="today-we-are-proud-to-announce-the-release-of-the-third-poligraf-update-099c-codename-citadel">Today we are proud to announce the release of the third <strong>PoliGraf</strong> update: <strong>0.99c</strong> codename “Citadel”</h3>
 <p>In this new version, we’ve added the support of the new <a href="https://vdc-download.vmware.com/vmwb-repository/dcr-public/22fd8549-6452-4017-9853-bc78f1b47bcf/b04dce40-37a8-4cac-a50d-92ebf3d98345//doc/index.html">VSAN 6.2 API</a> but also FreeNAS and Windows!</p>
 <ul>
 <li>
 <p><strong>New features</strong></p>
 <ul>
-<li><strong><a href="http://www.sexigraf.fr/vsan-sexipanels/#vsan-space-usage-report">VSAN Space Usage Report</a></strong></li>
-<li><a href="http://www.sexigraf.fr/freenas-sexipanel/"><strong>FreeNAS</strong> SexiPanel</a></li>
-<li><a href="http://www.sexigraf.fr/windows-sexipanel/"><strong>Windows</strong> SexiPanel</a></li>
+<li><strong><a href="http://www.poligraf.io/vsan-sexipanels/#vsan-space-usage-report">VSAN Space Usage Report</a></strong></li>
+<li><a href="http://www.poligraf.io/freenas-sexipanel/"><strong>FreeNAS</strong> SexiPanel</a></li>
+<li><a href="http://www.poligraf.io/windows-sexipanel/"><strong>Windows</strong> SexiPanel</a></li>
 <li>VMware VSAN AF Monitor</li>
 <li>Multi VSAN Monitor</li>
 </ul>
@@ -381,16 +387,16 @@ bash /media/cdrom/sexiupdate.sh
 <p><strong>Enhancements and fixes</strong></p>
 <ul>
 <li>VSAN witness support removed (no useful stats)</li>
-<li><a href="https://github.com/sexibytes/sexigraf/issues/65">T10 support in VSAN NAA Latency dashboard</a></li>
-<li><a href="https://github.com/sexibytes/sexigraf/issues/63">Handle PerformanceManager spikes</a></li>
+<li><a href="https://github.com/sexibytes/poligraf/issues/65">T10 support in VSAN NAA Latency dashboard</a></li>
+<li><a href="https://github.com/sexibytes/poligraf/issues/63">Handle PerformanceManager spikes</a></li>
 <li>Various bug fix</li>
 <li>OVF properties support</li>
 </ul>
 </li>
 </ul>
-<p>To upgrade your existing appliance <a href="https://github.com/sexibytes/sexigraf/releases/tag/0.99c">go get the <strong>S</strong>exiGraf <strong>U</strong>pdate <strong>P</strong>ackage on GitHub</a> and use it in the <a href="http://www.sexigraf.fr/web-admin/#package-updater">Package Updater</a> (you won’t lost any data of course). The update process is the same since 0.99a so you can watch the <a href="http://www.sexigraf.fr/you-are-now-using-version-0-99a-city-17/">0.99a upgrade <strong>recorded demo</strong></a> if you need help.</p>
-<p>If you are new to SexiGraf, <strong>the latest appliance is already available</strong> on <a href="http://www.sexigraf.fr/quickstart/">the Quickstart page</a>.</p>
-<p><img src="https://poligraf.io/test1/img/Citadel_s.jpg" alt=""></p>
+<p>To upgrade your existing appliance <a href="https://github.com/sexibytes/poligraf/releases/tag/0.99c">go get the <strong>S</strong>exiGraf <strong>U</strong>pdate <strong>P</strong>ackage on GitHub</a> and use it in the <a href="http://www.poligraf.io/web-admin/#package-updater">Package Updater</a> (you won’t lost any data of course). The update process is the same since 0.99a so you can watch the <a href="http://www.poligraf.io/you-are-now-using-version-0-99a-city-17/">0.99a upgrade <strong>recorded demo</strong></a> if you need help.</p>
+<p>If you are new to PoliGraf, <strong>the latest appliance is already available</strong> on <a href="http://www.poligraf.io/quickstart/">the Quickstart page</a>.</p>
+<p><img src="https://poligraf.io/img/Citadel_s.jpg" alt=""></p>
 
                                 </article>
                             
@@ -401,12 +407,12 @@ bash /media/cdrom/sexiupdate.sh
                                 <article id="big-scale-ability">
                                     <h2 class="major">Big Scale Ability</h2>
                                     <span class="image main"><img src="" alt="" /></span>
-                                    <p>You may wonder how big you can go with SexiGraf? It turns out you already got the answer in your question: <strong>BIG</strong></p>
-<p>Check out how many ESXi and VM you can monitor with a <strong>single</strong> SexiGraf appliance:</p>
-<p><img src="https://poligraf.io/test1/img/BigScaleFlambX.png" alt="BigScaleFlambX"></p>
+                                    <p>You may wonder how big you can go with PoliGraf? It turns out you already got the answer in your question: <strong>BIG</strong></p>
+<p>Check out how many ESXi and VM you can monitor with a <strong>single</strong> PoliGraf appliance:</p>
+<p><img src="https://poligraf.io/img/bigscaleflambx.jpg" alt=""></p>
 <p>Yes, this is <strong>968 ESX</strong>, <strong>12405 VMs</strong>, <strong>155 TB of RAM</strong> and <strong>1.7 PB of storage</strong> over <strong>18 vCenters</strong>. We only pushed up the appliance to 8 vCPU and 16GB of vRAM to support the load.</p>
 <p>We even support high latency networks since one of the vCenters pulling, in this case, takes around 10 minutes to complete where the polling is every 5 minutes:</p>
-<p><img src="https://poligraf.io/test1/img/BigScalePull.png" alt="BigScalePull"></p>
+<p><img src="https://poligraf.io/img/bigscalepull.jpg" alt=""></p>
 
                                 </article>
                             
@@ -417,36 +423,36 @@ bash /media/cdrom/sexiupdate.sh
                                 <article id="you-are-now-using-version-0_99b1-xen">
                                     <h2 class="major">You are now using version 0.99b1 &#34;Xen&#34;!</h2>
                                     <span class="image main"><img src="" alt="" /></span>
-                                    <h3 id="today-we-are-proud-to-announce-the-release-of-the-second-sexigraf-update-099b1-codename-xen">Today we are proud to announce the release of the second <strong>SexiGraf</strong> update: <strong>0.99b1</strong> codename “Xen”</h3>
+                                    <h3 id="today-we-are-proud-to-announce-the-release-of-the-second-poligraf-update-099b1-codename-xen">Today we are proud to announce the release of the second <strong>PoliGraf</strong> update: <strong>0.99b1</strong> codename “Xen”</h3>
 <blockquote class="hint info">
-  <strong>Edit 10 feb 2016: For those of you who downloaded the previous version 0.99b, please apply the 0.99b1 patched version. You can check your current version in the <a href="http://www.sexigraf.fr/web-admin/#package-updater">Package Updater</a> admin module.</strong>
+  <strong>Edit 10 feb 2016: For those of you who downloaded the previous version 0.99b, please apply the 0.99b1 patched version. You can check your current version in the <a href="http://www.poligraf.io/web-admin/#package-updater">Package Updater</a> admin module.</strong>
 </blockquote>
 
 <ul>
 <li>
 <p><strong>New features</strong></p>
 <ul>
-<li><strong><a href="http://www.sexigraf.fr/vsphere-sexipanels/#vsphere-top-n-vm-stats">vSphere Top N VM Stats</a></strong></li>
-<li><a href="http://www.sexigraf.fr/vsphere-sexipanels/#vsphere-top-n-vm-overcommit">vSphere Top N VM Overcommit</a></li>
-<li><a href="http://www.sexigraf.fr/vsan-sexipanels/#vsan-resync"><strong>VSAN Resync</strong></a></li>
-<li><a href="http://www.sexigraf.fr/vsan-sexipanels/#vsan-naa-latency">VSAN NAA Latency</a></li>
-<li><strong><a href="http://www.sexigraf.fr/vsan-sexipanels/#vsan-diskgroup-capacity">VSAN DiskGroup Capacity</a></strong></li>
+<li><strong><a href="http://www.poligraf.io/vsphere-sexipanels/#vsphere-top-n-vm-stats">vSphere Top N VM Stats</a></strong></li>
+<li><a href="http://www.poligraf.io/vsphere-sexipanels/#vsphere-top-n-vm-overcommit">vSphere Top N VM Overcommit</a></li>
+<li><a href="http://www.poligraf.io/vsan-sexipanels/#vsan-resync"><strong>VSAN Resync</strong></a></li>
+<li><a href="http://www.poligraf.io/vsan-sexipanels/#vsan-naa-latency">VSAN NAA Latency</a></li>
+<li><strong><a href="http://www.poligraf.io/vsan-sexipanels/#vsan-diskgroup-capacity">VSAN DiskGroup Capacity</a></strong></li>
 </ul>
 </li>
 <li>
 <p><strong>Enhancements and fixes</strong></p>
 <ul>
-<li><strong><a href="https://github.com/sexibytes/sexigraf/issues/8">vCenter credentials validation</a></strong></li>
-<li><strong><a href="https://github.com/sexibytes/sexigraf/issues/43">Multiple puller run lock</a></strong></li>
-<li><a href="https://github.com/sexibytes/sexigraf/issues/47">VSAN witness support</a></li>
-<li><a href="http://www.sexigraf.fr/vsan-sexipanels/#vsan-ssd-stats">VSAN SSD Stats dashboard enhancement</a></li>
-<li><a href="https://github.com/sexibytes/sexigraf/issues?q=milestone%3A%220.99b+-+Xen%22+is%3Aclosed">Various bug fix</a></li>
+<li><strong><a href="https://github.com/sexibytes/poligraf/issues/8">vCenter credentials validation</a></strong></li>
+<li><strong><a href="https://github.com/sexibytes/poligraf/issues/43">Multiple puller run lock</a></strong></li>
+<li><a href="https://github.com/sexibytes/poligraf/issues/47">VSAN witness support</a></li>
+<li><a href="http://www.poligraf.io/vsan-sexipanels/#vsan-ssd-stats">VSAN SSD Stats dashboard enhancement</a></li>
+<li><a href="https://github.com/sexibytes/poligraf/issues?q=milestone%3A%220.99b+-+Xen%22+is%3Aclosed">Various bug fix</a></li>
 </ul>
 </li>
 </ul>
-<p>To upgrade your existing appliance <a href="https://github.com/sexibytes/sexigraf/releases/tag/0.99b1">go get the <strong>S</strong>exiGraf <strong>U</strong>pdate <strong>P</strong>ackage on GitHub</a> and use it in the <a href="http://www.sexigraf.fr/web-admin/#package-updater">Package Updater</a> (you won’t lost any data of course). The update process is the same since 0.99a so you can watch the <a href="http://www.sexigraf.fr/you-are-now-using-version-0-99a-city-17/">0.99a upgrade <strong>recorded demo</strong></a> if you need help.</p>
-<p>If you are new to SexiGraf, <strong>the latest appliance is already available</strong> on <a href="http://www.sexigraf.fr/quickstart/">the Quickstart page</a>.</p>
-<p><img src="https://poligraf.io/test1/img/crowbar.png" alt="crowbar"></p>
+<p>To upgrade your existing appliance <a href="https://github.com/sexibytes/poligraf/releases/tag/0.99b1">go get the <strong>S</strong>exiGraf <strong>U</strong>pdate <strong>P</strong>ackage on GitHub</a> and use it in the <a href="http://www.poligraf.io/web-admin/#package-updater">Package Updater</a> (you won’t lost any data of course). The update process is the same since 0.99a so you can watch the <a href="http://www.poligraf.io/you-are-now-using-version-0-99a-city-17/">0.99a upgrade <strong>recorded demo</strong></a> if you need help.</p>
+<p>If you are new to PoliGraf, <strong>the latest appliance is already available</strong> on <a href="http://www.poligraf.io/quickstart/">the Quickstart page</a>.</p>
+<p><img src="https://poligraf.io/img/crowbar.png" alt="crowbar"></p>
 
                                 </article>
                             
@@ -457,28 +463,28 @@ bash /media/cdrom/sexiupdate.sh
                                 <article id="you-are-now-using-version-0_99a-city-17">
                                     <h2 class="major">You are now using version 0.99a &#34;City 17&#34;!</h2>
                                     <span class="image main"><img src="" alt="" /></span>
-                                    <h3 id="today-we-are-proud-to-announce-the-release-of-the-first-sexigraf-update-099a-codename-city-17">Today we are proud to announce the release of the first <strong>SexiGraf</strong> update: <strong>0.99a</strong> codename “<strong>City 17</strong>“</h3>
+                                    <h3 id="today-we-are-proud-to-announce-the-release-of-the-first-poligraf-update-099a-codename-city-17">Today we are proud to announce the release of the first <strong>PoliGraf</strong> update: <strong>0.99a</strong> codename “<strong>City 17</strong>“</h3>
 <ul>
 <li>
 <p><strong>New features</strong></p>
 <ul>
-<li><strong><a href="http://www.sexigraf.fr/vsan-sexipanels/#vsan-top-n-vmdk">VSAN Top N vmdk</a></strong></li>
-<li><a href="http://www.sexigraf.fr/vsphere-sexipanels/">Cluster Multi ESX LiteStats</a></li>
+<li><strong><a href="http://www.poligraf.io/vsan-sexipanels/#vsan-top-n-vmdk">VSAN Top N vmdk</a></strong></li>
+<li><a href="http://www.poligraf.io/vsphere-sexipanels/">Cluster Multi ESX LiteStats</a></li>
 </ul>
 </li>
 <li>
 <p><strong>Enhancements and fixes</strong></p>
 <ul>
-<li><strong><a href="http://www.sexigraf.fr/web-admin/#house-cleaner">House Cleaner</a></strong></li>
-<li><a href="http://www.sexigraf.fr/web-admin/#log-viewer">Log Viewer</a></li>
-<li><a href="https://github.com/sexibytes/sexigraf/commit/4278ff12e15e8a51756aac7ad2a98ccdf9f5839c#diff-935b03a0c3ffb068872406e170fad859">Authentication fix</a></li>
-<li><a href="https://github.com/sexibytes/sexigraf/issues?q=milestone%3A%220.99a+-+City+17%22+is%3Aclosed">Various bug fix</a></li>
+<li><strong><a href="http://www.poligraf.io/web-admin/#house-cleaner">House Cleaner</a></strong></li>
+<li><a href="http://www.poligraf.io/web-admin/#log-viewer">Log Viewer</a></li>
+<li><a href="https://github.com/sexibytes/poligraf/commit/4278ff12e15e8a51756aac7ad2a98ccdf9f5839c#diff-935b03a0c3ffb068872406e170fad859">Authentication fix</a></li>
+<li><a href="https://github.com/sexibytes/poligraf/issues?q=milestone%3A%220.99a+-+City+17%22+is%3Aclosed">Various bug fix</a></li>
 </ul>
 </li>
 </ul>
-<p>To upgrade your existing appliance <a href="https://github.com/sexibytes/sexigraf/releases/tag/0.99a">go get the <strong>S</strong>exiGraf <strong>U</strong>pdate <strong>P</strong>ackage on GitHub</a> and use it in the <a href="http://www.sexigraf.fr/web-admin/#package-updater">Package Updater</a> (you won’t lost any data of course). If you are new to SexiGraf, the latest appliance is already available on <a href="http://www.sexigraf.fr/quickstart/">the Quickstart page</a>.</p>
+<p>To upgrade your existing appliance <a href="https://github.com/sexibytes/poligraf/releases/tag/0.99a">go get the <strong>S</strong>exiGraf <strong>U</strong>pdate <strong>P</strong>ackage on GitHub</a> and use it in the <a href="http://www.poligraf.io/web-admin/#package-updater">Package Updater</a> (you won’t lost any data of course). If you are new to PoliGraf, the latest appliance is already available on <a href="http://www.poligraf.io/quickstart/">the Quickstart page</a>.</p>
 <p>For this first update, we recorded a demo of the upgrade to guide you in the process:</p>
-<p><img src="https://poligraf.io/test1/img/2015-11-22_18-01-45.gif" alt=""></p>
+<p><img src="https://poligraf.io/img/0_99a_demo.gif" alt=""></p>
 
                                 </article>
                             
@@ -489,7 +495,7 @@ bash /media/cdrom/sexiupdate.sh
                                 <article id="cannot-complete-login">
                                     <h2 class="major">Cannot complete login</h2>
                                     <span class="image main"><img src="" alt="" /></span>
-                                    <p><img src="https://poligraf.io/test1/img/IMG_2527.png" alt="IMG_2527"></p>
+                                    <p><img src="https://poligraf.io/img/IMG_2527.png" alt="IMG_2527"></p>
 <p>If you suffer from a <a href="https://en.wiktionary.org/wiki/PEBCAK">PEBCAK</a> disease, you might encounter a “<strong>Cannot complete login due to an incorrect user name or password</strong>” error. In that case, please remove you ski gloves and try again 🙂</p>
 
                                 </article>
@@ -501,7 +507,7 @@ bash /media/cdrom/sexiupdate.sh
                                 <article id="the-roooooooot-situation">
                                     <h2 class="major">The roooooooot situation</h2>
                                     <span class="image main"><img src="" alt="" /></span>
-                                    <p><img src="https://poligraf.io/test1/img/roooooot.png" alt="roooooot"></p>
+                                    <p><img src="https://poligraf.io/img/roooooot.png" alt="roooooot"></p>
 <p>If you got this behavior, it’s because you’re in a RDP or ICA session trying to enter your root credentials. The only way to work around is the famous VMware KB <a href="http://kb.vmware.com/kb/196">Repeated characters when typing in remote console</a>:</p>
 <pre><code>keyboard.typematicMinDelay = &quot;2000000&quot;
 </code></pre>
@@ -515,7 +521,7 @@ bash /media/cdrom/sexiupdate.sh
                 
 <footer id="footer">
     <p class="copyright">&copy; poligraf.io is a "Ready-To-Graf" virtual appliance made by community for community!<br />
-    Feel free to follow SexiGraf on <a href="https://twitter.com/sexigraf_fr">@sexigraf_fr</a><br /><br />
+    Feel free to follow PoliGraf on <a href="https://twitter.com/sexigraf_fr">@sexigraf_fr</a><br /><br />
     Brought to you by our geek gurus:<br />
     Raphael SCHITZ | <a href="http://www.hypervisor.fr/">hypervisor.fr</a> | <a href="https://twitter.com/hypervisor_fr">@hypervisor_fr</a><br />
     Frederic MARTIN | <a href="http://www.vmdude.fr/">vmdude.fr</a> | <a href="https://twitter.com/vmdude_fr">@vmdude_fr</a></p>
@@ -530,10 +536,10 @@ bash /media/cdrom/sexiupdate.sh
 
 
     
-    <script src=https://poligraf.io/test1/assets/js/jquery.min.js></script>
-    <script src=https://poligraf.io/test1/assets/js/browser.min.js></script>
-    <script src=https://poligraf.io/test1/assets/js/breakpoints.min.js></script>
-    <script src=https://poligraf.io/test1/assets/js/util.js></script>
-    <script src=https://poligraf.io/test1/assets/js/main.js></script>
+    <script src=https://poligraf.io/assets/js/jquery.min.js></script>
+    <script src=https://poligraf.io/assets/js/browser.min.js></script>
+    <script src=https://poligraf.io/assets/js/breakpoints.min.js></script>
+    <script src=https://poligraf.io/assets/js/util.js></script>
+    <script src=https://poligraf.io/assets/js/main.js></script>
 
 </html>

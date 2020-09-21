@@ -1,6 +1,6 @@
 ---
 title: Blog
-description: "A collection of blog posts"
+background: img/Home01.jpg
 icon: edit
 ---
 

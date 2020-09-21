@@ -1,6 +1,6 @@
-baseURL: "https://poligraf.io/test1/"
+baseURL: "https://poligraf.io/"
 languageCode: "en-us"
-title: "My New Hugo Site"
+title: "poligraf.io"
 theme: "dimension"
 enableEmoji: true
 canonifyURLs: true

@@ -3,7 +3,7 @@ title: licensing
 ---
 
 
-SexiGraf is provided under MIT License, as described here:
+PoliGraf is provided under MIT License, as described here:
 
 > MIT License
 > 
@@ -15,4 +15,4 @@ SexiGraf is provided under MIT License, as described here:
 > 
 > THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-SexiGraf will remain a free OSS forever, but using this license will allow us to be named and noticed in case of reuse (don’t look over your shoulder, we saw you ^^).
+PoliGraf will remain a free OSS forever, but using this license will allow us to be named and noticed in case of reuse (don’t look over your shoulder, we saw you ^^).
