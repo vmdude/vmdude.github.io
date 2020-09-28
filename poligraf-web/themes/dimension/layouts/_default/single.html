@@ -8,17 +8,57 @@
             <!-- Header -->
                 <header id="header">
                     <div class="logo">
-                        <span class="icon fa-gem"></span>
+                        <a href="{{ .Site.BaseURL }}"><span class="icon fa-{{ .Params.Icon }}"></span></a>
                     </div>
                     <div class="content">
                         <div class="inner">
-                            <h1><a href="{{ "/" | relURL }}">Go Home</a></h1>
+                            <h1>{{ .Title | default "Title" }}</h1>
+                            {{ if .Params.description }}
                             <p>
-                                Nothing to see here
+                                {{ .Params.description }}
                             </p>
+                            {{ end }}
                         </div>
                     </div>
+                    <nav>
+                        <ul>
+                            {{ range .Pages.ByWeight }}
+                                {{if .Title }}
+                                    {{if .Content}}
+                                        <li>
+                                            <a href="#{{ cond (in (.Title|urlize) "%") (.Title | base64Encode) (.Title) | urlize }}">
+                                                {{ if .Params.Icon }}
+                                                    <span class="icon fa-{{ .Params.Icon }}" style="color: pink;"></span> {{ .Title }}
+                                                {{ else }}
+                                                    {{ .Title }}
+                                                {{ end }}
+                                            </a>
+                                        </li>
+                                    {{ else }}
+                                        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                                    {{ end }}
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+                    </nav>
                 </header>
+
+            <!-- Main -->
+                <div id="main">
+
+                    {{ range .Pages }}
+                        {{if .Title }}
+                            {{if .Content }}
+                                <article id="{{ cond (in (.Title|urlize) "%") (.Title | base64Encode) (.Title) | urlize }}">
+                                    <h2 class="major">{{ .Title }}</h2>
+                                    <span class="image main"><img src="{{ .Params.image }}" alt="" /></span>
+                                    {{ .Content }}
+                                </article>
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+
+                </div>
 
                 {{ partial "design.html" .}}
 
@@ -29,4 +69,4 @@
 
 </body>
 
-{{ partial "footer.html" . }}
+{{ partial "footer.html" .}}

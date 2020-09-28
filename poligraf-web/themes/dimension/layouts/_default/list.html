@@ -22,13 +22,13 @@
                     </div>
                     <nav>
                         <ul>
-                            {{ range .Pages.ByDate }}
+                            {{ range .Pages.ByWeight }}
                                 {{if .Title }}
                                     {{if .Content}}
                                         <li>
                                             <a href="#{{ cond (in (.Title|urlize) "%") (.Title | base64Encode) (.Title) | urlize }}">
-                                                {{ if gt (len .Title) 12 }}
-                                                    {{ substr .Title 0 6 }}...
+                                                {{ if .Params.Icon }}
+                                                    <span class="icon fa-{{ .Params.Icon }}" style="color: pink;"></span> {{ .Title }}
                                                 {{ else }}
                                                     {{ .Title }}
                                                 {{ end }}

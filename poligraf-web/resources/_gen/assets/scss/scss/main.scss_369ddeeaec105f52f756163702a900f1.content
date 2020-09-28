@@ -649,9 +649,9 @@ ul.actions {
         ul.actions:not(.fixed) li button,
         ul.actions:not(.fixed) li .button {
           width: 100%; }
-          ul.actions:not(.fixed) li input[type="submit"].icon:before,
-          ul.actions:not(.fixed) li input[type="reset"].icon:before,
-          ul.actions:not(.fixed) li input[type="button"].icon:before,
+          ul.actions:not(.fixed) li input.icon[type="submit"]:before,
+          ul.actions:not(.fixed) li input.icon[type="reset"]:before,
+          ul.actions:not(.fixed) li input.icon[type="button"]:before,
           ul.actions:not(.fixed) li button.icon:before,
           ul.actions:not(.fixed) li .button.icon:before {
             margin-left: -0.5em; } }
@@ -763,38 +763,38 @@ button,
   button:active,
   .button:active {
     background-color: rgba(255, 255, 255, 0.175); }
-  input[type="submit"].icon:before,
-  input[type="reset"].icon:before,
-  input[type="button"].icon:before,
+  input.icon[type="submit"]:before,
+  input.icon[type="reset"]:before,
+  input.icon[type="button"]:before,
   button.icon:before,
   .button.icon:before {
     margin-right: 0.5em; }
-  input[type="submit"].fit,
-  input[type="reset"].fit,
-  input[type="button"].fit,
+  input.fit[type="submit"],
+  input.fit[type="reset"],
+  input.fit[type="button"],
   button.fit,
   .button.fit {
     width: 100%; }
-  input[type="submit"].small,
-  input[type="reset"].small,
-  input[type="button"].small,
+  input.small[type="submit"],
+  input.small[type="reset"],
+  input.small[type="button"],
   button.small,
   .button.small {
     font-size: 0.6rem;
     height: 2.0625rem;
     line-height: 2.0625rem; }
-  input[type="submit"].primary,
-  input[type="reset"].primary,
-  input[type="button"].primary,
+  input.primary[type="submit"],
+  input.primary[type="reset"],
+  input.primary[type="button"],
   button.primary,
   .button.primary {
     background-color: #ffffff;
     color: #1b1f22 !important;
     font-weight: 600; }
-  input[type="submit"].disabled, input[type="submit"]:disabled,
-  input[type="reset"].disabled,
+  input.disabled[type="submit"], input[type="submit"]:disabled,
+  input.disabled[type="reset"],
   input[type="reset"]:disabled,
-  input[type="button"].disabled,
+  input.disabled[type="button"],
   input[type="button"]:disabled,
   button.disabled,
   button:disabled,
@@ -1017,7 +1017,7 @@ button {
         border-left: 0; }
       #header nav ul li a {
         display: block;
-        min-width: 7.5rem;
+        min-width: 10rem;
         height: 2.75rem;
         line-height: 2.75rem;
         padding: 0 1.25rem 0 1.45rem;

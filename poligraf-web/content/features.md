@@ -1,5 +1,6 @@
 ---
 title: features
+weight: 50
 ---
 
 
@@ -18,4 +19,4 @@ The heart of **PoliGraf** is the famous highly scalable real-time graphing syste
 2.  The **Carbon** metric processing daemons
 3.  The **Whisper** time-series database library
 
-![graphite_overview](http://www.poligraf.io/wp-content/uploads/2015/09/graphite_overview.png)
+![graphite_overview](/img/graphite_overview.png)

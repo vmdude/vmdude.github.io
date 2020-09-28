@@ -1,33 +1,32 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}">
+{{ partial "header.html" . }}
 
-<head>
-    {{ partial "header" . }}
-</head>
+<body class="is-preload">
 
-<body>
+    <!-- Wrapper -->
+        <div id="wrapper">
 
-    <div class="wrapper">
-
-        <main class="gdoc-error flex-even">
-            <div class="flex align-center justify-center">
-                <div class="gdoc-error__icon">
-                    <svg class="icon telescope"><use xlink:href="#telescope"></use></svg>
-                </div>
-                <div class="gdoc-error__message">
-                    <div class="gdoc-error__line gdoc-error__title">Lost?</div>
-                    <div class="gdoc-error__line gdoc-error__code">Error 404</div>
-                    <div class="gdoc-error__line gdoc-error__help">
-                        Seems like what you are looking for can't be found. Don't worry we can
-                        bring you back to the <a class="gdoc-error__link" href="{{ .Site.BaseURL }}">homepage</a>.
+            <!-- Header -->
+                <header id="header">
+                    <div class="logo">
+                        <span class="icon fa-compass"></span>
                     </div>
-                </div>
-            </div>
-        </main>
+                    <div class="content">
+                        <div class="inner">
+                            <h1><a href="{{ "/" | relURL }}">Go Home</a></h1>
+                            <p>
+                                Here comes the 404, nothing to see here
+                            </p>
+                        </div>
+                    </div>
+                </header>
 
-        {{ partial "footer" . }}
+                {{ partial "design.html" .}}
 
-    </div>
+        </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
 </body>
 
-</html>
+{{ partial "footer.html" . }}
