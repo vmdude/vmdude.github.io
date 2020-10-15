@@ -40,4 +40,28 @@ Notre équipe de cliniciennes spécialisées dans le domaine de l’adoptions:
 
 ### Nos partenaires
 
-(LOGOS)
+|  	|  	|  	|
+|-	|-	|-	|
+| ![](/images/partenaires/cramif.jpg) | ![](/images/partenaires/cg-hauts-de-seine.jpg) | ![](/images/partenaires/cg-val-de-marne.jpg) |
+| ![](/images/partenaires/cg-yvelines.jpg) | ![](/images/partenaires/cg-seine-saint-denis.jpg) | ![](/images/partenaires/cg-seine-et-marne.jpg) |
+| ![](/images/partenaires/ile-de-france.jpg) | ![](/images/partenaires/fondation-de-france.jpg) |  |
+
+(logo manquants a fournir)
+* La Caisse d’Allocation Familiale de Paris
+* Le Conseil Général du Val d’Oise
+* Le Conseil Général de l’Essonne
+* L’Agence Régional de la Santé - Île de France
+* Le Conseil de Paris
+* Mairie de paris
+
+---
+
+* L’Espace Paris Adoption et des départements franciliens
+* Les services de P.M.I.
+* Les associations Enfance et Familles d’Adoption (E.F.A.)
+* Les Organismes Autorisés pour l’Adoption (OAA)
+* Les Crèches et les Haltes-garderies
+* Les Centres Médico-Psycho-Pédagogiques (CMPP)
+* Les établissement de l'éducation national
+* Les Médecins et pédiatres de ville
+* Les Secteurs de Psychiatrie infanto-juvénile

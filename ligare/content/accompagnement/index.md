@@ -33,6 +33,8 @@ Les parents adoptifs ont la possibilité d’être reçus en entretien par une d
 
 Ces entretiens sont également destinés aux futurs parents. Un espace leur est offert pour développer leur réflexion et interrogations autour de l’enfant désiré et à venir, avec une psychologue, ou en groupe avec d’autres postulants à la parentalité adoptive quel que soit le stade de leur démarche.
 
+Les entretiens individuels et familiaux se déroulent les mercredis et samedis à Paris 9 rue de Bargue dans le 15e arrondissement.
+
 Demandez un rendez-vous : [par email ou téléphone]({{< ref "contact">}})
 
 ### GROUPES DE PAROLES
@@ -49,17 +51,19 @@ Souvent, les groupes débouchent sur une demande d’entretien individuel.
 En effet, il y a des questions plus personnelles qui nécessitent une relation duelle, de l’intimité, et plus de temps pour pouvoir être approfondies.
 Calendrier des groupes de paroles (lien ?)
 
-[Participez à un groupe de parole.]({{< ref "contact">}})
-
-**Nos lieux** 
-
-Les groupes de paroles à Paris ont lieu les soirs dans le 15e arrond.
-
-**Les professionnels de l’association animent des groupes dans toutes les institutions de France qui nous sollicitent pour partager notre expérience.**
-
-Les entretiens individuels et familiaux se déroulent les mercredis et samedis à Paris dans le 15e arrondissement. 
+Ses groupes de paroles se deroule le mercredi soir 9 rue bargue Paris 15 ème.
 
 Nous pouvons aussi répondre à la demande des familles d’Ile de France en nous rendant à proximité de leur commune.
+
+Ces Groupes de Parents sont animés par le Docteur Patrick Chardeau, Pédopsychiatre
+
+Ils se tiennent dans les locaux de la CAF de Paris : 9 Rue Bargue – 75015 PARIS (Métro Volontaires)
+
+Vous pourrez soutenir notre action par un don de € 20
+
+S’inscrire auprès de Françoise Delanoy : tél 07 87 06 31 42 - courriel contact@ligare-arbrevert.fr
+
+[Participez à un groupe de parole.]({{< ref "contact">}})
 
 **Comment prendre rendez vous**
 
@@ -69,7 +73,7 @@ La participation à un groupe de paroles de parents, animé par un médecin péd
 
 Contact par email contact@ligare-arbrevert.fr ou par téléphone au 07 87 06 31 42.
 
-Rejoignez-nous sur Facebook 
+[Rejoignez-nous sur Facebook](https://www.facebook.com/Ligare-lArbre-Vert-1928199560800598/)
 
 
 Nous accompagnons également les professionnels du monde de l’enfance et du secteur médical sur les questions de l’adoption.
