@@ -2,7 +2,8 @@ baseURL: 'https://vmdude.github.io/ligare/public/'
 languageCode: fr-FR
 title: Association Ligare l'Arbre Vert
 theme: hargo
-summaryLength: '20'
+canonifyURLs: true
+summaryLength: 20
 params:
   plugins:
     css:
