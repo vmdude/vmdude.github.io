@@ -5,10 +5,6 @@
     <link>https://vmdude.github.io/ligare/public/tags/</link>
     <description>Recent content in Tags on Association Ligare l&#39;Arbre Vert</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-FR</language>
-    
-	<atom:link href="https://vmdude.github.io/ligare/public/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>fr-FR</language><atom:link href="https://vmdude.github.io/ligare/public/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

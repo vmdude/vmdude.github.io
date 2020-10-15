@@ -1,0 +1,81 @@
+baseURL: 'https://vmdude.github.io/ligare/public/'
+languageCode: fr-FR
+title: Association Ligare l'Arbre Vert
+theme: hargo
+summaryLength: '20'
+params:
+  plugins:
+    css:
+      - link: plugins/bootstrap/bootstrap.min.css
+      - link: plugins/slick/slick.css
+      - link: plugins/themify-icons/themify-icons.css
+    js:
+      - link: plugins/jQuery/jquery.min.js
+      - link: plugins/bootstrap/bootstrap.min.js
+      - link: plugins/slick/slick.min.js
+      - link: plugins/google-map/gmap.js
+  logo: images/assoc_ligare.png
+  home: Accueil
+  description: This is meta description
+  author: Themefisher
+  # gmapAPI: >-
+    # https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places
+  # mapLatitude: '51.5223477'
+  # mapLongitude: '-0.1622023'
+  # mapMarker: images/marker.png
+  # googleAnalitycsID: ''
+  mobile: 07 87 06 31 42
+  email: contact@ligare-arbrevert.fr
+  location: 168 rue de grenelle 75007 Paris
+  copyright: >-
+    | Copyright &copy; 2020 Association Ligare l'Arbre Vert All Rights Reserved |
+  preloader:
+    enable: true
+    preloader: images/assoc_ligare.png
+  rating:
+    enable: false
+    websiteID: '444334'
+    publicKey: 811cf0927332bf51f2e12f84608594ac
+  social:
+    - icon: ti-facebook
+      link: '#'
+    - icon: ti-twitter-alt
+      link: '#'
+    - icon: ti-youtube
+      link: '#'
+    - icon: ti-instagram
+      link: '#'
+    - icon: ti-pinterest
+      link: '#'
+  contact:
+    formAction: 'https://formspree.io/mzbjrdaq'
+menu:
+  main:
+    - name: L'Association
+      URL: association
+      weight: 1
+    - name: Accompagnement
+      URL: accompagnement
+      weight: 2
+    - name: Dons
+      URL: dons
+      weight: 4
+    - name: Contact
+      URL: contact
+      weight: 5
+  footer:
+    - name: Products
+      URL: products
+      weight: 1
+    - name: Blog
+      URL: blog
+      weight: 2
+    - name: FAQ
+      URL: faq
+      weight: 3
+    - name: Terms & Conditions
+      URL: terms-conditions
+      weight: 4
+    - name: Contact
+      URL: contact
+      weight: 5
