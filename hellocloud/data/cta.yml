@@ -1,0 +1,11 @@
+############################# call to action ##############################
+cta:
+  enable : true
+  bg_image : "images/backgrounds/codeblock.jpg"
+  # bg_image_webp : "images/backgrounds/bg-white-wall.webp"
+  title : "Quelque soit votre besoin nous saurons y répondre"
+  # content : "Quelque soit votre besoin nous saurons y répondre."
+  button:
+    enable : true
+    label : "Démarrez un projet avec nous"
+    link : "contact"

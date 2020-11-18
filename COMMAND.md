@@ -1,0 +1,3 @@
+```bash
+hugo -D --disableFastRender
+```
