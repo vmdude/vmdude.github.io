@@ -53,12 +53,12 @@ cta:
 ######################## raw material #######################
 material:
   enable : true
-  title : "A propos de l'association"
-  subtitle : "Notre association Ligare L’Arbre Vert intervient autour de l'accompagnement de l'adoption
+  title : "Notre association propose un accompagnement phycologique autour de l’adoption"
+  # subtitle : "Notre association Ligare L’Arbre Vert intervient autour de l'accompagnement de l'adoption
 
 
 
-&nbsp;"
+# &nbsp;"
   materialItem:
     # material item loop
     - title : "Accompagnement des Familles"
@@ -71,7 +71,7 @@ material:
     # material item loop
     - title : "Un suivi et une aide de professionnels"
       image : "images/suivi.jpg"
-      content : "Notre association regroupe une équipe de psychologues et psychiatres spécialisés dans l’adoption. Depuis une dizaine d'années, l’association propose un accompagnement psychologique, une écoute et un soutien aux parents adoptifs, aux candidats à l’adoption et aux enfants adoptés.
+      content : "Notre association regroupe une équipe de psychologues et psychiatres spécialisés dans l’adoption.
 
 
       [En savoir plus](accompagnement)"
@@ -79,7 +79,7 @@ material:
     # material item loop
     - title : "Aidez nous, faites un don"
       image : "images/don.jpg"
-      content : "L'association ne reçoit que très peu de subvention de l’Etat. Ses seules ressources proviennent de la générosité du public. C’est grâce à ses donateurs que Ligare peut aider toujours plus de familles et d'enfants.
+      content : "L'association ne reçoit que très peu de subventions de l’Etat. Ses seules ressources proviennent de la générosité du public. C’est grâce à ses donateurs que Ligare peut aider toujours plus de familles et d'enfants.
 
 
       [En savoir plus](dons)"
