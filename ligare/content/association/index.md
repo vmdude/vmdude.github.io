@@ -28,25 +28,22 @@ L’association accompagne également les professionnels de l’enfance qui renc
 ### Notre Conseil d’Administration
 
 * **Président**: Dr Patrick Chardeau, psychiatre, psychanalyste, membre de la Société Psychanalytique de Paris
-* **Présidente d’honneur**: Dr Elisabeth Fortineau, psychiatre, psychanalyste, membre de la SPP, ancienne présidente d’Enter l’Arbre Vert
 * **Vice présidente**: Dr Françoise Guize
 * **Secrétaire générale**: Bénédicte Boissonnas
 * **Trésorier**: Nicolas de Blignières
 
 Notre équipe de cliniciennes spécialisées dans le domaine de l’adoptions:
 
-* Armelle de Tocqueville, Psychologue Clinicienne
 * Perrine Baillon, Psychologue Clinicienne, Psychanalyste, membre de la SPP
+* Floriane Roulet, Psychologue Clinicienne
 
 ### Nos partenaires
 
-|  	|  	|  	|
-|-	|-	|-	|
-| ![](/images/partenaires/cramif.jpg) | ![](/images/partenaires/cg-hauts-de-seine.jpg) | ![](/images/partenaires/cg-val-de-marne.jpg) |
-| ![](/images/partenaires/cg-yvelines.jpg) | ![](/images/partenaires/cg-seine-saint-denis.jpg) | ![](/images/partenaires/cg-seine-et-marne.jpg) |
-| ![](/images/partenaires/ile-de-france.jpg) | ![](/images/partenaires/fondation-de-france.jpg) |  |
-
-(logo manquants a fournir)
+|  |  |   |
+|- |- |- |
+| ![cramif](/images/partenaires/cramif.jpg) | ![cg-hauts-de-seine](/images/partenaires/cg-hauts-de-seine.jpg) | ![cg-val-de-marne](/images/partenaires/cg-val-de-marne.jpg) |
+| ![cg-yvelines](/images/partenaires/cg-yvelines.jpg) | ![cg-seine-saint-denis](/images/partenaires/cg-seine-saint-denis.jpg) | ![cg-seine-et-marne](/images/partenaires/cg-seine-et-marne.jpg) |
+| ![ile-de-france](/images/partenaires/ile-de-france.jpg) | ![fondation-de-france](/images/partenaires/fondation-de-france.jpg) |  |
 
 * La Caisse d’Allocation Familiale de Paris
 * Le Conseil Général du Val d’Oise

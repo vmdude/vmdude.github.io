@@ -1,35 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://vmdude.github.io/ligare/public/accompagnement/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vmdude.github.io/ligare/public/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vmdude.github.io/ligare/public/contact/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vmdude.github.io/ligare/public/dons/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vmdude.github.io/ligare/public/groupe-de-paroles/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vmdude.github.io/ligare/public/association/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url>
-  
 </urlset>
