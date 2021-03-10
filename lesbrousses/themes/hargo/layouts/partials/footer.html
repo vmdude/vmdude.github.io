@@ -49,10 +49,10 @@
   </div>
 </footer>
 
-{{ with site.Params.snipcartApiKey }}
-{{ "<!-- Snipcart -->" | safeHTML }}
-<div id="snipcart" data-api-key="{{ . }}" hidden></div>
-{{ end }}
+<!-- {{ with site.Params.snipcartApiKey }} -->
+<!-- {{ "Snipcart" | safeHTML }} -->
+<!-- <div id="snipcart" data-api-key="{{ . }}" hidden></div> -->
+<!-- {{ end }} -->
 
 {{ "<!-- Google Maps API -->" | safeHTML }}
 <script src="{{ site.Params.gmapAPI | absURL }}"></script>
