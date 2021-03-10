@@ -4,6 +4,10 @@ title: Association Ligare l'Arbre Vert
 theme: hargo
 canonifyURLs: true
 summaryLength: 20
+disableKinds:
+  - taxonomy
+ignoreErrors:
+  - error-disable-taxonomy
 params:
   plugins:
     css:
@@ -28,9 +32,9 @@ params:
   mobile: 07 87 06 31 42
   email: contact@ligare-arbrevert.fr
   location: >-
-    Siège social : 168 rue de grenelle 75007 Paris
+    Gestion et communication : 168 rue de grenelle 75007 Paris
   copyright: >-
-    | Copyright &copy; 2020 Association Ligare l'Arbre Vert All Rights Reserved |
+    | Copyright &copy; 2021 Association Ligare l'Arbre Vert |
   preloader:
     enable: true
     preloader: images/assoc_ligare.png

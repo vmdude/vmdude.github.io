@@ -18,6 +18,8 @@ L’adoption est une aventure singulière qui commence par une rencontre, celle 
 
 Mais il ne faut pas occulter que, dans la plus grande majorité des cas, l’adoption est aussi, à l’origine, le fruit de blessures. Blessure pour l’enfant qui aura été abandonné par ses parents biologiques ; blessure pour le/les parents qui aura/auront fait ce choix d’adopter après avoir dû renoncer à un enfant biologique.
 
+![](/images/accompagnement-exterieur.jpg)
+
 Dans ce contexte, la construction du **lien de filiation** peut être fragilisée par l’histoire et le parcours de chacun (parent/enfant, qu’il s’agisse d’un enfant, pupille de l’Etat ou de l’adoption internationale).
 
 * Du côté de l’enfant: le traumatisme d’une première séparation et abandon, peut se rejouer dans le processus de filiation. Par la suite, à l’occasion de certains épisodes de la vie, l’adulte qui a été adopté dans son enfance peut éprouver des difficultés affectives.
@@ -43,6 +45,8 @@ Demandez un rendez-vous : [par email ou téléphone]({{< ref "contact">}})
 
 ### Groupes De Paroles {#groupes-paroles}
 
+![](/images/assis-mains.jpg)
+
 Destinés aux parents et futurs parents adoptifs à Paris et en Ile de France.
 
 Les groupes de paroles qu’ils soient destinés aux parents ayant déjà adopté ou qu’ils s’adressent aux candidats à l’adoption ont, comme les entretiens, pour objet de permettre aux premiers de se questionner, de chercher à comprendre ce qui se passe pour eux et pour leur enfant, afin de trouver les réponses qui leur conviendront et de soutenir les seconds dans l’élaboration de leur projet d’adoption et dans l’anticipation de l’enfant à venir.
@@ -57,13 +61,15 @@ En effet, il y a des questions plus personnelles qui nécessitent une relation d
 
 ### Professionnels de la petite enfance
 
+![](/images/enfant-02.jpg)
+
 Nous accompagnons également les professionnels du monde de l’enfance et du secteur médical sur les questions de l’adoption.
 
 Notre écoute des familles adoptives et des adoptés, les échanges que nous avons avec eux, l’aide que nous leur apportons nous ont fait acquérir une expérience et une compétence que nous mettons à la disposition des professionnels amenés à les rencontrer.
 
 Pédiatres, Psychologues, Puéricultrices, Auxiliaires, Médecins scolaires, Infirmières, Travailleurs Sociaux, Professionnels travaillant dans les institutions de protection de l’enfance, les services d’adoption, etc…désireux de s’informer nous sollicitent et nous assurons des groupes de formation et d’échange pour travailler sur les situations auxquelles ils sont confrontés.
 
-### Comment prendre rendez vous ?
+### Comment prendre rendez-vous ?
 
 * Les entretiens individuels ou familiaux se tiennent sur **rendez-vous uniquement** (notre équipe reçoit les mercredis et samedis). Il suffit de nous contacter par email contact@ligare-arbrevert.fr
 

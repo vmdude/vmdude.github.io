@@ -53,7 +53,7 @@ cta:
 ######################## raw material #######################
 material:
   enable : true
-  title : "Notre association propose un accompagnement phycologique autour de l’adoption"
+  title : "Notre association propose un accompagnement psychologique autour de l’adoption"
   # subtitle : "Notre association Ligare L’Arbre Vert intervient autour de l'accompagnement de l'adoption
 
 
@@ -62,27 +62,18 @@ material:
   materialItem:
     # material item loop
     - title : "Accompagnement des Familles"
-      image : "images/accompagnement.jpg"
-      content : 'Nous proposons, aux familles, des entretiens individuels ou familiaux ainsi que des groupes de paroles adoption, dans nos antennes de Paris et de l’Ile de France.
-
-
-      [En savoir plus](groupe-de-paroles)'
+      image : "images/accompagnement-familles.jpg"
+      content : 'Nous proposons, aux familles, des entretiens individuels ou familiaux ainsi que des groupes de paroles adoption, dans nos antennes de Paris et de l’Ile de France.'
 
     # material item loop
     - title : "Un suivi et une aide de professionnels"
-      image : "images/suivi.jpg"
-      content : "Notre association regroupe une équipe de psychologues et psychiatres spécialisés dans l’adoption.
-
-
-      [En savoir plus](accompagnement)"
+      image : "images/suivi-aide-professionels.jpg"
+      content : "Notre association regroupe une équipe de psychologues et psychiatres spécialisés dans l’adoption."
 
     # material item loop
     - title : "Aidez nous, faites un don"
-      image : "images/don.jpg"
-      content : "L'association ne reçoit que très peu de subventions de l’Etat. Ses seules ressources proviennent de la générosité du public. C’est grâce à ses donateurs que Ligare peut aider toujours plus de familles et d'enfants.
-
-
-      [En savoir plus](dons)"
+      image : "images/aide-don.jpg"
+      content : "L'association ne reçoit que très peu de subventions de l’Etat. Ses seules ressources proviennent de la générosité du public. C’est grâce à ses donateurs que Ligare peut aider toujours plus de familles et d'enfants."
 
     # material item loop
     # - title : "objectif 4"
