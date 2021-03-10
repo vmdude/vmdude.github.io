@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://vmdude.github.io/lesbrousses/public/activites/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://vmdude.github.io/lesbrousses/public/blog/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url>
@@ -13,7 +18,7 @@
   </url>
   
   <url>
-    <loc>https://vmdude.github.io/lesbrousses/public/faq/</loc>
+    <loc>https://vmdude.github.io/lesbrousses/public/disponibilites/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url>
   
@@ -24,6 +29,26 @@
   
   <url>
     <loc>https://vmdude.github.io/lesbrousses/public/blog/post-2/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/lesbrousses/public/labergerie/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/lesbrousses/public/lagrange/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/lesbrousses/public/faq/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vmdude.github.io/lesbrousses/public/lesbrousses/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url>
   
