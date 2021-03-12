@@ -159,6 +159,8 @@
         <h4 class="font-weight-medium">Taba Shampoo</h4>
         
         
+        <div class="rw-ui-container"></div>
+        
         <div class="my-4">
           
           <span class="lead text-primary font-weight-medium">30.00</span>
@@ -282,6 +284,42 @@
 
 
 
+
+<!-- Product Ratings -->
+<script>
+(function (d, t, e, m) {
+  
+  window.RW_Async_Init = function () {
+    RW.init({
+      huid: "444334",
+      uid: "811cf0927332bf51f2e12f84608594ac",
+      source: "website",
+      options: {
+        "size": "medium",
+        "style": "oxygen",
+        "isDummy": false
+      }
+    });
+    RW.render();
+  };
+  
+  var rw, s = d.getElementsByTagName(e)[0],
+    id = "rw-js",
+    l = d.location,
+    ck = "Y" + t.getFullYear() +
+    "M" + t.getMonth() + "D" + t.getDate(),
+    p = l.protocol,
+    f = ((l.search.indexOf("DBG=") > -1) ? "" : ".min"),
+    a = ("https:" == p ? "secure." + m + "js/" : "js." + m);
+  if (d.getElementById(id)) return;
+  rw = d.createElement(e);
+  rw.id = id;
+  rw.async = true;
+  rw.type = "text/javascript";
+  rw.src = p + "//" + a + "external" + f + ".js?ck=" + ck;
+  s.parentNode.insertBefore(rw, s);
+}(document, new Date(), "script", "rating-widget.com/"));
+</script>
 
 </body>
 </html>
