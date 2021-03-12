@@ -1,87 +1,97 @@
 ############################ banner ##########################
-banner:
-  enable : true
-  title : "Best Beauty Cream For Your Skin"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed dia"
-  image : "images/banner.png"
-  # button
-  button:
-    enable : true
-    label : "All Products"
-    link : "products"
-  # demo video
-  video:
-    enable : true
-    videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+# banner:
+#   enable : false
+  # title : "Best Beauty Cream For Your Skin"
+  # content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+  #         dolore magna aliquyam erat, sed dia"
+  # image : "images/banner.png"
+  # # button
+  # button:
+  #   enable : true
+  #   label : "All Products"
+  #   link : "products"
+  # # demo video
+  # video:
+  #   enable : true
+  #   videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
 
 ########################## About ##############################
 about:
   enable : true
-  title : "About Our Product"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-          clita kasd gubergren,"
-  image : "images/about.png"
+  title : "Bienvenue aux Brousses"
+  content : "**Une ancienne ferme sur le flanc d’une colline dont la Grange a été restaurée et aménagée en gîte pour 8 à 12 personnes, et la Bergerie en gîte pour 4 à 6 personnes.**\n\nBienvenue dans le Périgord blanc, la Vallée de l’Isle, le Pays de Saint Astier.\n\nNous vous accueillons toute l’année pour un week-end ou une semaine de détente et de repos.\n\nNous vous offrons le charme d’une ancienne ferme en pierres de la région allié au confort moderne."
+  image : "images/logo-about.jpg"
 
 
 ###################### Call to action ########################
 cta:
   enable : true
-  title : "Buy one Get One Free Taba Cream"
-  content : "Available for limited time only. Grab one while you still can!"
-  image : "images/cta.png"
+  title : "Venez profiter d'un endroit paisible à la campagne"
+  content : ""
+  image : "images/logo-cta.jpg"
   overlayImage : "images/cta-overlay.png"
   button:
-    label : "All Products"
-    link : "products"
+    label : "Voir les disponibilités"
+    link : "disponibilites"
 
 ######################## raw material #######################
 material:
   enable : true
-  title : "Ingredients Of Our Products"
-  subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dol."
+  title : "Nos gîtes"
+  subtitle : "Voici nos gîtes disponibles à la location et leurs tarifs"
   materialItem:
     # material item loop
-    - title : "Matcha Seeds"
-      image : "images/material/material-1.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
-      
+    - title : "La Bergerie"
+      image : "images/logo-material.jpg"
+      prix_octobreavril: 320
+      prix_maijuinseptembre: 360
+      prix_juilletaout: 600
+      prix_weekendoctobreavril: 160
+      prix_weekendmaijuinseptembre: 240
+      # content : "Octobre à Avril: 320 €\n\nMai + Juin + Septembre: 360 €\n\nJuillet et Août: 600 €\n\nWeek-end (2 nuits) Octobre à Avril: 160 €\n\nWeek-end (2 nuits) Mai, Juin, Septembre: 600 €"
+
     # material item loop
-    - title : "Aloe Vera"
-      image : "images/material/material-2.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
-      
+    - title : "La Grange"
+      image : "images/logo-material.jpg"
+      prix_octobreavril: 550
+      prix_maijuinseptembre: 850
+      prix_juilletaout: 1350
+      prix_weekendoctobreavril: 400
+      prix_weekendmaijuinseptembre: 600
+      # content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+
     # material item loop
-    - title : "Turmeric"
-      image : "images/material/material-3.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
-      
+    # - title : "Turmeric"
+    #   image : "images/material/material-3.png"
+    #   content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+
     # material item loop
-    - title : "Tulshi leaf"
-      image : "images/material/material-4.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+    # - title : "Tulshi leaf"
+    #   image : "images/material/material-4.png"
+    #   content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
 
 ########################### Advantage #########################
-advantage:
-  enable : true
-  title : "Advantages Of Using <br> Our Product"
-  subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
-  image : "images/advantage.png"
-  advantageList:
-    # advantage list loop
-    - listItem : "Extremely lightweight"
-    - listItem : "Excellent breathability"
-    - listItem : "Can increase Cell activation"
-    - listItem : "Glowing Skin In 7 Days"
-    - listItem : "Increasing Glow Of Face"
-    - listItem : "More Beautiful Face Skin"
+# advantage:
+#   enable : false
+#   title : "Advantages Of Using <br> Our Product"
+#   subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
+#   image : "images/advantage.png"
+#   advantageList:
+#     # advantage list loop
+#     - listItem : "Extremely lightweight"
+#     - listItem : "Excellent breathability"
+#     - listItem : "Can increase Cell activation"
+#     - listItem : "Glowing Skin In 7 Days"
+#     - listItem : "Increasing Glow Of Face"
+#     - listItem : "More Beautiful Face Skin"
 
+# Gallery with random images
+gallery:
+  enable: true
 
 ######################## Promo Video ##########################
 video:
-  enable : true
+  enable : false
   title : "How To Use This Product?"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
@@ -91,14 +101,14 @@ video:
 
 ######################## Products #############################
 products:
-  enable : true
+  enable : false
   title : "Products List"
   # product item comes from "content/products"
 
 
 ########################## Testimonial ########################
 testimonial:
-  enable : true
+  enable : false
   title : "What People Are Saying <br> About Our Product"
   testimonialItem:
     # testimonial item loop

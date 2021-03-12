@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+{{ with site.Data.homepage.testimonial }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>{{ .title | markdownify }}</h2>
+      </div>
+    </div>
+    <div class="row testimonial-slider">
+      {{ range .testimonialItem }}
+      <div class="col-4">
+        <div class="card border-primary text-center">
+          <div class="card-body">
+            <img src="{{ .image | absURL }}" class="client-img" alt="{{ .name | markdownify }}">
+            <p class="quoted">{{ .content | markdownify }}</p>
+            <h6 class="font-weight-medium">{{ .name | markdownify }}</h6>
+            <small>{{ .designation | markdownify }}</small>
+            <ul class="list-inline rating {{ .rating | lower }} mt-3">
+              <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+              <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+              <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+              <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+              <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

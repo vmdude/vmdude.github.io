@@ -1,20 +1,21 @@
 <footer class="section pb-0">
   <div class="container">
+    {{ if ne .Title "Contact" }}
     <div class="row border-bottom pb-5 justify-content-between">
-      <div class="col-12 text-center section-sm">
+      <!-- <div class="col-12 text-center section-sm">
         <a href="{{ site.BaseURL }}"><img src="{{ site.Params.logo | absURL }}" class="img-fluid"
             alt="{{ site.Title }}"></a>
-      </div>
-      <div class="col-md-3 col-sm-6">
+      </div> -->
+      <!-- <div class="col-md-3 col-sm-6">
         <h5 class="font-weight-medium mb-4">Important Links</h5>
         <ul class="list-unstyled">
           {{ range site.Menus.footer }}
           <li class="mb-3"><a class="text-color" href="{{ .URL | absURL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <h5 class="font-weight-medium mb-4">Connect With Us</h5>
+      </div> -->
+      <div class="col-4">
+        <h5 class="font-weight-medium mb-4">Nous joindre</h5>
         <ul class="list-unstyled mb-5">
           <li class="mb-3"><a class="text-color" href="tel:{{ site.Params.mobile }}"><i
                 class="ti-mobile text-primary mr-2"></i>
@@ -31,16 +32,17 @@
           {{ end }}
         </ul>
       </div>
-      <div class="col-lg-4 col-md-5">
-        <h5 class="font-weight-medium mb-4">Contact us</h5>
+      <div class="col-8">
+        <h5 class="font-weight-medium mb-4">Contactez nous</h5>
         <form action="{{ site.Params.contact.formAction }}" method="POST">
-          <input type="text" class="form-control mb-2" id="name" name="name" placeholder="Your Name">
-          <input type="email" class="form-control mb-2" id="email" name="email" placeholder="Your Email">
-          <textarea name="message" id="message" class="form-control mb-2" placeholder="Your Message"></textarea>
-          <button type="submit" value="send" class="btn btn-block btn-outline-primary rounded">Send Now</button>
+          <input type="text" class="form-control mb-2" id="name" name="name" placeholder="Votre nom">
+          <input type="email" class="form-control mb-2" id="email" name="email" placeholder="Votre email">
+          <textarea name="message" id="message" class="form-control mb-2" placeholder="Votre message"></textarea>
+          <button type="submit" value="send" class="btn btn-block btn-outline-primary rounded">Envoyer</button>
         </form>
       </div>
     </div>
+    {{ end }}
     <div class="row">
       <div class="col-12 text-center py-4">
         {{ site.Params.copyright | markdownify  }}
@@ -54,8 +56,8 @@
 <!-- <div id="snipcart" data-api-key="{{ . }}" hidden></div> -->
 <!-- {{ end }} -->
 
-{{ "<!-- Google Maps API -->" | safeHTML }}
-<script src="{{ site.Params.gmapAPI | absURL }}"></script>
+<!-- {{ "Google Maps API" | safeHTML }} -->
+<!-- <script src="{{ site.Params.gmapAPI | absURL }}"></script> -->
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range site.Params.plugins.js}}
 <script src="{{ .link | absURL }}"></script>

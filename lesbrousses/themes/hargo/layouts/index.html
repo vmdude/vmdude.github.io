@@ -49,10 +49,10 @@
 <section class="section">
   <div class="container">
     <div class="row justify-content-around align-items-center">
-      <div class="col-lg-5 col-md-6">
+      <div class="col-3">
         <img class="img-fluid" src="{{ .image | absURL }}" alt="">
       </div>
-      <div class="col-md-6 col-lg-5">
+      <div class="col-9">
         <h2>{{ .title | markdownify }}</h2>
         <p>{{ .content | markdownify }}</p>
       </div>
@@ -80,12 +80,35 @@
     </div>
     <div class="row">
       {{ range .materialItem }}
-      <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="col-6">
         <div class="card border-0 text-center">
           <img src="{{ .image | absURL }}" alt="material" class="card-img-top border-0">
           <div class="card-body">
-            <h4>{{ .title | markdownify }}</h4>
-            <p>{{ .content | markdownify }}</p>
+            <h4 class="mb-4 text-uppercase">{{ .title | markdownify }}</h4>
+            <table class="table table-hover">
+              <tbody>
+                <tr>
+                  <td>Octobre à Avril</td>
+                  <td class="font-weight-bold">{{ .prix_octobreavril }} &euro;</td>
+                </tr>
+                <tr>
+                  <td>Mai + Juin + Septembre</td>
+                  <td class="font-weight-bold">{{ .prix_maijuinseptembre }} &euro;</td>
+                </tr>
+                <tr>
+                  <td>Juillet et Août</td>
+                  <td class="font-weight-bold">{{ .prix_juilletaout }} &euro;</td>
+                </tr>
+                <tr>
+                  <td>Week-end (2 nuits) Octobre à Avril</td>
+                  <td class="font-weight-bold">{{ .prix_weekendoctobreavril }} &euro;</td>
+                </tr>
+                <tr>
+                  <td>Week-end (2 nuits) Mai, Juin, Septembre</td>
+                  <td class="font-weight-bold">{{ .prix_weekendmaijuinseptembre }} &euro;</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
@@ -121,6 +144,36 @@
 {{ end }}
 {{ end }}
 <!-- /advantage -->
+
+<!-- gallery -->
+{{ if site.Data.homepage.gallery.enable }}
+<style>
+  div.gallery {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  div.gallery a {
+      flex-grow: 1;
+      object-fit: cover;
+      margin: 2px;
+      display: flex;
+  }
+  div.gallery a img {
+      height: 200px;
+      object-fit: cover;
+      flex-grow: 1;
+  }
+</style>
+<div class="gallery mb-1">
+  {{ range (readDir "static/images/gallery-accueil")  }}
+      {{ $src := print site.BaseURL "/images/gallery-accueil/" .Name }}
+      <a data-fancybox="gallery" href="{{ $src }}">
+          <img src="{{ $src }}">  <br/>
+      </a>
+  {{ end }}
+</div>
+{{ end }}
+<!-- /gallery -->
 
 <!-- promo video -->
 {{ if site.Data.homepage.video.enable }}
@@ -235,8 +288,8 @@
 {{ end }}
 <!-- /testimonial -->
 
-{{ if site.Data.homepage.cta.enable }}
-{{ partial "cta.html" . }}
-{{ end }}
+<!-- {{ if site.Data.homepage.cta.enable }} -->
+<!-- {{ partial "cta.html" . }} -->
+<!-- {{ end }} -->
 
 {{ end }}
