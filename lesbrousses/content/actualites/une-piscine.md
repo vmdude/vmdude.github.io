@@ -2,7 +2,7 @@
 title: "Une piscine, une piscine, une piscine !!!"
 date: 2010-08-26T11:22:16+06:00
 draft: false
-image: "images/blog/post-2.jpg"
+image: "images/blog/2010-08-09-photo-3-recadree-site.jpg"
 author: "Bénédicte"
 ---
 

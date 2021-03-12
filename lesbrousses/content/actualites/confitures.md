@@ -1,8 +1,7 @@
 ---
 title: "Confitures"
 date: 2014-09-28T11:22:16+06:00
-draft: false
-image: "images/blog/post-2.jpg"
+image: "images/blog/Confitures-002.jpg"
 author: "Bénédicte"
 ---
 

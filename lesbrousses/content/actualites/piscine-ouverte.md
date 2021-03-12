@@ -1,8 +1,7 @@
 ---
 title: "La piscine est ouverte"
 date: 2012-05-25T11:22:16+06:00
-draft: false
-image: "images/blog/post-2.jpg"
+image: "images/blog/2010-08-09-photo-10-site.jpg"
 author: "Bénédicte"
 ---
 
