@@ -48,10 +48,10 @@ params:
   preloader:
     enable: true
     preloader: images/logo.png
-  rating:
-    enable: true
-    websiteID: '444334'
-    publicKey: 811cf0927332bf51f2e12f84608594ac
+  # rating:
+  #   enable: true
+  #   websiteID: '444334'
+  #   publicKey: 811cf0927332bf51f2e12f84608594ac
   # social:
   #   - icon: ti-facebook
   #     link: '#'
@@ -64,7 +64,7 @@ params:
   #   - icon: ti-pinterest
   #     link: '#'
   contact:
-    formAction: '#'
+    formAction: 'https://formspree.io/f/xaylrbab'
 menu:
   main:
     - name: Les Brousses
