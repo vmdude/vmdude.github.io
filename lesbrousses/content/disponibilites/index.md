@@ -9,8 +9,10 @@ type: cleanpage
 
 Réservez dès aujourd’hui, en nous contactant par téléphone ([05.53.03.98.63](tel:0553039863)) ou par mail ([contact@lesbrousses.fr](mailto:contact@lesbrousses.fr))
 
-{{< iframe "https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FParis&amp;src=Y191bzNlaXMwbHNqbDdjc3UxNmZjOTdyN2FsY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23A79B8E&amp;showTz=0&amp;showCalendars=0&amp;showTabs=0&amp;showPrint=0&amp;hl=fr" >}}
+{{< googlecalendar "c_cr96p5a3cd4vbn7i6gou2785tc" >}}
 
 ### La Bergerie (4 à 6 personnes)
 
 Réservez dès aujourd’hui, en nous contactant par téléphone ([05.53.03.98.63](tel:0553039863)) ou par mail ([contact@lesbrousses.fr](mailto:contact@lesbrousses.fr))
+
+{{< googlecalendar "c_uo3eis0lsjl7csu16fc97r7alc" >}}
