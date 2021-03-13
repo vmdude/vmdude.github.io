@@ -28,7 +28,7 @@ cta:
   enable : true
   title : "Venez profiter d'un endroit paisible à la campagne"
   content : ""
-  image : "images/logo-cta.jpg"
+  image : "images/cta.png"
   overlayImage : "images/cta-overlay.png"
   button:
     label : "Voir les disponibilités"
