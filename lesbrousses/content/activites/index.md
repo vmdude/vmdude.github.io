@@ -8,7 +8,7 @@ type: cleanpage
 
 Le gite est desservi par un chemin communal utilisé par des promeneurs à pieds, à cheval, à VTT. Le terrain n’est pas clos ce qui permet aux animaux de la forêt (biche, chevreuil, lapin, ...) de le traverser. Les enfants disposent d’un portique avec balançoire et toboggan ainsi qu’un bac à sable, d’un filet de badminton et d’un trampoline. Une piscine est accessible pour tous les vacanciers des gîtes.
 
-{{< foldergallery src="images/1" >}}
+{{< foldergallery src="images" >}}
 
 ## A proximité
 
@@ -16,7 +16,7 @@ Saint Astier est situé sur les bords de l’Isle. Vous y trouverez de nombreuse
 
 Vous trouverez plus de renseignements auprès de l’office de tourisme de Saint-Astier sur [www.tourisme-isleperigord.com](http://www.tourisme-isleperigord.com)
 
-{{< foldergallery src="images/2" >}}
+{{< foldergallery src="images-stastier" >}}
 
 ## Un peu plus loin
 
