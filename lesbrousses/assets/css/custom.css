@@ -13,3 +13,6 @@ h3, h4 {
 .bg-gradient {
     background: linear-gradient( 27deg, rgb(89,181,30) 0%, rgb(137, 179, 75) 100%) !important;
 }
+.table-no-header thead {
+    display: none;
+}

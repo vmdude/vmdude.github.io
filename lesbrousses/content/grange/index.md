@@ -3,6 +3,7 @@ title: "Grange"
 date: 2019-10-17T11:22:16+06:00
 draft: false
 type: cleanpage
+markup: mmark
 ---
 
 ### Descriptif
@@ -15,21 +16,13 @@ La Grange est composée de deux niveaux. Au rez de chaussée, la grande porte de
 
 ### Equipements
 
-* Micro-ondes
-* Réfrigérateur-congélateur
-* Lave-vaisselle
-* Lave-linge / sèche-linge
-* TV LCD 82cm avec décodeur TNT
-* Lecteur DVD
-* Téléphone gratuit vers postes fixes
-* Connexion internet Wifi
-* Ordinateur portable en libre-service
-* Chaîne Hifi
-* Cour
-* Salon de jardin
-* Barbecue
-* Balançoire
-* Bac à sable
+{.table .table-no-header}
+| | | | |
+|:---:|:---:|:---:|:---:|
+| Micro-ondes | Sèche-linge | Téléphone gratuit vers postes fixes | Salon de jardin |
+| Réfrigérateur-congélateur | TV LCD 82cm | Connexion internet Wifi | Barbecue |
+| Lave-vaisselle | Décodeur TNT | Ordinateur portable en libre-service | Balançoire |
+| Lave-linge | Lecteur DVD | Chaîne Hifi | Bac à sable |
 
 Les lits sont équipés d'oreillers, de traversins et de couettes.
 
@@ -59,15 +52,13 @@ La chambre n°4 donne accès directement à la terrasse.
 
 La cuisine possède tout un équipement électoménager :
 
-* une plaque vitro-céramique
-* un four électrique
-* un four micro-ondes
-* un réfrigérateur avec une partie congélateur
-* un lave-linge
-* un sèche-linge
-* un lave-vaisselle
+{.table .table-no-header}
+| | | | |
+|:---:|:---:|:---:|:---:|
+| plaque vitro-céramique | four électrique | four micro-ondes | réfrigérateur avec une partie congélateur |
+| lave-linge | sèche-linge | lave-vaisselle |  |
 
-Nous avons mis à votre disposition toute la vaisselle nécessaire, les plats, les casseroles, etc… ainsi que des torchons et produits d’entretien, et quelques produits d’épicerie de base.
+Nous avons mis à votre disposition toute la vaisselle nécessaire, les plats, les casseroles, etc... ainsi que des torchons et produits d’entretien, et quelques produits d’épicerie de base.
 
 {{< foldergallery src="images-cuisine" >}}
 

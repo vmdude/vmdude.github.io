@@ -256,32 +256,32 @@
     }
   }
 
-  table {
-    text-align: left;
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 1rem;
-    border: 1px solid #dee2e6;
+  // table {
+  //   text-align: left;
+  //   width: 100%;
+  //   max-width: 100%;
+  //   margin-bottom: 1rem;
+  //   border: 1px solid #dee2e6;
 
-    th,
-    td {
-      padding: .75rem;
-      vertical-align: top;
-      border: 1px solid #dee2e6
-    }
+  //   th,
+  //   td {
+  //     padding: .75rem;
+  //     vertical-align: top;
+  //     border: 1px solid #dee2e6
+  //   }
 
-    thead {
-      background: darken($color: $light, $amount: 2);
-    }
+  //   thead {
+  //     background: darken($color: $light, $amount: 2);
+  //   }
 
-    tbody {
-      background: $light;
+  //   tbody {
+  //     background: $light;
 
-      td {
-        text-align: left !important;
-      }
-    }
-  }
+  //     td {
+  //       text-align: left !important;
+  //     }
+  //   }
+  // }
 
 
   blockquote {

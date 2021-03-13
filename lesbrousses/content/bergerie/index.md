@@ -3,6 +3,7 @@ title: "Bergerie"
 date: 2019-10-17T11:22:16+06:00
 draft: false
 type: cleanpage
+markup: mmark
 ---
 
 ### Descriptif
@@ -15,18 +16,13 @@ La Bergerie est composée de deux niveaux. Au rez de chaussée, Un salon/salle �
 
 ### Equipements
 
-* Micro-ondes
-* Réfrigérateur-congélateur
-* Lave-vaisselle
-* Lave-linge / sèche-linge
-* TV LCD 82cm avec décodeur TNT
-* Téléphone gratuit vers postes fixes
-* Connexion internet Wifi
-* Garage
-* Salon de jardin
-* Barbecue
-* Balançoire
-* Bac à sable
+{.table .table-no-header}
+| | | | |
+|:---:|:---:|:---:|:---:|
+| Micro-ondes | Sèche-linge | Téléphone gratuit vers postes fixes | Salon de jardin |
+| Réfrigérateur-congélateur | TV LCD 82cm | Connexion internet Wifi | Barbecue |
+| Lave-vaisselle | Décodeur TNT | Balançoire |  |
+| Lave-linge | Garage | Bac à sable | |
 
 Les lits sont équipés d'oreillers et de couettes.
 
@@ -54,12 +50,11 @@ Les lits sont équipés d’une couette et de deux oreillers avec leurs housses 
 
 La cuisine possède tout un équipement électoménager:
 
-* une cuisinière électrique avec four
-* un four micro-ondes
-* un réfrigérateur avec une partie congélateur
-* un lave-linge
-* un sèche-linge
-* un lave-vaisselle
+{.table .table-no-header}
+| | | | |
+|:---:|:---:|:---:|:---:|
+| cuisinière électrique avec four | four micro-ondes | réfrigérateur avec une partie congélateur |
+| lave-linge | sèche-linge | lave-vaisselle |
 
 Nous avons mis à votre disposition toute la vaisselle nécessaire, les plats, les casseroles, etc... ainsi que des torchons et produits d’entretien, et quelques produits d’épicerie de base.
 
