@@ -28,7 +28,7 @@ cta:
   enable : true
   title : "Venez profiter d'un endroit paisible à la campagne"
   content : ""
-  image : "images/cta.png"
+  image : "images/cta2.png"
   overlayImage : "images/cta-overlay.png"
   button:
     label : "Voir les disponibilités"
@@ -41,8 +41,8 @@ material:
   subtitle : "Voici nos gîtes disponibles à la location et leurs tarifs"
   materialItem:
     # material item loop
-    - title : "La Bergerie"
-      image : "images/logo-material.jpg"
+    - title : "La Bergerie (4 à 6pers.)"
+      image : "images/logo-bergerie.jpg"
       prix_octobreavril: 320
       prix_maijuinseptembre: 360
       prix_juilletaout: 600
@@ -51,8 +51,8 @@ material:
       # content : "Octobre à Avril: 320 €\n\nMai + Juin + Septembre: 360 €\n\nJuillet et Août: 600 €\n\nWeek-end (2 nuits) Octobre à Avril: 160 €\n\nWeek-end (2 nuits) Mai, Juin, Septembre: 600 €"
 
     # material item loop
-    - title : "La Grange"
-      image : "images/logo-material.jpg"
+    - title : "La Grange (8 à 12pers.)"
+      image : "images/logo-grange.jpg"
       prix_octobreavril: 550
       prix_maijuinseptembre: 850
       prix_juilletaout: 1350
