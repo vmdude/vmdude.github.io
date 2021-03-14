@@ -2,7 +2,7 @@
 title: "Nouveau Site !"
 date: 2010-08-25T11:22:16+06:00
 draft: false
-image: "images/blog/WorldWideWeb.jpg"
+image: "images/blog/siteweb.jpg"
 author: "Frederic"
 ---
 

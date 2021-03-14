@@ -3,6 +3,8 @@ languageCode: fr
 title: Gîte Les Brousses
 theme: hargo
 enableInlineShortcodes: true
+disableKinds: taxonomy
+ignoreErrors: error-disable-taxonomy
 # summaryLength: '20'
 # paginate: 10
 # disqusShortname: ''

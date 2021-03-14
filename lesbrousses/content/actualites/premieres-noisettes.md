@@ -1,7 +1,7 @@
 ---
 title: "Premières noisettes"
 date: 2014-08-20T11:22:16+06:00
-image: "images/blog/Noisettes-001.jpg"
+image: "images/blog/noisettes.jpg"
 author: "Bénédicte"
 ---
 

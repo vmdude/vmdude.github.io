@@ -1,7 +1,7 @@
 ---
 title: "La Chandeleur"
 date: 2013-01-19T11:22:16+06:00
-image: "images/blog/crepes-chandeleur-9.jpg"
+image: "images/blog/chandeleur.jpg"
 author: "Bénédicte"
 ---
 
