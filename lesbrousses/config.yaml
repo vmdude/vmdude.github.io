@@ -28,6 +28,7 @@ params:
       - link: plugins/bootstrap/bootstrap.min.js
       - link: plugins/slick/slick.min.js
       - link: plugins/fancybox/jquery.fancybox-3.5.7.min.js
+      - link: plugins/loading-attribute-polyfill/loading-attribute-polyfill.js
   logo: images/logo.png
   home: Accueil
   description: Gite Les Brousses

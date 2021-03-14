@@ -22,7 +22,9 @@
         {{ if ne .Name ".DS_Store"}}
         {{ $src := print $url "/" .Name }}
         <a data-fancybox="gallery" href="{{ $src }}">
-            <img src="{{ $src }}">  <br/>
+            <noscript class="loading-lazy">
+                <img loading="lazy" src="{{ $src }}">  <br/>
+            </noscript>
         </a>
         {{ end }}
     {{ end }}
