@@ -24,3 +24,18 @@ h2::first-letter, h3::first-letter, h4::first-letter {
 .table-no-header thead {
     display: none;
 }
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.gallery a {
+    flex-grow: 1;
+    object-fit: cover;
+    margin: 2px;
+    display: flex;
+}
+div.gallery a img {
+    height: 200px;
+    object-fit: cover;
+    flex-grow: 1;
+}
