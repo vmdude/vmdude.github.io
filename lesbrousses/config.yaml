@@ -20,7 +20,7 @@ params:
     map_big_text: Agrandir la carte (et accéder aux directions)
   plugins:
     css:
-      - link: plugins/bootstrap/bootstrap.min.css
+      # - link: plugins/bootstrap/bootstrap.min.css
       - link: plugins/slick/slick.css
       - link: plugins/themify-icons/themify-icons.css
       - link: plugins/fancybox/jquery.fancybox.min.css
