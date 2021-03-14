@@ -10,7 +10,7 @@
 
   {{ "<!-- Plugins -->" | safeHTML }}
   {{ range site.Params.plugins.css }}
-  <link rel="stylesheet" href="{{ .link | absURL }}">
+  <link rel="stylesheet" defer href="{{ .link | absURL }}">
   {{ end }}
 
   <!-- {{ with site.Params.snipcartApiKey }} -->
