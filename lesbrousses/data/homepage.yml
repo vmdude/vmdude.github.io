@@ -19,7 +19,7 @@
 about:
   enable : true
   title : "Bienvenue aux Brousses"
-  content : "**Une ancienne ferme sur le flanc d’une colline dont la Grange a été restaurée et aménagée en gîte pour 8 à 12 personnes, et la Bergerie en gîte pour 4 à 6 personnes.**\n\nBienvenue dans le Périgord blanc, la Vallée de l’Isle, le Pays de Saint Astier.\n\nNous vous accueillons toute l’année pour un week-end ou une semaine de détente et de repos.\n\nNous vous offrons le charme d’une ancienne ferme en pierres de la région allié au confort moderne."
+  content : "**Une ancienne ferme sur le flanc d’une colline dont la Grange a été restaurée et aménagée en gîte pour 8 à 12 personnes, et la Bergerie en gîte pour 4 à 6 personnes. Tous les 2 sont labélisé 3 épis aux Gîtes De France.**\n\nBienvenue dans le Périgord blanc, la Vallée de l’Isle, le Pays de Saint Astier. Nous vous accueillons toute l’année pour un week-end ou une semaine de détente et de repos.\n\nNous vous offrons le charme d’une ancienne ferme en pierres de la région allié au confort moderne."
   image : "images/accueil.jpg"
 
 
@@ -28,7 +28,7 @@ cta:
   enable : true
   title : "Venez profiter d'un endroit paisible à la campagne"
   content : ""
-  image : "images/cta2.png"
+  image : "images/cta.png"
   overlayImage : "images/cta-overlay.png"
   button:
     label : "Voir les disponibilités"

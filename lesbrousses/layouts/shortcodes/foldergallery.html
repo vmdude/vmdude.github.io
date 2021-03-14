@@ -19,10 +19,12 @@
     {{ $path := print "content/" .Page.File.Dir (.Get "src") }}
     {{ $url  := print .Page.Permalink (.Get "src") }}
     {{ range (readDir $path)  }}
+        {{ if ne .Name ".DS_Store"}}
         {{ $src := print $url "/" .Name }}
         <a data-fancybox="gallery" href="{{ $src }}">
             <img src="{{ $src }}">  <br/>
         </a>
+        {{ end }}
     {{ end }}
 </div>
 <hr />
