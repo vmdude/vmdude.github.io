@@ -1,7 +1,6 @@
 ---
 title: "Grange"
 date: 2019-10-17T11:22:16+06:00
-draft: false
 type: cleanpage
 markup: mmark
 ---
@@ -16,9 +15,9 @@ La Grange est composée de deux niveaux. Au rez de chaussée, la grande porte de
 
 ### Equipements
 
-{.table .table-no-header}
+{.table .table-no-header .text-center}
 | | | | |
-|:---:|:---:|:---:|:---:|
+|---|---|---|---|
 | Micro-ondes | Sèche-linge | Téléphone gratuit vers postes fixes |
 | Réfrigérateur-congélateur | TV LCD 82cm | Connexion internet Wifi |
 | Lave-vaisselle | Décodeur TNT | Ordinateur portable en libre-service |
@@ -54,9 +53,9 @@ La chambre n°4 donne accès directement à la terrasse.
 
 La cuisine possède tout un équipement électoménager :
 
-{.table .table-no-header}
+{.table .table-no-header .text-center}
 | | | | |
-|:---:|:---:|:---:|:---:|
+|---|---|---|---|
 | plaque vitro-céramique | four électrique | four micro-ondes |
 | lave-linge | sèche-linge | lave-vaisselle |
 | réfrigérateur avec une partie congélateur | | |

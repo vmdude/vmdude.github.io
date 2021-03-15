@@ -1,8 +1,7 @@
 ---
 title: "Bergerie"
 date: 2019-10-17T11:22:16+06:00
-draft: false
-type: cleanpage
+=type: cleanpage
 markup: mmark
 ---
 
@@ -16,9 +15,9 @@ La Bergerie est composée de deux niveaux. Au rez de chaussée, Un salon/salle �
 
 ### Equipements
 
-{.table .table-no-header}
+{.table .table-no-header .text-center}
 | | | | |
-|:---:|:---:|:---:|:---:|
+|---|---|---|---|
 | Micro-ondes | Sèche-linge | Téléphone gratuit vers postes fixes |
 | Réfrigérateur-congélateur | TV LCD 82cm | Connexion internet Wifi |
 | Lave-vaisselle | Décodeur TNT | Balançoire |
@@ -51,9 +50,9 @@ Les lits sont équipés d’une couette et de deux oreillers avec leurs housses 
 
 La cuisine possède tout un équipement électoménager:
 
-{.table .table-no-header}
+{.table .table-no-header .text-center}
 | | | | |
-|:---:|:---:|:---:|:---:|
+|---|---|---|---|
 | cuisinière électrique avec four | four micro-ondes | réfrigérateur avec une partie congélateur |
 | lave-linge | sèche-linge | lave-vaisselle |
 
