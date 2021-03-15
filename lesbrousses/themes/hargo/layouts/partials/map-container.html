@@ -1,4 +1,4 @@
 <div>
-    <iframe width="{{ .Site.Params.geo.width }}" height="{{ .Site.Params.geo.height }}" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{ .Site.Params.geo.pre_embed }}{{ .Site.Params.geo.embed }}"></iframe>
-    <small><a href="{{ .Site.Params.geo.map_big }}">{{ .Site.Params.geo.map_big_text }}</a></small>
+    <iframe class="openstreetmap" src="https://www.openstreetmap.org/export/embed.html?{{ .Site.Params.geo.embed }}"></iframe>
+    <small><a href="https://www.openstreetmap.org/?{{ .Site.Params.geo.map_big }}">Agrandir la carte (et accéder aux directions)</a></small>
 </div>
