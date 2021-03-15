@@ -11,8 +11,8 @@ ignoreErrors: error-disable-taxonomy
 params:
   geo:
     title       : Les Brousses
-    embed       : bbox=0.48554420471191406%2C45.14315339060149%2C0.49170792102813726%2C45.14562789448083&amp;layer=mapnik&marker=45.14439065596734%2C0.48862606287002563
-    map_big     : mlat=45.14439&amp;mlon=0.48863#map=18/45.14439/0.48863
+    embed       : https://www.openstreetmap.org/export/embed.html?bbox=0.48554420471191406%2C45.14315339060149%2C0.49170792102813726%2C45.14562789448083&amp;layer=mapnik&marker=45.14439065596734%2C0.48862606287002563
+    map_big     : https://www.openstreetmap.org/?mlat=45.14439&amp;mlon=0.48863#map=18/45.14439/0.48863
   plugins:
     css:
       # - link: plugins/bootstrap/bootstrap.min.css
