@@ -154,7 +154,7 @@
         {{ if ne .Name ".DS_Store" }}
         {{ $src := print site.BaseURL "images/gallery-accueil/" .Name }}
         <a data-fancybox="gallery" href="{{ $src }}">
-            <img src="{{ $src }}">  <br/>
+          <img loading="lazy" src="{{ $src }}" alt="{{ .Name }}">
         </a>
         {{ end }}
       {{ end }}

@@ -5,9 +5,7 @@
         {{ if ne .Name ".DS_Store" }}
         {{ $src := print $url "/" .Name }}
         <a data-fancybox="gallery" href="{{ $src }}">
-            <noscript class="loading-lazy">
-                <img loading="lazy" src="{{ $src }}">  <br/>
-            </noscript>
+            <img loading="lazy" src="{{ $src }}" alt="{{ .Name }}">
         </a>
         {{ end }}
     {{ end }}
