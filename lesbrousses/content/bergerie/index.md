@@ -19,10 +19,11 @@ La Bergerie est composée de deux niveaux. Au rez de chaussée, Un salon/salle �
 {.table .table-no-header}
 | | | | |
 |:---:|:---:|:---:|:---:|
-| Micro-ondes | Sèche-linge | Téléphone gratuit vers postes fixes | Salon de jardin |
-| Réfrigérateur-congélateur | TV LCD 82cm | Connexion internet Wifi | Barbecue |
-| Lave-vaisselle | Décodeur TNT | Balançoire |  |
-| Lave-linge | Garage | Bac à sable | |
+| Micro-ondes | Sèche-linge | Téléphone gratuit vers postes fixes |
+| Réfrigérateur-congélateur | TV LCD 82cm | Connexion internet Wifi |
+| Lave-vaisselle | Décodeur TNT | Balançoire |
+| Lave-linge | Garage | Bac à sable |
+| Salon de jardin | Barbecue | |
 
 Les lits sont équipés d'oreillers et de couettes.
 

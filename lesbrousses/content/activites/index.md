@@ -1,8 +1,6 @@
 ---
 title: "Activités"
 date: 2019-10-17T11:22:16+06:00
-draft: false
-description : "this is a meta description"
 type: cleanpage
 ---
 
@@ -29,8 +27,8 @@ Vous trouverez plus de renseignements auprès de l’office de tourisme de Saint
 
 ## Supermarchés
 
-* **Saint Astier** (_10min_), Leclerc [http://www.e-leclerc.com/st-astier](http://www.e-leclerc.com/st-astier)
-* **Périgueux-Marsac** (_20min_), Auchan, avec Drive [https://www.auchan.fr/magasins/perigueux-marsac/sl-38](https://www.auchan.fr/magasins/perigueux-marsac/sl-38)
-* **Neuvic sur l’Isle** (_15min_), Intermarché, avec Drive [https://www.intermarche.com/magasins/09112/neuvic-sur-l-isle-24190/infos-pratiques](https://www.intermarche.com/magasins/09112/neuvic-sur-l-isle-24190/infos-pratiques)
+* **Saint Astier** (_10min_) [Leclerc](http://www.e-leclerc.com/st-astier)
+* **Périgueux-Marsac** (_20min_) [Auchan avec Drive](https://www.auchan.fr/magasins/perigueux-marsac/sl-38)
+* **Neuvic sur l’Isle** (_15min_) [Intermarché, avec Drive](https://www.intermarche.com/magasins/09112/neuvic-sur-l-isle-24190/infos-pratiques)
 
 **Plus d’informations sont disponibles sur place, n’hésitez pas à nous demander.**

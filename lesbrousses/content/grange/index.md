@@ -19,10 +19,12 @@ La Grange est composée de deux niveaux. Au rez de chaussée, la grande porte de
 {.table .table-no-header}
 | | | | |
 |:---:|:---:|:---:|:---:|
-| Micro-ondes | Sèche-linge | Téléphone gratuit vers postes fixes | Salon de jardin |
-| Réfrigérateur-congélateur | TV LCD 82cm | Connexion internet Wifi | Barbecue |
-| Lave-vaisselle | Décodeur TNT | Ordinateur portable en libre-service | Balançoire |
-| Lave-linge | Lecteur DVD | Chaîne Hifi | Bac à sable |
+| Micro-ondes | Sèche-linge | Téléphone gratuit vers postes fixes |
+| Réfrigérateur-congélateur | TV LCD 82cm | Connexion internet Wifi |
+| Lave-vaisselle | Décodeur TNT | Ordinateur portable en libre-service |
+| Lave-linge | Lecteur DVD | Chaîne Hifi |
+| Salon de jardin | Barbecue | Balançoire |
+| Bac à sable | | |
 
 Les lits sont équipés d'oreillers, de traversins et de couettes.
 
@@ -55,8 +57,9 @@ La cuisine possède tout un équipement électoménager :
 {.table .table-no-header}
 | | | | |
 |:---:|:---:|:---:|:---:|
-| plaque vitro-céramique | four électrique | four micro-ondes | réfrigérateur avec une partie congélateur |
-| lave-linge | sèche-linge | lave-vaisselle |  |
+| plaque vitro-céramique | four électrique | four micro-ondes |
+| lave-linge | sèche-linge | lave-vaisselle |
+| réfrigérateur avec une partie congélateur | | |
 
 Nous avons mis à votre disposition toute la vaisselle nécessaire, les plats, les casseroles, etc... ainsi que des torchons et produits d’entretien, et quelques produits d’épicerie de base.
 

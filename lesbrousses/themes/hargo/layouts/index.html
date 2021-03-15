@@ -49,10 +49,10 @@
 <section class="section">
   <div class="container">
     <div class="row justify-content-around align-items-center">
-      <div class="col-3">
+      <div class="col-lg-3 col-sm-12 text-center">
         <img class="img-fluid" src="{{ .image | absURL }}" alt="">
       </div>
-      <div class="col-9">
+      <div class="col-lg-9 col-sm-12">
         <h2>{{ .title | markdownify }}</h2>
         {{ .content | markdownify }}
       </div>
@@ -80,7 +80,7 @@
     </div>
     <div class="row">
       {{ range .materialItem }}
-      <div class="col-6">
+      <div class="col-lg-6 col-sm-12">
         <div class="card border-0 text-center">
           <img src="{{ .image | absURL }}" alt="material" class="card-img-top border-0">
           <div class="card-body">
@@ -89,23 +89,23 @@
               <tbody>
                 <tr>
                   <td>Octobre à Avril</td>
-                  <td class="font-weight-bold">{{ .prix_octobreavril }} &euro;</td>
+                  <td class="font-weight-bold">{{ .prix_octobreavril }}&nbsp;&euro;</td>
                 </tr>
                 <tr>
                   <td>Mai + Juin + Septembre</td>
-                  <td class="font-weight-bold">{{ .prix_maijuinseptembre }} &euro;</td>
+                  <td class="font-weight-bold">{{ .prix_maijuinseptembre }}&nbsp;&euro;</td>
                 </tr>
                 <tr>
                   <td>Juillet et Août</td>
-                  <td class="font-weight-bold">{{ .prix_juilletaout }} &euro;</td>
+                  <td class="font-weight-bold">{{ .prix_juilletaout }}&nbsp;&euro;</td>
                 </tr>
                 <tr>
                   <td>Week-end (2 nuits) Octobre à Avril</td>
-                  <td class="font-weight-bold">{{ .prix_weekendoctobreavril }} &euro;</td>
+                  <td class="font-weight-bold">{{ .prix_weekendoctobreavril }}&nbsp;&euro;</td>
                 </tr>
                 <tr>
                   <td>Week-end (2 nuits) Mai, Juin, Septembre</td>
-                  <td class="font-weight-bold">{{ .prix_weekendmaijuinseptembre }} &euro;</td>
+                  <td class="font-weight-bold">{{ .prix_weekendmaijuinseptembre }}&nbsp;&euro;</td>
                 </tr>
               </tbody>
             </table>
@@ -147,31 +147,20 @@
 
 <!-- gallery -->
 {{ if site.Data.homepage.gallery.enable }}
-<style>
-  div.gallery {
-      display: flex;
-      flex-wrap: wrap;
-  }
-  div.gallery a {
-      flex-grow: 1;
-      object-fit: cover;
-      margin: 2px;
-      display: flex;
-  }
-  div.gallery a img {
-      height: 200px;
-      object-fit: cover;
-      flex-grow: 1;
-  }
-</style>
-<div class="gallery mb-1">
-  {{ range (readDir "static/images/gallery-accueil")  }}
-      {{ $src := print site.BaseURL "/images/gallery-accueil/" .Name }}
-      <a data-fancybox="gallery" href="{{ $src }}">
-          <img src="{{ $src }}">  <br/>
-      </a>
-  {{ end }}
-</div>
+<section class="section">
+  <div class="container">
+    <div class="gallery mb-1">
+      {{ range (readDir "static/images/gallery-accueil")  }}
+        {{ if ne .Name ".DS_Store" }}
+        {{ $src := print site.BaseURL "images/gallery-accueil/" .Name }}
+        <a data-fancybox="gallery" href="{{ $src }}">
+            <img src="{{ $src }}">  <br/>
+        </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
 {{ end }}
 <!-- /gallery -->
 
