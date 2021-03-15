@@ -15,14 +15,18 @@ h3, h4 {
     font-size: 100%;
 }
 h2::first-letter, h3::first-letter, h4::first-letter {
-    color: rgb(57, 177, 33);
+    color: $primary-color;
     font-size: 130%;
 }
 .bg-gradient {
-    background: linear-gradient( 27deg, rgb(89,181,30) 0%, rgb(137, 179, 75) 100%) !important;
+    // background: linear-gradient( 27deg, rgb(89,181,30) 0%, rgb(137, 179, 75) 100%) !important;
+    background: linear-gradient( 27deg, $primary-color 0%, $secondary-color 100%) !important;
 }
 .table-no-header thead {
     display: none;
+}
+.table-hover tbody tr:hover {
+    background-color: $primary-color;
 }
 div.gallery {
     display: flex;
@@ -33,6 +37,9 @@ div.gallery a {
     object-fit: cover;
     margin: 2px;
     display: flex;
+}
+div.gallery a:hover {
+    opacity: 50%;
 }
 div.gallery a img {
     height: 200px;
@@ -53,4 +60,10 @@ div.gallery a img {
     scrolling: no;
     marginheight: 0;
     marginwidth: 0;
+}
+li.nav-item:hover {
+    background-color: $primary-color;
+}
+li.nav-item:hover a {
+    color: $body-color !important;
 }

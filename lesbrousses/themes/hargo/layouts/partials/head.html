@@ -13,8 +13,8 @@
   <link rel="stylesheet" href="{{ .link | absURL }}">
   {{ end }}
 
-  <link rel="preload" id="stylesheet" href="https://vmdude.github.io/lesbrousses/public/plugins/bootstrap/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://vmdude.github.io/lesbrousses/public/plugins/bootstrap/bootstrap.min.css"></noscript>
+  <link rel="preload" id="stylesheet" href="{{ `plugins/bootstrap/bootstrap.min.css` | absURL }}" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ `plugins/bootstrap/bootstrap.min.css` | absURL }}"></noscript>
 
   <!-- {{ with site.Params.snipcartApiKey }} -->
   <!-- {{ "Snipcart" | safeHTML }} -->
@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
   {{ "<!-- Custom Stylesheet -->" | safeHTML }}
-  {{ $customstyles := resources.Get "css/custom.css" | toCSS | minify }}
+  {{ $customstyles := resources.Get "css/lesbrousses.scss" | toCSS | minify }}
   <link rel="stylesheet" href="{{ $customstyles.Permalink }}" media="screen">
 
   {{ "<!-- Favicon -->" | safeHTML }}
