@@ -12,6 +12,8 @@ Notre association propose aux familles adoptantes :
 * [**des groupes de paroles**](#groupes-paroles)
 * et accompagne également les professionnels du monde l’enfance
 
+**_En raison de la pandémie les groupes de parole de parents sons suspendus jusqu'en octobre 2021_**
+
 ### Adoption et lien de filiation
 
 L’adoption est une aventure singulière qui commence par une rencontre, celle d’un enfant avec son/ses futurs parent(s) suivie d’une **adoption mutuelle** fruit de liens tissés d’amour, de complicité, d’éducation, de respect, une reconnaissance, etc. Ces liens de parentalité seront renforcés au fil du temps pour que l’enfant puisse se construire et s’épanouir et au parent de vivre pleinement sa parentalité.
@@ -39,7 +41,8 @@ Les parents adoptifs ont la possibilité d’être reçus en **entretien par une
 
 Ces entretiens sont également destinés aux futurs parents. Un espace leur est offert pour développer leur réflexion et interrogations autour de l’enfant désiré et à venir, avec une psychologue, ou en groupe avec d’autres postulants à la parentalité adoptive quel que soit le stade de leur démarche.
 
-Les entretiens individuels et familiaux se déroulent les mercredis et samedis à Paris 9 rue de Bargue dans le 15e arrondissement.
+Les entretiens individuels et familiaux se déroulent les mercredis et samedis à FONDATION
+GRANCHER 119 RUE DE LILLE PARIS 7ème arrondissement.
 
 Demandez un rendez-vous : [par email ou téléphone]({{< ref "contact">}})
 
@@ -73,7 +76,8 @@ Pédiatres, Psychologues, Puéricultrices, Auxiliaires, Médecins scolaires, Inf
 
 * Les entretiens individuels ou familiaux se tiennent sur **rendez-vous uniquement** (notre équipe reçoit les mercredis et samedis). Il suffit de nous contacter par email contact@ligare-arbrevert.fr
 
-La participation à un groupe de paroles de parents, animé par le Docteur Patrick Chardeau, Pédopsychiatre se fait sur inscription (obligatoire). Les groupes de paroles  se tiennent dans les locaux de la CAF de Paris : 9 Rue Bargue – 75015 PARIS (Métro Volontaires). Vous pourrez soutenir notre action par un don de € 20
+La participation à un groupe de paroles de parents, animé par le Docteur Patrick Chardeau, Pédopsychiatre se fait sur inscription (obligatoire). Les groupes de paroles  se tiennent dans les locaux de la Fondation GRANCHER au 119 RUE DE LILLE 75007 PARIS. Vous pourrez soutenir notre action par un don de 20€.
+
 Nous pouvons aussi répondre à la demande des familles d’Ile de France en nous rendant à proximité de leur commune.
 
 S’inscrire auprès de Françoise Delanoy : tél 07 87 06 31 42 - courriel contact@ligare-arbrevert.fr
