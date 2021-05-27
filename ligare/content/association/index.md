@@ -43,7 +43,9 @@ Notre équipe de cliniciennes spécialisées dans le domaine de l’adoptions:
 |- |- |- |
 | ![cramif](/images/partenaires/cramif.jpg) | ![cg-hauts-de-seine](/images/partenaires/cg-hauts-de-seine.jpg) | ![cg-val-de-marne](/images/partenaires/cg-val-de-marne.jpg) |
 | ![cg-yvelines](/images/partenaires/cg-yvelines.jpg) | ![cg-seine-saint-denis](/images/partenaires/cg-seine-saint-denis.jpg) | ![cg-seine-et-marne](/images/partenaires/cg-seine-et-marne.jpg) |
-| ![ile-de-france](/images/partenaires/ile-de-france.jpg) | ![fondation-de-france](/images/partenaires/fondation-de-france.jpg) |  |
+| ![ile-de-france](/images/partenaires/ile-de-france.jpg) | ![fondation-de-france](/images/partenaires/fondation-de-france.jpg) | ![fondation-grancher](/images/partenaires/fondation-grancher.jpg) |
+
+Mais aussi:
 
 * La Caisse d’Allocation Familiale de Paris
 * Le Conseil Général du Val d’Oise

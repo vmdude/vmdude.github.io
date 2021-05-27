@@ -12,7 +12,7 @@ Notre association propose aux familles adoptantes :
 * [**des groupes de paroles**](#groupes-paroles)
 * et accompagne également les professionnels du monde l’enfance
 
-**_En raison de la pandémie les groupes de parole de parents sons suspendus jusqu'en octobre 2021_**
+{{< alert statut="success" content="En raison de la pandémie les groupes de parole de parents sont suspendus jusqu'en octobre 2021" >}}
 
 ### Adoption et lien de filiation
 
@@ -20,7 +20,7 @@ L’adoption est une aventure singulière qui commence par une rencontre, celle 
 
 Mais il ne faut pas occulter que, dans la plus grande majorité des cas, l’adoption est aussi, à l’origine, le fruit de blessures. Blessure pour l’enfant qui aura été abandonné par ses parents biologiques ; blessure pour le/les parents qui aura/auront fait ce choix d’adopter après avoir dû renoncer à un enfant biologique.
 
-![](/images/accompagnement-exterieur.jpg)
+![accompagnement-exterieur](/images/accompagnement-exterieur.jpg)
 
 Dans ce contexte, la construction du **lien de filiation** peut être fragilisée par l’histoire et le parcours de chacun (parent/enfant, qu’il s’agisse d’un enfant, pupille de l’Etat ou de l’adoption internationale).
 
@@ -48,9 +48,9 @@ Demandez un rendez-vous : [par email ou téléphone]({{< ref "contact">}})
 
 ### Groupes De Paroles {#groupes-paroles}
 
-![](/images/assis-mains.jpg)
-
 Destinés aux parents et futurs parents adoptifs à Paris et en Ile de France.
+
+![assis-mains](/images/assis-mains.jpg)
 
 Les groupes de paroles qu’ils soient destinés aux parents ayant déjà adopté ou qu’ils s’adressent aux candidats à l’adoption ont, comme les entretiens, pour objet de permettre aux premiers de se questionner, de chercher à comprendre ce qui se passe pour eux et pour leur enfant, afin de trouver les réponses qui leur conviendront et de soutenir les seconds dans l’élaboration de leur projet d’adoption et dans l’anticipation de l’enfant à venir.
 
@@ -64,9 +64,9 @@ En effet, il y a des questions plus personnelles qui nécessitent une relation d
 
 ### Professionnels de la petite enfance
 
-![](/images/enfant-02.jpg)
-
 Nous accompagnons également les professionnels du monde de l’enfance et du secteur médical sur les questions de l’adoption.
+
+![enfant-02](/images/enfant-02.jpg)
 
 Notre écoute des familles adoptives et des adoptés, les échanges que nous avons avec eux, l’aide que nous leur apportons nous ont fait acquérir une expérience et une compétence que nous mettons à la disposition des professionnels amenés à les rencontrer.
 
