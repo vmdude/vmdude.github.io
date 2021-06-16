@@ -21,8 +21,8 @@ params:
       - link: plugins/google-map/gmap.js
   logo: images/assoc_ligare.png
   home: Accueil
-  description: This is meta description
-  author: Themefisher
+  description: Ligare l'Arbre Vert est une association qui accompagne les parents adoptifs, les enfants et les adultes adoptés...
+  author: Ligare
   # gmapAPI: >-
     # https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places
   # mapLatitude: '51.5223477'
@@ -34,25 +34,25 @@ params:
   location: >-
     Gestion et communication : 168 rue de grenelle 75007 Paris
   copyright: >-
-    | Copyright &copy; 2021 Association Ligare l'Arbre Vert |
+    | Copyright © 2021 Association Ligare l'Arbre Vert | Page [Facebook](https://www.facebook.com/Ligare-lArbre-Vert-1928199560800598/) |
   preloader:
     enable: true
     preloader: images/assoc_ligare.png
-  rating:
-    enable: false
-    websiteID: '444334'
-    publicKey: 811cf0927332bf51f2e12f84608594ac
-  social:
-    - icon: ti-facebook
-      link: '#'
-    - icon: ti-twitter-alt
-      link: '#'
-    - icon: ti-youtube
-      link: '#'
-    - icon: ti-instagram
-      link: '#'
-    - icon: ti-pinterest
-      link: '#'
+  # rating:
+  #   enable: false
+  #   websiteID: '444334'
+  #   publicKey: 811cf0927332bf51f2e12f84608594ac
+  # social:
+  #   - icon: ti-facebook
+  #     link: '#'
+  #   - icon: ti-twitter-alt
+  #     link: '#'
+  #   - icon: ti-youtube
+  #     link: '#'
+  #   - icon: ti-instagram
+  #     link: '#'
+  #   - icon: ti-pinterest
+  #     link: '#'
   contact:
     formAction: 'https://formspree.io/mzbjrdaq'
 menu:
@@ -69,19 +69,19 @@ menu:
     - name: Contact
       URL: contact
       weight: 5
-  footer:
-    - name: Products
-      URL: products
-      weight: 1
-    - name: Blog
-      URL: blog
-      weight: 2
-    - name: FAQ
-      URL: faq
-      weight: 3
-    - name: Terms & Conditions
-      URL: terms-conditions
-      weight: 4
-    - name: Contact
-      URL: contact
-      weight: 5
+  # footer:
+  #   - name: Products
+  #     URL: products
+  #     weight: 1
+  #   - name: Blog
+  #     URL: blog
+  #     weight: 2
+  #   - name: FAQ
+  #     URL: faq
+  #     weight: 3
+  #   - name: Terms & Conditions
+  #     URL: terms-conditions
+  #     weight: 4
+  #   - name: Contact
+  #     URL: contact
+  #     weight: 5

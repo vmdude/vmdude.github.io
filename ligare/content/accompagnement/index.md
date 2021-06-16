@@ -12,8 +12,6 @@ Notre association propose aux familles adoptantes :
 * [**des groupes de paroles**](#groupes-paroles)
 * et accompagne également les professionnels du monde l’enfance
 
-{{< alert statut="success" content="En raison de la pandémie les groupes de parole de parents sont suspendus jusqu'en octobre 2021" >}}
-
 ### Adoption et lien de filiation
 
 L’adoption est une aventure singulière qui commence par une rencontre, celle d’un enfant avec son/ses futurs parent(s) suivie d’une **adoption mutuelle** fruit de liens tissés d’amour, de complicité, d’éducation, de respect, une reconnaissance, etc. Ces liens de parentalité seront renforcés au fil du temps pour que l’enfant puisse se construire et s’épanouir et au parent de vivre pleinement sa parentalité.
@@ -61,6 +59,60 @@ Dans le groupe se crée, en effet, une dynamique qui permet pour certains de s�
 Souvent, les groupes débouchent sur une demande d’entretien individuel.
 
 En effet, il y a des questions plus personnelles qui nécessitent une relation duelle, de l’intimité, et plus de temps pour pouvoir être approfondies.
+
+#### Programme Groupes De Parents 2021 - 2022 {#programme-groupes-parents}
+
+{{< alert statut="success" content="Ces réunions se dérouleront en appliquant les règles sanitaires en vigueur à cette époque" >}}
+
+##### Mercredi 1er décembre 2021 de 20 à 22 heures
+
+**Comment répondre aux questions que pose un enfant à propos de sa première histoire :**
+
+* origine de sa naissance
+* son histoire avant l’adoption
+* la blessure de l’abandon
+
+**Les informations contenues dans le dossier de l’enfant :**
+
+* quand et comment en parler ?
+* comment les relier à la première histoire de l’enfant ?
+
+##### Mercredi 26 janvier 2022 de 20 à 22 heures
+
+**L’enfant adopté devient adolescent :**
+
+* quelles inquiétudes est-ce que cela suscite ?
+* comment s’y préparer ?
+* les modifications des relations familiales
+
+##### Mercredi 23 mars 2022 de 20 à 22 heures
+
+**De l’agrément à la parentalité adoptive :**
+
+* une démarche pleine d’espoir avec ses limites (un enfant grand, une fratrie, un enfant handicapé)
+
+##### Mercredi 18 mai 2022 de 20 à 22 heures
+
+**Le vécu de l’enfant adopté :**
+
+* de l’abandon à l’adoption
+* les modification des relations parents-enfants
+* le regard de l’école, du socius
+
+##### Mercredi 16 juin 2022 de 20 à 22 heures
+
+**Les troubles de l’apprentissage de l’enfant adopté :**
+
+* comment les parents peuvent-ils les aborder ?
+* les exigences de l’école, leur retentissement pour l’enfant et ses parents
+
+Ces Groupes de Parents sont animés par le Docteur Patrick Chardeau, Pédopsychiatre.
+
+Ils se tiennent à la Fondation Grancher 119 rue de Lille 75007 PARIS (Mo Assemblée Nationale).
+
+**Vous pourrez soutenir notre action par un don de € 20**
+
+S’inscrire auprès de Françoise Delanoy : tél 07 87 06 31 42 - courriel contact@ligare-arbrevert.fr
 
 ### Professionnels de la petite enfance
 

@@ -1,25 +1,25 @@
 ############################ banner ##########################
 banner:
-  enable : false
-  title : "Best Beauty Cream For Your Skin"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+  enable: false
+  title: "Best Beauty Cream For Your Skin"
+  content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dolore magna aliquyam erat, sed dia"
-  image : "images/banner.png"
+  image: "images/banner.png"
   # button
   button:
-    enable : true
-    label : "All Products"
-    link : "products"
+    enable: true
+    label: "All Products"
+    link: "products"
   # demo video
   video:
-    enable : true
-    videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+    enable: true
+    videoURL: "https://www.youtube.com/embed/wf4F2-9UXUo"
 
 ########################## About ##############################
 about:
-  enable : false
-  title : "A propos de l'association"
-  content : "**Accompagner les enfants adoptés, les parents adoptifs, les adultes adoptés...**
+  enable: false
+  title: "A propos de l'association"
+  content: "**Accompagner les enfants adoptés, les parents adoptifs, les adultes adoptés...**
 
 
 Notre association Ligare L’Arbre Vert intervient autour de la parentalité adoptive et du lien de filiation.
@@ -35,92 +35,93 @@ Nous accompagnons également les professionnels du monde de l’enfance et du se
 
 
 Notre association regroupe une équipe de psychologues et psychiatres spécialisés dans l’adoption."
-  image : "images/people-3120717_640.png"
+  image: "images/people-3120717_640.png"
 
 
 ###################### Call to action ########################
 cta:
-  enable : true
-  # title : "Aidez-nous, faites un don"
-  # content : "balbal don"
-  imageLeft : "images/enfant-clipart-left.png"
-  imageRight : "images/enfant-clipart.png"
-  overlayImage : "images/cta-overlay.png"
+  enable: true
+  # title: "Aidez-nous, faites un don"
+  # content: "balbal don"
+  imageLeft: "images/enfant-clipart-left.png"
+  imageRight: "images/enfant-clipart.png"
+  overlayImage: "images/cta-overlay.png"
   button:
-    label : "Calendrier des groupes de parents"
-    link : "accompagnement"
+    label: "Calendrier des groupes de parents"
+    link: accompagnement
+    link_anchor: programme-groupes-parents
 
 ######################## raw material #######################
 material:
-  enable : true
-  title : "Notre association propose un accompagnement psychologique autour de l’adoption"
-  # subtitle : "Notre association Ligare L’Arbre Vert intervient autour de l'accompagnement de l'adoption
+  enable: true
+  title: "Notre association propose un accompagnement psychologique autour de l’adoption"
+  # subtitle: "Notre association Ligare L’Arbre Vert intervient autour de l'accompagnement de l'adoption
 
 
 
 # &nbsp;"
   materialItem:
     # material item loop
-    - title : "Accompagnement des Familles"
-      image : "images/accompagnement-familles.jpg"
+    - title: "Accompagnement des Familles"
+      image: "images/accompagnement-familles.jpg"
       link: accompagnement
       link_anchor: groupes-paroles
-      content : 'Nous proposons, aux familles, des entretiens individuels ou familiaux ainsi que des groupes de paroles adoption, dans nos antennes de Paris et de l’Ile de France.'
+      content: 'Nous proposons, aux familles, des entretiens individuels ou familiaux ainsi que des groupes de paroles adoption, dans nos antennes de Paris et de l’Ile de France.'
 
     # material item loop
-    - title : "Un suivi et une aide de professionnels"
-      image : "images/suivi-aide-professionels.jpg"
+    - title: "Un suivi et une aide de professionnels"
+      image: "images/suivi-aide-professionels.jpg"
       link: accompagnement
-      content : "Notre association regroupe une équipe de psychologues et psychiatres spécialisés dans l’adoption."
+      content: "Notre association regroupe une équipe de psychologues et psychiatres spécialisés dans l’adoption."
 
     # material item loop
-    - title : "Aidez nous, faites un don"
-      image : "images/aide-don.jpg"
+    - title: "Aidez nous, faites un don"
+      image: "images/aide-don.jpg"
       link: dons
-      content : "L'association ne reçoit que très peu de subventions de l’Etat. Ses seules ressources proviennent de la générosité du public. C’est grâce à ses donateurs que Ligare peut aider toujours plus de familles et d'enfants."
+      content: "L'association ne reçoit que très peu de subventions de l’Etat. Ses seules ressources proviennent de la générosité du public. C’est grâce à ses donateurs que Ligare peut aider toujours plus de familles et d'enfants."
 
     # material item loop
-    # - title : "objectif 4"
-    #   image : "images/material/material-4.png"
-    #   content : "blabla obj4"
+    # - title: "objectif 4"
+    #   image: "images/material/material-4.png"
+    #   content: "blabla obj4"
 
 ########################### Advantage #########################
 advantage:
-  enable : false
-  title : "Advantages Of Using <br> Our Product"
-  subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
-  image : "images/advantage.png"
+  enable: false
+  title: "Advantages Of Using <br> Our Product"
+  subtitle: "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
+  image: "images/advantage.png"
   advantageList:
     # advantage list loop
-    - listItem : "Extremely lightweight"
-    - listItem : "Excellent breathability"
-    - listItem : "Can increase Cell activation"
-    - listItem : "Glowing Skin In 7 Days"
-    - listItem : "Increasing Glow Of Face"
-    - listItem : "More Beautiful Face Skin"
+    - listItem: "Extremely lightweight"
+    - listItem: "Excellent breathability"
+    - listItem: "Can increase Cell activation"
+    - listItem: "Glowing Skin In 7 Days"
+    - listItem: "Increasing Glow Of Face"
+    - listItem: "More Beautiful Face Skin"
 
 
 ######################## Promo Video ##########################
 video:
-  enable : false
-  title : "How To Use This Product?"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+  enable: false
+  title: "How To Use This Product?"
+  content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
-  videoThumb : "images/video-thumb.jpg"
-  videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+  videoThumb: "images/video-thumb.jpg"
+  videoURL: "https://www.youtube.com/embed/wf4F2-9UXUo"
 
 
 ######################## Products #############################
 products:
-  enable : false
-  title : "Products List"
+  enable: false
+  title: "Products List"
   # product item comes from "content/products"
 
 
 ########################## Testimonial ########################
 testimonial:
-  enable : false
-  title : "Rencontrez notre équipe"
+  enable: false
+  title: "Rencontrez notre équipe"
   subtitle: "Nous organisons des consultations individuelles et/ou familiales ainsi que des groupes de paroles à Paris et en Ile de France (mettre en lien vers la rubrique) sur rendez-vous.
 
 
@@ -140,7 +141,7 @@ Ces consultations et groupes de paroles, avec des psychologues spécialisées da
 
 * Accompagner des candidats à l’adoption dans l’élaboration de leur projet
 
-Nos services sont ouverts à tous, adoptants/adoptés : parents, futurs parents, enfants, adolescents, adultes. Les professionnels de Ligaré l’Arbre Vert sont compétents dans l’accompagnement de la démarche d’adoption (enfants nés sous le secret, enfants grands, pupilles de l’Etat ou arrivant de l’étranger).
+Nos services sont ouverts à tous, adoptants/adoptés: parents, futurs parents, enfants, adolescents, adultes. Les professionnels de Ligaré l’Arbre Vert sont compétents dans l’accompagnement de la démarche d’adoption (enfants nés sous le secret, enfants grands, pupilles de l’Etat ou arrivant de l’étranger).
 
 *  Les entretiens individuels ou familiaux se tiennent sur **rendez-vous uniquement** (notre équipe reçoit les mercredis et samedis).
 
@@ -151,22 +152,22 @@ Inscription par email ou téléphone
 "
   testimonialItem:
     # testimonial item loop
-    - name : "Angelo Perara"
-      image : "images/clients/client-1.jpg" # size 100px*100px
-      designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
-      rating : "five" # rating star, one to five
+    - name: "Angelo Perara"
+      image: "images/clients/client-1.jpg" # size 100px*100px
+      designation: "CEO, Dialogue Broad Band"
+      content: "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating: "five" # rating star, one to five
 
     # testimonial item loop
-    - name : "Riya Ventila"
-      image : "images/clients/client-2.jpg" # size 100px*100px
-      designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
-      rating : "three" # rating star, one to five
+    - name: "Riya Ventila"
+      image: "images/clients/client-2.jpg" # size 100px*100px
+      designation: "CEO, Dialogue Broad Band"
+      content: "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating: "three" # rating star, one to five
 
     # testimonial item loop
-    - name : "john Doe"
-      image : "images/clients/client-3.jpg" # size 100px*100px
-      designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
-      rating : "five" # rating star, one to five
+    - name: "john Doe"
+      image: "images/clients/client-3.jpg" # size 100px*100px
+      designation: "CEO, Dialogue Broad Band"
+      content: "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating: "five" # rating star, one to five
