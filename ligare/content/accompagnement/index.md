@@ -27,7 +27,7 @@ Dans ce contexte, la construction du **lien de filiation** peut être fragilisé
 
 Pour aider les familles dans leur **parentalité adoptive**, notre association offre un accompagnement psychologique aux candidats à l’adoption, aux parents adoptifs, ainsi qu'à leurs enfants.
 
-### Consultation Individuelle Et/Ou Familiale {#consultations-individuelles-familiales}
+### Consultation Individuelle et/ou Familiale {#consultations-individuelles-familiales}
 
 Des entretiens avec des cliniciens spécialistes de l’adoption, à Paris et en Ile de France.
 

@@ -65,7 +65,7 @@ material:
     - title: "Accompagnement des Familles"
       image: "images/accompagnement-familles.jpg"
       link: accompagnement
-      link_anchor: groupes-paroles
+      link_anchor: consultations-individuelles-familiales
       content: 'Nous proposons, aux familles, des entretiens individuels ou familiaux ainsi que des groupes de paroles adoption, dans nos antennes de Paris et de l’Ile de France.'
 
     # material item loop
